@@ -1,0 +1,37 @@
+{
+ "metadata": {
+  "source": "fixture-test",
+  "license": "CC-BY-SA 4.0 (EDRDG License)",
+  "source_version": "3.6.2",
+  "upstream_dict_date": "2026-04-06",
+  "count": 1
+ },
+ "kanji": [
+  {
+   "character": "橋",
+   "unicode": "6a4b",
+   "stroke_count": 16,
+   "grade": 3,
+   "jlpt_waller": "N5",
+   "meanings": {
+    "en": [
+     "bridge",
+     "span"
+    ]
+   },
+   "readings": {
+    "on": [
+     "キョウ"
+    ],
+    "kun": [
+     "はし"
+    ]
+   },
+   "readings_cjk": {
+    "vietnamese": [
+     "Kiều"
+    ]
+   }
+  }
+ ]
+}

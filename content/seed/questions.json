@@ -1,0 +1,3647 @@
+[
+  {
+    "id": "q-n5-001",
+    "level": "N5",
+    "skill": "kanji",
+    "topic": "reading",
+    "stem": "「山」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "やま",
+        "explanation_vi": "「やま」là cách đọc của 山 (núi)."
+      },
+      {
+        "id": "b",
+        "text": "かわ",
+        "explanation_vi": "「かわ」là cách đọc của 川 (sông)."
+      },
+      {
+        "id": "c",
+        "text": "うみ",
+        "explanation_vi": "「うみ」là cách đọc của 海 (biển)."
+      },
+      {
+        "id": "d",
+        "text": "そら",
+        "explanation_vi": "「そら」là cách đọc của 空 (bầu trời)."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "山 đọc là やま (núi).",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "kanji",
+    "ref_id": "k-san",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-002",
+    "level": "N5",
+    "skill": "kanji",
+    "topic": "reading",
+    "stem": "「川」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "かわ",
+        "explanation_vi": "「かわ」là cách đọc của 川 (sông)."
+      },
+      {
+        "id": "b",
+        "text": "やま",
+        "explanation_vi": "「やま」là cách đọc của 山 (núi)."
+      },
+      {
+        "id": "c",
+        "text": "みず",
+        "explanation_vi": "「みず」là cách đọc của 水 (nước)."
+      },
+      {
+        "id": "d",
+        "text": "あめ",
+        "explanation_vi": "「あめ」là cách đọc của 雨 (mưa)."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "川 đọc là かわ (sông).",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "kanji",
+    "ref_id": "k-sen",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-003",
+    "level": "N5",
+    "skill": "kanji",
+    "topic": "reading",
+    "stem": "「水」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "みず",
+        "explanation_vi": "「みず」là cách đọc của 水 (nước)."
+      },
+      {
+        "id": "b",
+        "text": "ひ",
+        "explanation_vi": "「ひ」là cách đọc của 火 (lửa)."
+      },
+      {
+        "id": "c",
+        "text": "き",
+        "explanation_vi": "「き」là cách đọc của 木 (cây)."
+      },
+      {
+        "id": "d",
+        "text": "つき",
+        "explanation_vi": "「つき」là cách đọc của 月 (mặt trăng)."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "水 đọc là みず (nước).",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "kanji",
+    "ref_id": "k-sui",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-004",
+    "level": "N5",
+    "skill": "kanji",
+    "topic": "reading",
+    "stem": "「火曜日」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "かようび",
+        "explanation_vi": "Đây là cách đọc đúng: thứ Ba."
+      },
+      {
+        "id": "b",
+        "text": "げつようび",
+        "explanation_vi": "月曜日 = げつようび (thứ Hai)."
+      },
+      {
+        "id": "c",
+        "text": "すいようび",
+        "explanation_vi": "水曜日 = すいようび (thứ Tư)."
+      },
+      {
+        "id": "d",
+        "text": "もくようび",
+        "explanation_vi": "木曜日 = もくようび (thứ Năm)."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "火 = か (hỏa) → 火曜日 là thứ Ba.",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "kanji",
+    "ref_id": "k-ka",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-005",
+    "level": "N5",
+    "skill": "kanji",
+    "topic": "reading",
+    "stem": "「電車」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "でんしゃ",
+        "explanation_vi": "「でんしゃ」là cách đọc của 電車 (tàu điện)."
+      },
+      {
+        "id": "b",
+        "text": "でんくるま",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "てんしゃ",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "でんじゃ",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "電 = でん, 車 = しゃ → でんしゃ (tàu điện).",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-densha",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-006",
+    "level": "N5",
+    "skill": "kanji",
+    "topic": "reading",
+    "stem": "「学校」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "がっこう",
+        "explanation_vi": "「がっこう」là cách đọc của 学校 (trường học)."
+      },
+      {
+        "id": "b",
+        "text": "がくこう",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "がっこ",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "がくごう",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "学校 đọc là がっこう (có âm ngắt っ).",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-gakkou",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-007",
+    "level": "N5",
+    "skill": "kanji",
+    "topic": "reading",
+    "stem": "「先生」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "せんせい",
+        "explanation_vi": "「せんせい」là cách đọc của 先生 (thầy giáo; cô giáo)."
+      },
+      {
+        "id": "b",
+        "text": "せいせん",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "さきなま",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "せんしょう",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "先生 đọc là せんせい (thầy/cô giáo).",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-sensei",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-008",
+    "level": "N5",
+    "skill": "kanji",
+    "topic": "reading",
+    "stem": "「毎日」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "まいにち",
+        "explanation_vi": "「まいにち」là cách đọc của 毎日 (mỗi ngày)."
+      },
+      {
+        "id": "b",
+        "text": "まいひ",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "まいじつ",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "ごとにち",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "毎日 đọc là まいにち (mỗi ngày).",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-mainichi",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-009",
+    "level": "N5",
+    "skill": "kanji",
+    "topic": "reading",
+    "stem": "「友達」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "ともだち",
+        "explanation_vi": "Đây là cách đọc đúng."
+      },
+      {
+        "id": "b",
+        "text": "ゆうだち",
+        "explanation_vi": "ゆうだち (夕立) nghĩa là mưa rào buổi chiều — không phải 友達."
+      },
+      {
+        "id": "c",
+        "text": "ともたち",
+        "explanation_vi": "Dạng này sai: đuôi là だち (có dấu)."
+      },
+      {
+        "id": "d",
+        "text": "ともだつ",
+        "explanation_vi": "Không có từ này."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "友達 đọc là ともだち (bạn bè).",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-tomodachi",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-010",
+    "level": "N5",
+    "skill": "kanji",
+    "topic": "reading",
+    "stem": "「左」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "ひだり",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "みぎ",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "うえ",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "した",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "左 đọc là ひだり (bên trái).",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "kanji",
+    "ref_id": "k-sa",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-011",
+    "level": "N5",
+    "skill": "kanji",
+    "topic": "writing",
+    "stem": "「みず」を漢字で書くと、どれですか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "水",
+        "explanation_vi": "水（みず）nghĩa là nước."
+      },
+      {
+        "id": "b",
+        "text": "木",
+        "explanation_vi": "木（き）nghĩa là cây."
+      },
+      {
+        "id": "c",
+        "text": "火",
+        "explanation_vi": "火（ひ）nghĩa là lửa."
+      },
+      {
+        "id": "d",
+        "text": "土",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "水 = みず (nước). 木 = き, 火 = ひ, 土 = つち.",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "kanji",
+    "ref_id": "k-sui",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-012",
+    "level": "N5",
+    "skill": "kanji",
+    "topic": "writing",
+    "stem": "「やま」を漢字で書くと、どれですか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "山",
+        "explanation_vi": "山（やま）nghĩa là núi."
+      },
+      {
+        "id": "b",
+        "text": "川",
+        "explanation_vi": "川（かわ）nghĩa là sông."
+      },
+      {
+        "id": "c",
+        "text": "田",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "木",
+        "explanation_vi": "木（き）nghĩa là cây."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "山 = やま. 川 = かわ, 田 = た (ruộng), 木 = き.",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "kanji",
+    "ref_id": "k-san",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-013",
+    "level": "N5",
+    "skill": "kanji",
+    "topic": "writing",
+    "stem": "「がっこう」を漢字で書くと、どれですか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "学校",
+        "explanation_vi": "学校（がっこう）nghĩa là trường học."
+      },
+      {
+        "id": "b",
+        "text": "字校",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "学枚",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "字枚",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "学校: 学 (học) + 校 (trường). 字 và 学 hay bị nhầm; 校 và 枚 cũng dễ nhầm.",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-gakkou",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-014",
+    "level": "N5",
+    "skill": "kanji",
+    "topic": "writing",
+    "stem": "「でんしゃ」を漢字で書くと、どれですか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "電車",
+        "explanation_vi": "電車（でんしゃ）nghĩa là tàu điện."
+      },
+      {
+        "id": "b",
+        "text": "雷車",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "電事",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "雷事",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "電車: 電 (điện) + 車 (xe). 雷 là sấm (かみなり); 事 là việc (こと).",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-densha",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-015",
+    "level": "N5",
+    "skill": "vocabulary",
+    "topic": "context",
+    "stem": "{私|わたし}は{毎朝|まいあさ}（　）を{飲|の}みます。",
+    "options": [
+      {
+        "id": "a",
+        "text": "{お茶|おちゃ}",
+        "explanation_vi": "Trà — uống được."
+      },
+      {
+        "id": "b",
+        "text": "{本|ほん}",
+        "explanation_vi": "Sách — đọc chứ không uống."
+      },
+      {
+        "id": "c",
+        "text": "{靴|くつ}",
+        "explanation_vi": "Giày — đi chứ không uống."
+      },
+      {
+        "id": "d",
+        "text": "{窓|まど}",
+        "explanation_vi": "Cửa sổ — mở chứ không uống."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Chỉ có お茶 (trà) mới \"uống\" (飲みます) được.",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-ocha",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-016",
+    "level": "N5",
+    "skill": "vocabulary",
+    "topic": "context",
+    "stem": "（　）で{電車|でんしゃ}に{乗|の}ります。",
+    "options": [
+      {
+        "id": "a",
+        "text": "{駅|えき}",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "{家|いえ}",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "{窓|まど}",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "{机|つくえ}",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Lên tàu điện ở ga (駅).",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-eki",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-017",
+    "level": "N5",
+    "skill": "vocabulary",
+    "topic": "context",
+    "stem": "{雨|あめ}ですから、（　）を{持|も}って{行|い}きます。",
+    "options": [
+      {
+        "id": "a",
+        "text": "{傘|かさ}",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "{靴|くつ}",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "{時計|とけい}",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "{窓|まど}",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Trời mưa nên mang ô (傘).",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-kasa",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-018",
+    "level": "N5",
+    "skill": "vocabulary",
+    "topic": "context",
+    "stem": "（　）を{見|み}ると、{今|いま}は{三時|さんじ}です。",
+    "options": [
+      {
+        "id": "a",
+        "text": "{時計|とけい}",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "{傘|かさ}",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "{机|つくえ}",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "{犬|いぬ}",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Xem đồng hồ (時計) để biết giờ.",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-tokei",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-019",
+    "level": "N5",
+    "skill": "vocabulary",
+    "topic": "antonym",
+    "stem": "「{安|やす}い」の{反対|はんたい}は{何|なん}ですか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "{高|たか}い",
+        "explanation_vi": "Đúng — 高い cũng có nghĩa là đắt."
+      },
+      {
+        "id": "b",
+        "text": "{小|ちい}さい",
+        "explanation_vi": "小さい (nhỏ) đối nghĩa với 大きい."
+      },
+      {
+        "id": "c",
+        "text": "{新|あたら}しい",
+        "explanation_vi": "新しい (mới) đối nghĩa với 古い."
+      },
+      {
+        "id": "d",
+        "text": "{古|ふる}い",
+        "explanation_vi": "古い (cũ) đối nghĩa với 新しい."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Đối nghĩa với 安い (rẻ) là 高い (đắt).",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-yasui",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-020",
+    "level": "N5",
+    "skill": "vocabulary",
+    "topic": "antonym",
+    "stem": "「{大|おお}きい」の{反対|はんたい}は{何|なん}ですか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "{小|ちい}さい",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "{古|ふる}い",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "{安|やす}い",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "{新|あたら}しい",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Đối nghĩa với 大きい (to) là 小さい (nhỏ).",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-ookii",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-021",
+    "level": "N5",
+    "skill": "grammar",
+    "topic": "particle",
+    "stem": "{私|わたし}は{学生|がくせい}（　）。",
+    "options": [
+      {
+        "id": "a",
+        "text": "です",
+        "explanation_vi": "Đúng."
+      },
+      {
+        "id": "b",
+        "text": "ます",
+        "explanation_vi": "ます đi với động từ, không đi với danh từ."
+      },
+      {
+        "id": "c",
+        "text": "が",
+        "explanation_vi": "が là trợ từ, không đứng cuối câu như thế."
+      },
+      {
+        "id": "d",
+        "text": "を",
+        "explanation_vi": "を là trợ từ tân ngữ."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Câu danh từ lịch sự kết thúc bằng です.",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-wa-desu",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-022",
+    "level": "N5",
+    "skill": "grammar",
+    "topic": "particle",
+    "stem": "パン（　）{食|た}べます。",
+    "options": [
+      {
+        "id": "a",
+        "text": "を",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "が",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "に",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "で",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Tân ngữ của 食べる dùng trợ từ を.",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-o-particle",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-023",
+    "level": "N5",
+    "skill": "grammar",
+    "topic": "particle",
+    "stem": "{学校|がっこう}（　）{行|い}きます。",
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "explanation_vi": "Đúng: chỉ đích đến."
+      },
+      {
+        "id": "b",
+        "text": "を",
+        "explanation_vi": "を không dùng để chỉ đích đến ở mẫu câu này."
+      },
+      {
+        "id": "c",
+        "text": "が",
+        "explanation_vi": "が không dùng sau địa điểm đích."
+      },
+      {
+        "id": "d",
+        "text": "で",
+        "explanation_vi": "で chỉ nơi hành động diễn ra, không phải đích đến."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Đích đến của 行く dùng に (hoặc へ).",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-ni-particle",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-024",
+    "level": "N5",
+    "skill": "grammar",
+    "topic": "particle",
+    "stem": "{私|わたし}は{友達|ともだち}（　）{映画|えいが}を{見|み}ます。",
+    "options": [
+      {
+        "id": "a",
+        "text": "と",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "を",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "が",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "で",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "と = cùng với (友達と: cùng với bạn).",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": null,
+    "ref_id": null,
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-025",
+    "level": "N5",
+    "skill": "grammar",
+    "topic": "existence",
+    "stem": "{机|つくえ}の{上|うえ}に{本|ほん}（　）あります。",
+    "options": [
+      {
+        "id": "a",
+        "text": "が",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "を",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "に",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "と",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Câu tồn tại: 場所に N が あります.",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-ga-arimasu",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-026",
+    "level": "N5",
+    "skill": "grammar",
+    "topic": "existence",
+    "stem": "{犬|いぬ}は{庭|にわ}（　）います。",
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "を",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "が",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "と",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Nơi tồn tại của người/động vật dùng に: 庭にいます.",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-ga-arimasu",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-027",
+    "level": "N5",
+    "skill": "grammar",
+    "topic": "tai",
+    "stem": "{水|みず}が{飲|の}み（　）です。",
+    "options": [
+      {
+        "id": "a",
+        "text": "たい",
+        "explanation_vi": "Đúng."
+      },
+      {
+        "id": "b",
+        "text": "ます",
+        "explanation_vi": "飲みますです — sai ngữ pháp."
+      },
+      {
+        "id": "c",
+        "text": "ない",
+        "explanation_vi": "飲みないです — sai; phủ định phải là 飲みたくない."
+      },
+      {
+        "id": "d",
+        "text": "て",
+        "explanation_vi": "飲みてです — sai."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Bỏ ます + たい + です = muốn uống: 飲みたいです.",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-tai-desu",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-028",
+    "level": "N5",
+    "skill": "grammar",
+    "topic": "invite",
+    "stem": "{友達|ともだち}を{誘|さそ}うとき、どう{言|い}いますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "いっしょに{食|た}べませんか。",
+        "explanation_vi": "Đúng — lời mời lịch sự."
+      },
+      {
+        "id": "b",
+        "text": "いっしょに{食|た}べましたか。",
+        "explanation_vi": "Đây là câu hỏi \"đã ăn chưa\"."
+      },
+      {
+        "id": "c",
+        "text": "いっしょに{食|た}べません。",
+        "explanation_vi": "Đây là câu phủ định (không ăn)."
+      },
+      {
+        "id": "d",
+        "text": "いっしょに{食|た}べていません。",
+        "explanation_vi": "Đây là \"đang không ăn / chưa ăn\"."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Mời/rủ ai làm gì cùng nhau: 〜ませんか.",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-masen-ka",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-029",
+    "level": "N5",
+    "skill": "grammar",
+    "topic": "request",
+    "stem": "ここに{名前|なまえ}を{書|か}い（　）ください。",
+    "options": [
+      {
+        "id": "a",
+        "text": "て",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "ます",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "た",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "ない",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Nhờ làm gì: thể て + ください.",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-te-kudasai",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-030",
+    "level": "N5",
+    "skill": "grammar",
+    "topic": "tense",
+    "stem": "{昨日|きのう}、{映画|えいが}を{見|み}（　）。",
+    "options": [
+      {
+        "id": "a",
+        "text": "ました",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "ます",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "ません",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "ましょう",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "\"Hôm qua\" → quá khứ: 見ました.",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": null,
+    "ref_id": null,
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-031",
+    "level": "N5",
+    "skill": "grammar",
+    "topic": "adjective",
+    "stem": "この{靴|くつ}は（　）ありません。",
+    "options": [
+      {
+        "id": "a",
+        "text": "{高|たか}く",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "{高|たか}い",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "{高|たか}さ",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "{高|たか}で",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Phủ định của tính từ い: bỏ い + くありません (高くありません).",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": null,
+    "ref_id": null,
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-032",
+    "level": "N5",
+    "skill": "reading",
+    "topic": "passage",
+    "stem": "この{人|ひと}は{何時|なんじ}に{家|いえ}を{出|で}ますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "{七時|しちじ}",
+        "explanation_vi": "Đây là lúc dậy (起きます)."
+      },
+      {
+        "id": "b",
+        "text": "{八時|はちじ}",
+        "explanation_vi": "Đúng: 八時に家を出ます."
+      },
+      {
+        "id": "c",
+        "text": "{九時|くじ}",
+        "explanation_vi": "Bài đọc không nhắc 9 giờ."
+      },
+      {
+        "id": "d",
+        "text": "{十時|じゅうじ}",
+        "explanation_vi": "Bài đọc không nhắc 10 giờ."
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_vi": "Bài đọc: 八時に家を出ます (8 giờ ra khỏi nhà). 7 giờ là lúc dậy.",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": "p-n5-morning",
+    "ref_type": null,
+    "ref_id": null,
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-033",
+    "level": "N5",
+    "skill": "reading",
+    "topic": "passage",
+    "stem": "この{人|ひと}はどうやって{会社|かいしゃ}へ{行|い}きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "{車|くるま}",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "{電車|でんしゃ}",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "バス",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "{自転車|じてんしゃ}",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_vi": "Bài đọc: 電車で会社へ行きます (đi bằng tàu điện).",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": "p-n5-morning",
+    "ref_type": null,
+    "ref_id": null,
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-034",
+    "level": "N5",
+    "skill": "reading",
+    "topic": "passage",
+    "stem": "{田中|たなか}さんは{何|なに}を{持|も}って{来|き}ますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "{傘|かさ}",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "{本|ほん}",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "{靴|くつ}",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "{時計|とけい}",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Ghi chú viết: 傘を持って来てください (hãy mang ô).",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": "p-n5-note",
+    "ref_type": null,
+    "ref_id": null,
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-035",
+    "level": "N5",
+    "skill": "reading",
+    "topic": "passage",
+    "stem": "{明日|あした}はどうですか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "{休|やす}みです",
+        "explanation_vi": "Đúng."
+      },
+      {
+        "id": "b",
+        "text": "{仕事|しごと}です",
+        "explanation_vi": "Ghi chú không nói là có việc."
+      },
+      {
+        "id": "c",
+        "text": "{雨|あめ}です",
+        "explanation_vi": "Trời mưa là hôm nay (今日は雨です), không phải ngày mai."
+      },
+      {
+        "id": "d",
+        "text": "{会議|かいぎ}です",
+        "explanation_vi": "Ghi chú không nhắc cuộc họp."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Ghi chú viết: 明日は休みです (ngày mai nghỉ). Hôm nay mới là ngày mưa.",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": "p-n5-note",
+    "ref_type": null,
+    "ref_id": null,
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-036",
+    "level": "N5",
+    "skill": "listening",
+    "topic": "passage",
+    "stem": "お{客|きゃく}さんはりんごをいくつ{買|か}いますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "{一|ひと}つ",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "{二|ふた}つ",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "{三|みっ}つ",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "{四|よっ}つ",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "c",
+    "explanation_vi": "Khách nói: 三つください (cho tôi 3 quả).",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": "p-n5-listen-shop",
+    "ref_type": null,
+    "ref_id": null,
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-037",
+    "level": "N5",
+    "skill": "listening",
+    "topic": "passage",
+    "stem": "りんご{一|ひと}つはいくらですか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "{五十円|ごじゅうえん}",
+        "explanation_vi": "Số tiền này không xuất hiện trong bài."
+      },
+      {
+        "id": "b",
+        "text": "{百円|ひゃくえん}",
+        "explanation_vi": "Đúng: 100 yên."
+      },
+      {
+        "id": "c",
+        "text": "{二百円|にひゃくえん}",
+        "explanation_vi": "Đừng nhầm với 2 quả (mỗi quả 100 yên)."
+      },
+      {
+        "id": "d",
+        "text": "{三百円|さんびゃくえん}",
+        "explanation_vi": "300 yên là tổng 3 quả — không phải giá một quả."
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_vi": "Nhân viên nói: 一つ百円です (một quả 100 yên).",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": "p-n5-listen-shop",
+    "ref_type": null,
+    "ref_id": null,
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-038",
+    "level": "N5",
+    "skill": "listening",
+    "topic": "passage",
+    "stem": "{田中|たなか}さんは{日曜日|にちようび}に{何|なに}をしますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "{映画|えいが}を{見|み}に{行|い}きます",
+        "explanation_vi": "Đúng."
+      },
+      {
+        "id": "b",
+        "text": "{本|ほん}を{読|よ}みます",
+        "explanation_vi": "Không được nhắc đến."
+      },
+      {
+        "id": "c",
+        "text": "{勉強|べんきょう}します",
+        "explanation_vi": "Không được nhắc đến."
+      },
+      {
+        "id": "d",
+        "text": "{友達|ともだち}の{家|いえ}に{行|い}きます",
+        "explanation_vi": "Đi với bạn nhưng là đi xem phim, không phải đến nhà bạn."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Tanaka nói: 友達と映画を見に行きます.",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": "p-n5-listen-plan",
+    "ref_type": null,
+    "ref_id": null,
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n5-039",
+    "level": "N5",
+    "skill": "listening",
+    "topic": "passage",
+    "stem": "{映画|えいが}は{何時|なんじ}からですか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "{午後|ごご}{一時|いちじ}",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "{午後|ごご}{二時|にじ}",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "{午後|ごご}{三時|さんじ}",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "{午前|ごぜん}{二時|にじ}",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_vi": "Tanaka nói: 午後二時からです (từ 2 giờ chiều).",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": "p-n5-listen-plan",
+    "ref_type": null,
+    "ref_id": null,
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n4-001",
+    "level": "N4",
+    "skill": "vocabulary",
+    "topic": "reading",
+    "stem": "「会議」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "かいぎ",
+        "explanation_vi": "「かいぎ」là cách đọc của 会議 (cuộc họp)."
+      },
+      {
+        "id": "b",
+        "text": "かいき",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "がいぎ",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "かいごう",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "会議 đọc là かいぎ (cuộc họp).",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-kaigi",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n4-002",
+    "level": "N4",
+    "skill": "vocabulary",
+    "topic": "reading",
+    "stem": "「準備」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "じゅんび",
+        "explanation_vi": "「じゅんび」là cách đọc của 準備 (chuẩn bị)."
+      },
+      {
+        "id": "b",
+        "text": "しゅんび",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "じゅんぴ",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "じゅうび",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "準備 đọc là じゅんび (chuẩn bị).",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-junbi",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n4-003",
+    "level": "N4",
+    "skill": "vocabulary",
+    "topic": "reading",
+    "stem": "「連絡」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "れんらく",
+        "explanation_vi": "「れんらく」là cách đọc của 連絡 (liên lạc)."
+      },
+      {
+        "id": "b",
+        "text": "れんろく",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "れんらき",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "れんらっく",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "連絡 đọc là れんらく (liên lạc).",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-renraku",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n4-004",
+    "level": "N4",
+    "skill": "grammar",
+    "topic": "nagara",
+    "stem": "{音楽|おんがく}を{聞|き}き（　）{勉強|べんきょう}します。",
+    "options": [
+      {
+        "id": "a",
+        "text": "ながら",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "たり",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "ので",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "ように",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Hai hành động đồng thời: V（ます語幹）+ ながら.",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-nagara",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n4-005",
+    "level": "N4",
+    "skill": "grammar",
+    "topic": "experience",
+    "stem": "{日本|にほん}へ{行|い}った（　）があります。",
+    "options": [
+      {
+        "id": "a",
+        "text": "こと",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "もの",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "ため",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "ところ",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Kinh nghiệm: V（た形）+ ことがあります.",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-koto-ga-aru",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n4-006",
+    "level": "N4",
+    "skill": "grammar",
+    "topic": "reason",
+    "stem": "{雨|あめ}が{降|ふ}っている（　）、{出|で}かけません。",
+    "options": [
+      {
+        "id": "a",
+        "text": "ので",
+        "explanation_vi": "Đúng."
+      },
+      {
+        "id": "b",
+        "text": "のに",
+        "explanation_vi": "のに diễn tả \"mặc dù\" — mâu thuẫn với vế sau."
+      },
+      {
+        "id": "c",
+        "text": "ながら",
+        "explanation_vi": "ながら diễn tả đồng thời."
+      },
+      {
+        "id": "d",
+        "text": "ても",
+        "explanation_vi": "ても diễn tả \"dù cho\" — không hợp nghĩa."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Nêu lý do: ので (vì trời mưa nên không ra ngoài).",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-node",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n3-001",
+    "level": "N3",
+    "skill": "vocabulary",
+    "topic": "reading",
+    "stem": "「経験」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "けいけん",
+        "explanation_vi": "「けいけん」là cách đọc của 経験 (kinh nghiệm; trải nghiệm)."
+      },
+      {
+        "id": "b",
+        "text": "けいげん",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "きょうけん",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "げいけん",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "経験 đọc là けいけん (kinh nghiệm).",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-keiken",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n3-002",
+    "level": "N3",
+    "skill": "vocabulary",
+    "topic": "reading",
+    "stem": "「責任」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "せきにん",
+        "explanation_vi": "「せきにん」là cách đọc của 責任 (trách nhiệm)."
+      },
+      {
+        "id": "b",
+        "text": "しゃくにん",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "せきじん",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "せつにん",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "責任 đọc là せきにん (trách nhiệm).",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-sekinin",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n3-003",
+    "level": "N3",
+    "skill": "vocabulary",
+    "topic": "reading",
+    "stem": "「約束」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "やくそく",
+        "explanation_vi": "「やくそく」là cách đọc của 約束 (lời hứa; cuộc hẹn)."
+      },
+      {
+        "id": "b",
+        "text": "よくそく",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "やくぞく",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "やくしょく",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "約束 đọc là やくそく (lời hứa).",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-yakusoku",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n3-004",
+    "level": "N3",
+    "skill": "grammar",
+    "topic": "purpose",
+    "stem": "{日本語|にほんご}が{話|はな}せる（　）、{毎日|まいにち}{練習|れんしゅう}しています。",
+    "options": [
+      {
+        "id": "a",
+        "text": "ように",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "ために",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "ばかり",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "ながら",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Với thể khả năng (話せる), mục đích dùng ように; ために thường đi với động từ chủ ý.",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-you-ni",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n2-001",
+    "level": "N2",
+    "skill": "vocabulary",
+    "topic": "reading",
+    "stem": "「検討」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "けんとう",
+        "explanation_vi": "「けんとう」là cách đọc của 検討 (xem xét; cân nhắc)."
+      },
+      {
+        "id": "b",
+        "text": "けんどう",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "げんとう",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "けんしょう",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "検討 đọc là けんとう (xem xét).",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-kentou",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n2-002",
+    "level": "N2",
+    "skill": "vocabulary",
+    "topic": "reading",
+    "stem": "「納期」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "のうき",
+        "explanation_vi": "Đúng."
+      },
+      {
+        "id": "b",
+        "text": "なっき",
+        "explanation_vi": "なっ- là cách đọc của 納 trong 納得 (なっとく), không phải trong 納期."
+      },
+      {
+        "id": "c",
+        "text": "のうぎ",
+        "explanation_vi": "期 đọc き (không có dấu)."
+      },
+      {
+        "id": "d",
+        "text": "おさめき",
+        "explanation_vi": "Đây là đọc kun (おさめる) — không dùng trong từ ghép này."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "納期 đọc là のうき (thời hạn giao hàng): 納 đọc ノウ ở đây.",
+    "difficulty": 3,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-nouki",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n2-003",
+    "level": "N2",
+    "skill": "grammar",
+    "topic": "obligation",
+    "stem": "{明日|あした}は{大切|たいせつ}な{会議|かいぎ}があるので、{休|やす}む（　）にはいかない。",
+    "options": [
+      {
+        "id": "a",
+        "text": "わけ",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "もの",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "はず",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "こと",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "V辞書形 + わけにはいかない: không thể làm vì lý do hoàn cảnh.",
+    "difficulty": 3,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-wake-ni-wa-ikanai",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n1-001",
+    "level": "N1",
+    "skill": "vocabulary",
+    "topic": "reading",
+    "stem": "「把握」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "はあく",
+        "explanation_vi": "「はあく」là cách đọc của 把握 (nắm bắt; hiểu rõ)."
+      },
+      {
+        "id": "b",
+        "text": "はわく",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "はにぎ",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "はつく",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "把握 đọc là はあく (nắm bắt).",
+    "difficulty": 3,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-haaku",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n1-002",
+    "level": "N1",
+    "skill": "vocabulary",
+    "topic": "reading",
+    "stem": "「懸念」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "けねん",
+        "explanation_vi": "「けねん」là cách đọc của 懸念 (lo ngại)."
+      },
+      {
+        "id": "b",
+        "text": "けんねん",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "けいねん",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "げんねん",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "懸念 đọc là けねん: 懸 đọc ケ trong từ này (khác với 懸命 đọc けんめい).",
+    "difficulty": 3,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-kenen",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n1-003",
+    "level": "N1",
+    "skill": "grammar",
+    "topic": "obligation",
+    "stem": "{雨|あめ}が{降|ふ}ってきたので、{試合|しあい}を{中止|ちゅうし}せ（　）を{得|え}なかった。",
+    "options": [
+      {
+        "id": "a",
+        "text": "ざる",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "ない",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "ず",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "ぬ",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "V ない形（ない bỏ）+ ざるを得ない; する → せざるを得ない.",
+    "difficulty": 3,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-zaru-wo-enai",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "q-n4-007",
+    "level": "N4",
+    "skill": "vocabulary",
+    "topic": "reading",
+    "stem": "「旅行」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "りょこう",
+        "explanation_vi": "「りょこう」là cách đọc của 旅行 (du lịch)."
+      },
+      {
+        "id": "b",
+        "text": "りょうこう",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "りゅこう",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "りょっこう",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "旅行 đọc là りょこう (du lịch).",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-ryokou",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n4-008",
+    "level": "N4",
+    "skill": "vocabulary",
+    "topic": "reading",
+    "stem": "「予約」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "よやく",
+        "explanation_vi": "「よやく」là cách đọc của 予約 (đặt trước)."
+      },
+      {
+        "id": "b",
+        "text": "ようやく",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "よやっく",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "よよく",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "予約 đọc là よやく (đặt trước). Đừng nhầm với ようやく (cuối cùng thì).",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-yoyaku",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n4-009",
+    "level": "N4",
+    "skill": "vocabulary",
+    "topic": "reading",
+    "stem": "「質問」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "しつもん",
+        "explanation_vi": "「しつもん」là cách đọc của 質問 (câu hỏi)."
+      },
+      {
+        "id": "b",
+        "text": "しっもん",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "しつぶん",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "じつもん",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "質問 đọc là しつもん (câu hỏi).",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-shitsumon",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n4-010",
+    "level": "N4",
+    "skill": "vocabulary",
+    "topic": "reading",
+    "stem": "「復習」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "ふくしゅう",
+        "explanation_vi": "「ふくしゅう」là cách đọc của 復習 (ôn tập)."
+      },
+      {
+        "id": "b",
+        "text": "ふくじゅう",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "ふっしゅう",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "ふくしょう",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "復習 đọc là ふくしゅう (ôn tập).",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-fukushuu",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n4-011",
+    "level": "N4",
+    "skill": "grammar",
+    "topic": "temo-ii",
+    "stem": "ここで{写真|しゃしん}を{撮|と}っ（　）いいですか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "ても",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "ては",
+        "explanation_vi": "〜てはいけません (cấm) — không dùng để xin phép."
+      },
+      {
+        "id": "c",
+        "text": "たら",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "ので",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Xin phép: V(て) + もいいですか → 撮ってもいいですか.",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-temo-ii",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n4-012",
+    "level": "N4",
+    "skill": "grammar",
+    "topic": "tewa-ikenai",
+    "stem": "{図書館|としょかん}で{大|おお}きい{声|こえ}で{話|はな}し（　）いけません。",
+    "options": [
+      {
+        "id": "a",
+        "text": "ては",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "ても",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "ながら",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "ので",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Cấm đoán: V(て) + はいけません.",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-tewa-ikenai",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n4-013",
+    "level": "N4",
+    "skill": "grammar",
+    "topic": "nakereba-naranai",
+    "stem": "{明日|あした}は{早|はや}く{起|お}き（　）なりません。",
+    "options": [
+      {
+        "id": "a",
+        "text": "なければ",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "なくても",
+        "explanation_vi": "〜なくてもいい (không cần) mới đi với なくても."
+      },
+      {
+        "id": "c",
+        "text": "ないで",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "なくて",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Nghĩa vụ: V(ない→なければ) + なりません → 起きなければなりません.",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-nakereba-naranai",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n4-014",
+    "level": "N4",
+    "skill": "grammar",
+    "topic": "ta-hou-ga-ii",
+    "stem": "{風邪|かぜ}をひいたので、{早|はや}く{寝|ね}（　）いいです。",
+    "options": [
+      {
+        "id": "a",
+        "text": "たほうが",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "てほうが",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "だほうが",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "のほうが",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Lời khuyên: V(た) + ほうがいい → 寝たほうがいい.",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-ta-hou-ga-ii",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n3-005",
+    "level": "N3",
+    "skill": "vocabulary",
+    "topic": "reading",
+    "stem": "「関係」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "かんけい",
+        "explanation_vi": "「かんけい」là cách đọc của 関係 (quan hệ; liên quan)."
+      },
+      {
+        "id": "b",
+        "text": "かんげい",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "がんけい",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "かんけ",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "関係 đọc là かんけい (quan hệ).",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-kankei",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n3-006",
+    "level": "N3",
+    "skill": "vocabulary",
+    "topic": "reading",
+    "stem": "「習慣」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "しゅうかん",
+        "explanation_vi": "「しゅうかん」là cách đọc của 習慣 (thói quen; tập quán)."
+      },
+      {
+        "id": "b",
+        "text": "しゅかん",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "しゅうがん",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "じゅうかん",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "習慣 đọc là しゅうかん (thói quen).",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-shuukan",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n3-007",
+    "level": "N3",
+    "skill": "vocabulary",
+    "topic": "reading",
+    "stem": "「目的」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "もくてき",
+        "explanation_vi": "「もくてき」là cách đọc của 目的 (mục đích)."
+      },
+      {
+        "id": "b",
+        "text": "ぼくてき",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "もくでき",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "もくてい",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "目的 đọc là もくてき (mục đích).",
+    "difficulty": 1,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-mokuteki",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n3-008",
+    "level": "N3",
+    "skill": "grammar",
+    "topic": "you-ni-naru",
+    "stem": "{毎日|まいにち}{練習|れんしゅう}したので、{日本語|にほんご}が{話|はな}せる（　）なりました。",
+    "options": [
+      {
+        "id": "a",
+        "text": "ように",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "ために",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "ばかり",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "ところ",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Chỉ sự thay đổi: V(khả năng) + ようになる.",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-you-ni-naru",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n3-009",
+    "level": "N3",
+    "skill": "grammar",
+    "topic": "tame-ni",
+    "stem": "{健康|けんこう}（　）、{毎朝|まいあさ}{走|はし}っています。",
+    "options": [
+      {
+        "id": "a",
+        "text": "のために",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "のように",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "のうちに",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "のあいだに",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Danh từ + の + ために: vì/để (mục đích).",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-tame-ni",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n3-010",
+    "level": "N3",
+    "skill": "grammar",
+    "topic": "bakari",
+    "stem": "{彼|かれ}は{漫画|まんが}（　）{読|よ}んでいる。",
+    "options": [
+      {
+        "id": "a",
+        "text": "ばかり",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "しか",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "ほど",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "ところ",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "ばかり: chỉ toàn (thiên lệch). しか phải đi với phủ định.",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-bakari",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n2-004",
+    "level": "N2",
+    "skill": "vocabulary",
+    "topic": "reading",
+    "stem": "「維持」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "いじ",
+        "explanation_vi": "「いじ」là cách đọc của 維持 (duy trì)."
+      },
+      {
+        "id": "b",
+        "text": "いち",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "ゆいじ",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "いず",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "維持 đọc là いじ (duy trì).",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-iji",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n2-005",
+    "level": "N2",
+    "skill": "vocabulary",
+    "topic": "reading",
+    "stem": "「提案」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "ていあん",
+        "explanation_vi": "「ていあん」là cách đọc của 提案 (đề xuất)."
+      },
+      {
+        "id": "b",
+        "text": "ていかん",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "でいあん",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "ていわん",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "提案 đọc là ていあん (đề xuất).",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-teian",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n2-006",
+    "level": "N2",
+    "skill": "vocabulary",
+    "topic": "reading",
+    "stem": "「傾向」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "けいこう",
+        "explanation_vi": "「けいこう」là cách đọc của 傾向 (khuynh hướng; xu hướng)."
+      },
+      {
+        "id": "b",
+        "text": "けいごう",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "けんこう",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "けいこ",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "傾向 đọc là けいこう (khuynh hướng). Đừng nhầm với 健康 (けんこう).",
+    "difficulty": 2,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-keikou",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n2-007",
+    "level": "N2",
+    "skill": "grammar",
+    "topic": "ni-taishite",
+    "stem": "{親|おや}の{意見|いけん}（　）、{子|こ}どもが{反対|はんたい}した。",
+    "options": [
+      {
+        "id": "a",
+        "text": "に対して",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "について",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "にとって",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "によって",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Đối tượng của thái độ/hành động: N + に対して (phản đối ý kiến của cha mẹ).",
+    "difficulty": 3,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-ni-taishite",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n2-008",
+    "level": "N2",
+    "skill": "grammar",
+    "topic": "ni-chigainai",
+    "stem": "{電気|でんき}がついているから、{彼|かれ}は{家|いえ}にいる（　）。",
+    "options": [
+      {
+        "id": "a",
+        "text": "に違いない",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "わけがない",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "ことはない",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "どころではない",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Phán đoán chắc chắn dựa trên căn cứ: 〜に違いない.",
+    "difficulty": 3,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-ni-chigainai",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n2-009",
+    "level": "N2",
+    "skill": "grammar",
+    "topic": "wake-ga-nai",
+    "stem": "{全然|ぜんぜん}{泳|およ}げない{彼|かれ}が{金|きん}メダルを{取|と}れる（　）。",
+    "options": [
+      {
+        "id": "a",
+        "text": "わけがない",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "わけではない",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "わけにはいかない",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "わけだ",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "〜わけがない = không thể nào. Người không biết bơi thì không thể giành huy chương vàng.",
+    "difficulty": 3,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-wake-ga-nai",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n1-004",
+    "level": "N1",
+    "skill": "vocabulary",
+    "topic": "reading",
+    "stem": "「妥協」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "だきょう",
+        "explanation_vi": "「だきょう」là cách đọc của 妥協 (thỏa hiệp)."
+      },
+      {
+        "id": "b",
+        "text": "たきょう",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "だぎょう",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "だきょ",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "妥協 đọc là だきょう (thỏa hiệp).",
+    "difficulty": 3,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-dakyou",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n1-005",
+    "level": "N1",
+    "skill": "vocabulary",
+    "topic": "reading",
+    "stem": "「概念」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "がいねん",
+        "explanation_vi": "「がいねん」là cách đọc của 概念 (khái niệm)."
+      },
+      {
+        "id": "b",
+        "text": "かいねん",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "がいてん",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "がいねい",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "概念 đọc là がいねん (khái niệm).",
+    "difficulty": 3,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-gainen",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n1-006",
+    "level": "N1",
+    "skill": "vocabulary",
+    "topic": "reading",
+    "stem": "「顕著」はひらがなでどう書きますか。",
+    "options": [
+      {
+        "id": "a",
+        "text": "けんちょ",
+        "explanation_vi": "「けんちょ」là cách đọc của 顕著 (rõ rệt; nổi bật)."
+      },
+      {
+        "id": "b",
+        "text": "けんじょ",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "げんちょ",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "こんちょ",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "顕著 đọc là けんちょ (rõ rệt).",
+    "difficulty": 3,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "vocabulary",
+    "ref_id": "v-kencho",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n1-007",
+    "level": "N1",
+    "skill": "grammar",
+    "topic": "kanenai",
+    "stem": "そんな{運転|うんてん}をしていると、{事故|じこ}を{起|お}こし（　）。",
+    "options": [
+      {
+        "id": "a",
+        "text": "かねない",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "かねる",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "がたい",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "づらい",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "〜かねない = có thể xảy ra (điều xấu). 〜かねる = khó/không thể làm.",
+    "difficulty": 3,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-kaneru",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n1-008",
+    "level": "N1",
+    "skill": "grammar",
+    "topic": "zu-ni-wa-irarenai",
+    "stem": "その{話|はなし}を{聞|き}いて、{笑|わら}わ（　）はいられなかった。",
+    "options": [
+      {
+        "id": "a",
+        "text": "ずに",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "ないと",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "なくて",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "ずの",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Không kiềm được: V(ない→ず) + にはいられない → 笑わずにはいられなかった.",
+    "difficulty": 3,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-zu-ni-wa-irarenai",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "q-n1-009",
+    "level": "N1",
+    "skill": "grammar",
+    "topic": "wo-motte",
+    "stem": "{本日|ほんじつ}（　）、{当店|とうてん}は{営業|えいぎょう}を{終了|しゅうりょう}いたします。",
+    "options": [
+      {
+        "id": "a",
+        "text": "をもって",
+        "explanation_vi": ""
+      },
+      {
+        "id": "b",
+        "text": "にかけて",
+        "explanation_vi": ""
+      },
+      {
+        "id": "c",
+        "text": "にわたって",
+        "explanation_vi": ""
+      },
+      {
+        "id": "d",
+        "text": "をめぐって",
+        "explanation_vi": ""
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_vi": "Mốc thời gian trang trọng: 本日をもって (kể từ hôm nay).",
+    "difficulty": 3,
+    "tags": [],
+    "passage_id": null,
+    "ref_type": "grammar",
+    "ref_id": "g-wo-motte",
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  }
+]

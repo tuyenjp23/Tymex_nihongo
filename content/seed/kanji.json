@@ -1,0 +1,4353 @@
+[
+  {
+    "id": "k-nichi",
+    "level": "N5",
+    "char": "日",
+    "han_viet": "NHẬT",
+    "meaning_vi": "ngày; mặt trời",
+    "onyomi": [
+      "ニチ",
+      "ジツ"
+    ],
+    "kunyomi": [
+      "ひ",
+      "か"
+    ],
+    "reading_note": "Nhiều cách đọc đặc biệt khi đếm ngày: 一日（ついたち）、二日（ふつか）、三日（みっか）… và 今日（きょう）、昨日（きのう）、明日（あした）.",
+    "compounds": [
+      {
+        "word": "日曜日",
+        "reading": "にちようび",
+        "meaning_vi": "Chủ nhật"
+      },
+      {
+        "word": "毎日",
+        "reading": "まいにち",
+        "meaning_vi": "mỗi ngày"
+      },
+      {
+        "word": "日本",
+        "reading": "にほん",
+        "meaning_vi": "Nhật Bản"
+      },
+      {
+        "word": "今日",
+        "reading": "きょう",
+        "meaning_vi": "hôm nay (đọc đặc biệt)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{毎日|まいにち}{勉強|べんきょう}します。",
+        "vi": "Ngày nào tôi cũng học."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-getsu",
+    "level": "N5",
+    "char": "月",
+    "han_viet": "NGUYỆT",
+    "meaning_vi": "tháng; mặt trăng",
+    "onyomi": [
+      "ゲツ",
+      "ガツ"
+    ],
+    "kunyomi": [
+      "つき"
+    ],
+    "reading_note": "ゲツ dùng trong thứ (月曜日), ガツ dùng trong tên tháng (一月＝いちがつ).",
+    "compounds": [
+      {
+        "word": "月曜日",
+        "reading": "げつようび",
+        "meaning_vi": "thứ Hai"
+      },
+      {
+        "word": "一月",
+        "reading": "いちがつ",
+        "meaning_vi": "tháng Một"
+      },
+      {
+        "word": "毎月",
+        "reading": "まいつき",
+        "meaning_vi": "mỗi tháng"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{今月|こんげつ}は{忙|いそが}しいです。",
+        "vi": "Tháng này tôi bận."
+      }
+    ],
+    "image_id": "img-tsuki",
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-ka",
+    "level": "N5",
+    "char": "火",
+    "han_viet": "HỎA",
+    "meaning_vi": "lửa",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "ひ",
+      "ほ"
+    ],
+    "reading_note": "Ngoài カ và ひ, còn có ほ- trong 火影（ほかげ: ánh lửa), ít gặp. 火花 đọc ひばな.",
+    "compounds": [
+      {
+        "word": "火曜日",
+        "reading": "かようび",
+        "meaning_vi": "thứ Ba"
+      },
+      {
+        "word": "火事",
+        "reading": "かじ",
+        "meaning_vi": "hỏa hoạn"
+      },
+      {
+        "word": "花火",
+        "reading": "はなび",
+        "meaning_vi": "pháo hoa"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{火事|かじ}です！",
+        "vi": "Cháy rồi!"
+      }
+    ],
+    "image_id": "img-hi",
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-sui",
+    "level": "N5",
+    "char": "水",
+    "han_viet": "THỦY",
+    "meaning_vi": "nước",
+    "onyomi": [
+      "スイ"
+    ],
+    "kunyomi": [
+      "みず"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "水曜日",
+        "reading": "すいようび",
+        "meaning_vi": "thứ Tư"
+      },
+      {
+        "word": "水道",
+        "reading": "すいどう",
+        "meaning_vi": "đường nước; nước máy"
+      },
+      {
+        "word": "お水",
+        "reading": "おみず",
+        "meaning_vi": "nước (lịch sự)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{水|みず}を{飲|の}みます。",
+        "vi": "Uống nước."
+      }
+    ],
+    "image_id": "img-mizu",
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-moku",
+    "level": "N5",
+    "char": "木",
+    "han_viet": "MỘC",
+    "meaning_vi": "cây; gỗ",
+    "onyomi": [
+      "モク",
+      "ボク"
+    ],
+    "kunyomi": [
+      "き",
+      "こ"
+    ],
+    "reading_note": "こ- xuất hiện trong 木陰（こかげ）.",
+    "compounds": [
+      {
+        "word": "木曜日",
+        "reading": "もくようび",
+        "meaning_vi": "thứ Năm"
+      },
+      {
+        "word": "木",
+        "reading": "き",
+        "meaning_vi": "cây"
+      },
+      {
+        "word": "木材",
+        "reading": "もくざい",
+        "meaning_vi": "gỗ (vật liệu)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{木|き}の{下|した}で{休|やす}みます。",
+        "vi": "Nghỉ dưới gốc cây."
+      }
+    ],
+    "image_id": "img-ki",
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-kin",
+    "level": "N5",
+    "char": "金",
+    "han_viet": "KIM",
+    "meaning_vi": "vàng; tiền; kim loại",
+    "onyomi": [
+      "キン",
+      "コン"
+    ],
+    "kunyomi": [
+      "かね",
+      "かな"
+    ],
+    "reading_note": "お金（おかね）= tiền. コン trong 金色（こんじき）… ít gặp.",
+    "compounds": [
+      {
+        "word": "金曜日",
+        "reading": "きんようび",
+        "meaning_vi": "thứ Sáu"
+      },
+      {
+        "word": "お金",
+        "reading": "おかね",
+        "meaning_vi": "tiền"
+      },
+      {
+        "word": "金属",
+        "reading": "きんぞく",
+        "meaning_vi": "kim loại"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "お{金|かね}がありません。",
+        "vi": "Tôi không có tiền."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-do",
+    "level": "N5",
+    "char": "土",
+    "han_viet": "THỔ",
+    "meaning_vi": "đất",
+    "onyomi": [
+      "ド",
+      "ト"
+    ],
+    "kunyomi": [
+      "つち"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "土曜日",
+        "reading": "どようび",
+        "meaning_vi": "thứ Bảy"
+      },
+      {
+        "word": "土地",
+        "reading": "とち",
+        "meaning_vi": "mảnh đất"
+      },
+      {
+        "word": "土",
+        "reading": "つち",
+        "meaning_vi": "đất"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{土曜日|どようび}は{休|やす}みです。",
+        "vi": "Thứ Bảy là ngày nghỉ."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-san",
+    "level": "N5",
+    "char": "山",
+    "han_viet": "SƠN",
+    "meaning_vi": "núi",
+    "onyomi": [
+      "サン"
+    ],
+    "kunyomi": [
+      "やま"
+    ],
+    "reading_note": "Biến âm ザン trong một số từ ghép: 登山（とざん）、火山（かざん）; 富士山 đọc ふじさん.",
+    "compounds": [
+      {
+        "word": "火山",
+        "reading": "かざん",
+        "meaning_vi": "núi lửa"
+      },
+      {
+        "word": "富士山",
+        "reading": "ふじさん",
+        "meaning_vi": "núi Phú Sĩ"
+      },
+      {
+        "word": "山",
+        "reading": "やま",
+        "meaning_vi": "núi"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{山|やま}に{登|のぼ}ります。",
+        "vi": "Leo núi."
+      }
+    ],
+    "image_id": "img-yama",
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-sen",
+    "level": "N5",
+    "char": "川",
+    "han_viet": "XUYÊN",
+    "meaning_vi": "sông",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "かわ"
+    ],
+    "reading_note": "On'yomi セン ít dùng độc lập.",
+    "compounds": [
+      {
+        "word": "川",
+        "reading": "かわ",
+        "meaning_vi": "sông"
+      },
+      {
+        "word": "小川",
+        "reading": "おがわ",
+        "meaning_vi": "con suối nhỏ"
+      },
+      {
+        "word": "河川",
+        "reading": "かせん",
+        "meaning_vi": "sông ngòi (văn viết)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{川|かわ}で{遊|あそ}びます。",
+        "vi": "Chơi ở sông."
+      }
+    ],
+    "image_id": "img-kawa",
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-ta",
+    "level": "N5",
+    "char": "田",
+    "han_viet": "ĐIỀN",
+    "meaning_vi": "ruộng lúa",
+    "onyomi": [
+      "デン"
+    ],
+    "kunyomi": [
+      "た"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "田んぼ",
+        "reading": "たんぼ",
+        "meaning_vi": "ruộng lúa"
+      },
+      {
+        "word": "水田",
+        "reading": "すいでん",
+        "meaning_vi": "ruộng nước"
+      },
+      {
+        "word": "田中",
+        "reading": "たなか",
+        "meaning_vi": "Tanaka (họ)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{田|た}んぼに{水|みず}があります。",
+        "vi": "Ruộng lúa có nước."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-jin",
+    "level": "N5",
+    "char": "人",
+    "han_viet": "NHÂN",
+    "meaning_vi": "người",
+    "onyomi": [
+      "ジン",
+      "ニン"
+    ],
+    "kunyomi": [
+      "ひと"
+    ],
+    "reading_note": "Đếm người: 一人（ひとり）、二人（ふたり）, từ ba trở đi 三人（さんにん）.",
+    "compounds": [
+      {
+        "word": "日本人",
+        "reading": "にほんじん",
+        "meaning_vi": "người Nhật"
+      },
+      {
+        "word": "三人",
+        "reading": "さんにん",
+        "meaning_vi": "ba người"
+      },
+      {
+        "word": "一人",
+        "reading": "ひとり",
+        "meaning_vi": "một người (đọc đặc biệt)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{日本人|にほんじん}の{友達|ともだち}がいます。",
+        "vi": "Tôi có bạn người Nhật."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-dai",
+    "level": "N5",
+    "char": "大",
+    "han_viet": "ĐẠI",
+    "meaning_vi": "to; lớn",
+    "onyomi": [
+      "ダイ",
+      "タイ"
+    ],
+    "kunyomi": [
+      "おお(きい)",
+      "おお(いに)"
+    ],
+    "reading_note": "大人（おとな）、大勢（おおぜい）có cách đọc đặc biệt.",
+    "compounds": [
+      {
+        "word": "大学",
+        "reading": "だいがく",
+        "meaning_vi": "đại học"
+      },
+      {
+        "word": "大切",
+        "reading": "たいせつ",
+        "meaning_vi": "quan trọng"
+      },
+      {
+        "word": "大きい",
+        "reading": "おおきい",
+        "meaning_vi": "to"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{大学|だいがく}に{行|い}きます。",
+        "vi": "Tôi đi học đại học."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-shou",
+    "level": "N5",
+    "char": "小",
+    "han_viet": "TIỂU",
+    "meaning_vi": "nhỏ",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "ちい(さい)",
+      "こ",
+      "お"
+    ],
+    "reading_note": "こ-, お- đứng đầu từ ghép: 小川（おがわ）.",
+    "compounds": [
+      {
+        "word": "小学校",
+        "reading": "しょうがっこう",
+        "meaning_vi": "trường tiểu học"
+      },
+      {
+        "word": "小さい",
+        "reading": "ちいさい",
+        "meaning_vi": "nhỏ"
+      },
+      {
+        "word": "小鳥",
+        "reading": "ことり",
+        "meaning_vi": "chim nhỏ"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{小|ちい}さい{犬|いぬ}です。",
+        "vi": "Đó là con chó nhỏ."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-chuu",
+    "level": "N5",
+    "char": "中",
+    "han_viet": "TRUNG",
+    "meaning_vi": "giữa; trong",
+    "onyomi": [
+      "チュウ",
+      "ジュウ"
+    ],
+    "kunyomi": [
+      "なか"
+    ],
+    "reading_note": "ジュウ khi mang nghĩa \"suốt\": 一日中（いちにちじゅう）.",
+    "compounds": [
+      {
+        "word": "中学校",
+        "reading": "ちゅうがっこう",
+        "meaning_vi": "trường trung học cơ sở"
+      },
+      {
+        "word": "中",
+        "reading": "なか",
+        "meaning_vi": "bên trong"
+      },
+      {
+        "word": "一日中",
+        "reading": "いちにちじゅう",
+        "meaning_vi": "suốt cả ngày"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "かばんの{中|なか}に{本|ほん}があります。",
+        "vi": "Trong cặp có sách."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-jou",
+    "level": "N5",
+    "char": "上",
+    "han_viet": "THƯỢNG",
+    "meaning_vi": "trên; lên",
+    "onyomi": [
+      "ジョウ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "うえ",
+      "あ(がる)",
+      "のぼ(る)",
+      "かみ"
+    ],
+    "reading_note": "上手（じょうず）: giỏi. Nhiều cách đọc kun tùy động từ.",
+    "compounds": [
+      {
+        "word": "上",
+        "reading": "うえ",
+        "meaning_vi": "trên"
+      },
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "meaning_vi": "giỏi"
+      },
+      {
+        "word": "上がる",
+        "reading": "あがる",
+        "meaning_vi": "đi lên"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{机|つくえ}の{上|うえ}に{本|ほん}があります。",
+        "vi": "Trên bàn có sách."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-ka2",
+    "level": "N5",
+    "char": "下",
+    "han_viet": "HẠ",
+    "meaning_vi": "dưới; xuống",
+    "onyomi": [
+      "カ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "した",
+      "さ(げる)",
+      "くだ(さる)",
+      "お(りる)"
+    ],
+    "reading_note": "下手（へた）: kém; 下さい（ください）.",
+    "compounds": [
+      {
+        "word": "下",
+        "reading": "した",
+        "meaning_vi": "dưới"
+      },
+      {
+        "word": "地下鉄",
+        "reading": "ちかてつ",
+        "meaning_vi": "tàu điện ngầm"
+      },
+      {
+        "word": "下手",
+        "reading": "へた",
+        "meaning_vi": "kém"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{木|き}の{下|した}に{犬|いぬ}がいます。",
+        "vi": "Dưới gốc cây có con chó."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-hon",
+    "level": "N5",
+    "char": "本",
+    "han_viet": "BẢN",
+    "meaning_vi": "sách; gốc; (đếm vật dài)",
+    "onyomi": [
+      "ホン"
+    ],
+    "kunyomi": [
+      "もと"
+    ],
+    "reading_note": "Khi là bộ đếm: 一本（いっぽん）、二本（にほん）、三本（さんぼん）.",
+    "compounds": [
+      {
+        "word": "本",
+        "reading": "ほん",
+        "meaning_vi": "sách"
+      },
+      {
+        "word": "日本",
+        "reading": "にほん",
+        "meaning_vi": "Nhật Bản"
+      },
+      {
+        "word": "本当",
+        "reading": "ほんとう",
+        "meaning_vi": "thật sự"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{本|ほん}を{読|よ}みます。",
+        "vi": "Đọc sách."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-gaku",
+    "level": "N5",
+    "char": "学",
+    "han_viet": "HỌC",
+    "meaning_vi": "học",
+    "onyomi": [
+      "ガク"
+    ],
+    "kunyomi": [
+      "まな(ぶ)"
+    ],
+    "reading_note": "Hay gặp dưới dạng ガッ trong 学校（がっこう）.",
+    "compounds": [
+      {
+        "word": "学生",
+        "reading": "がくせい",
+        "meaning_vi": "học sinh; sinh viên"
+      },
+      {
+        "word": "大学",
+        "reading": "だいがく",
+        "meaning_vi": "đại học"
+      },
+      {
+        "word": "学校",
+        "reading": "がっこう",
+        "meaning_vi": "trường học"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{学校|がっこう}で{勉強|べんきょう}します。",
+        "vi": "Học ở trường."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-sei",
+    "level": "N5",
+    "char": "生",
+    "han_viet": "SINH",
+    "meaning_vi": "sinh ra; sống; tươi",
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "い(きる)",
+      "う(まれる)",
+      "なま",
+      "は(える)"
+    ],
+    "reading_note": "Một trong những chữ Hán có nhiều cách đọc nhất: 先生（せんせい）、人生（じんせい）、誕生日（たんじょうび）、生（なま）、生まれる（うまれる）.",
+    "compounds": [
+      {
+        "word": "先生",
+        "reading": "せんせい",
+        "meaning_vi": "thầy/cô giáo"
+      },
+      {
+        "word": "生まれる",
+        "reading": "うまれる",
+        "meaning_vi": "được sinh ra"
+      },
+      {
+        "word": "生ビール",
+        "reading": "なまビール",
+        "meaning_vi": "bia tươi"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{私|わたし}は{東京|とうきょう}で{生|う}まれました。",
+        "vi": "Tôi sinh ra ở Tokyo."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-sen2",
+    "level": "N5",
+    "char": "先",
+    "han_viet": "TIÊN",
+    "meaning_vi": "trước; phía trước",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "さき"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "先生",
+        "reading": "せんせい",
+        "meaning_vi": "thầy/cô giáo"
+      },
+      {
+        "word": "先月",
+        "reading": "せんげつ",
+        "meaning_vi": "tháng trước"
+      },
+      {
+        "word": "先",
+        "reading": "さき",
+        "meaning_vi": "phía trước; trước"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{先月|せんげつ}{日本|にほん}へ{行|い}きました。",
+        "vi": "Tháng trước tôi đã đi Nhật."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-nen",
+    "level": "N5",
+    "char": "年",
+    "han_viet": "NIÊN",
+    "meaning_vi": "năm; tuổi",
+    "onyomi": [
+      "ネン"
+    ],
+    "kunyomi": [
+      "とし"
+    ],
+    "reading_note": "今年（ことし）là cách đọc đặc biệt.",
+    "compounds": [
+      {
+        "word": "今年",
+        "reading": "ことし",
+        "meaning_vi": "năm nay (đọc đặc biệt)"
+      },
+      {
+        "word": "来年",
+        "reading": "らいねん",
+        "meaning_vi": "năm sau"
+      },
+      {
+        "word": "学年",
+        "reading": "がくねん",
+        "meaning_vi": "năm học; khối lớp"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{来年|らいねん}{日本|にほん}へ{行|い}きます。",
+        "vi": "Sang năm tôi sẽ đi Nhật."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-ji",
+    "level": "N5",
+    "char": "時",
+    "han_viet": "THỜI",
+    "meaning_vi": "giờ; lúc",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "とき"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "時間",
+        "reading": "じかん",
+        "meaning_vi": "thời gian"
+      },
+      {
+        "word": "一時",
+        "reading": "いちじ",
+        "meaning_vi": "1 giờ"
+      },
+      {
+        "word": "時々",
+        "reading": "ときどき",
+        "meaning_vi": "thỉnh thoảng"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{今|いま}、{三時|さんじ}です。",
+        "vi": "Bây giờ là 3 giờ."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-ken",
+    "level": "N5",
+    "char": "見",
+    "han_viet": "KIẾN",
+    "meaning_vi": "nhìn; xem",
+    "onyomi": [
+      "ケン"
+    ],
+    "kunyomi": [
+      "み(る)",
+      "み(せる)"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "見る",
+        "reading": "みる",
+        "meaning_vi": "xem"
+      },
+      {
+        "word": "見学",
+        "reading": "けんがく",
+        "meaning_vi": "tham quan học hỏi"
+      },
+      {
+        "word": "花見",
+        "reading": "はなみ",
+        "meaning_vi": "ngắm hoa"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{映画|えいが}を{見|み}ます。",
+        "vi": "Xem phim."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-kou",
+    "level": "N5",
+    "char": "行",
+    "han_viet": "HÀNH",
+    "meaning_vi": "đi; hành",
+    "onyomi": [
+      "コウ",
+      "ギョウ",
+      "アン"
+    ],
+    "kunyomi": [
+      "い(く)",
+      "ゆ(く)",
+      "おこな(う)"
+    ],
+    "reading_note": "行く có hai cách đọc いく/ゆく; 銀行（ぎんこう）、旅行（りょこう）、行事（ぎょうじ）.",
+    "compounds": [
+      {
+        "word": "行く",
+        "reading": "いく",
+        "meaning_vi": "đi"
+      },
+      {
+        "word": "銀行",
+        "reading": "ぎんこう",
+        "meaning_vi": "ngân hàng"
+      },
+      {
+        "word": "旅行",
+        "reading": "りょこう",
+        "meaning_vi": "du lịch"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{銀行|ぎんこう}へ{行|い}きます。",
+        "vi": "Đi đến ngân hàng."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-shoku",
+    "level": "N5",
+    "char": "食",
+    "han_viet": "THỰC",
+    "meaning_vi": "ăn; thức ăn",
+    "onyomi": [
+      "ショク",
+      "ジキ"
+    ],
+    "kunyomi": [
+      "た(べる)",
+      "く(う)"
+    ],
+    "reading_note": "食う（くう）là cách nói thô/nam tính.",
+    "compounds": [
+      {
+        "word": "食べる",
+        "reading": "たべる",
+        "meaning_vi": "ăn"
+      },
+      {
+        "word": "食事",
+        "reading": "しょくじ",
+        "meaning_vi": "bữa ăn"
+      },
+      {
+        "word": "食堂",
+        "reading": "しょくどう",
+        "meaning_vi": "nhà ăn"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{食事|しょくじ}の{時間|じかん}です。",
+        "vi": "Đến giờ ăn rồi."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-sha",
+    "level": "N5",
+    "char": "車",
+    "han_viet": "XA",
+    "meaning_vi": "xe",
+    "onyomi": [
+      "シャ"
+    ],
+    "kunyomi": [
+      "くるま"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "電車",
+        "reading": "でんしゃ",
+        "meaning_vi": "tàu điện"
+      },
+      {
+        "word": "自動車",
+        "reading": "じどうしゃ",
+        "meaning_vi": "ô tô"
+      },
+      {
+        "word": "車",
+        "reading": "くるま",
+        "meaning_vi": "xe; ô tô"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{電車|でんしゃ}で{行|い}きます。",
+        "vi": "Đi bằng tàu điện."
+      }
+    ],
+    "image_id": "img-kuruma",
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-den",
+    "level": "N5",
+    "char": "電",
+    "han_viet": "ĐIỆN",
+    "meaning_vi": "điện",
+    "onyomi": [
+      "デン"
+    ],
+    "kunyomi": [],
+    "reading_note": "Chỉ có âm On trong cách dùng phổ biến.",
+    "compounds": [
+      {
+        "word": "電車",
+        "reading": "でんしゃ",
+        "meaning_vi": "tàu điện"
+      },
+      {
+        "word": "電話",
+        "reading": "でんわ",
+        "meaning_vi": "điện thoại"
+      },
+      {
+        "word": "電気",
+        "reading": "でんき",
+        "meaning_vi": "điện; đèn điện"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{電話|でんわ}をかけます。",
+        "vi": "Gọi điện thoại."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-kou2",
+    "level": "N5",
+    "char": "口",
+    "han_viet": "KHẨU",
+    "meaning_vi": "miệng; cửa",
+    "onyomi": [
+      "コウ",
+      "ク"
+    ],
+    "kunyomi": [
+      "くち"
+    ],
+    "reading_note": "出口（でぐち）、入口（いりぐち）: く→ぐ biến âm.",
+    "compounds": [
+      {
+        "word": "口",
+        "reading": "くち",
+        "meaning_vi": "miệng"
+      },
+      {
+        "word": "人口",
+        "reading": "じんこう",
+        "meaning_vi": "dân số"
+      },
+      {
+        "word": "出口",
+        "reading": "でぐち",
+        "meaning_vi": "lối ra"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{出口|でぐち}はどこですか。",
+        "vi": "Lối ra ở đâu ạ?"
+      }
+    ],
+    "image_id": "img-kuchi",
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-moku2",
+    "level": "N5",
+    "char": "目",
+    "han_viet": "MỤC",
+    "meaning_vi": "mắt; mục",
+    "onyomi": [
+      "モク",
+      "ボク"
+    ],
+    "kunyomi": [
+      "め"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "目",
+        "reading": "め",
+        "meaning_vi": "mắt"
+      },
+      {
+        "word": "目的",
+        "reading": "もくてき",
+        "meaning_vi": "mục đích"
+      },
+      {
+        "word": "二番目",
+        "reading": "にばんめ",
+        "meaning_vi": "thứ hai"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{目|め}が{大|おお}きいです。",
+        "vi": "Mắt to."
+      }
+    ],
+    "image_id": "img-me",
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-shu",
+    "level": "N5",
+    "char": "手",
+    "han_viet": "THỦ",
+    "meaning_vi": "tay",
+    "onyomi": [
+      "シュ"
+    ],
+    "kunyomi": [
+      "て"
+    ],
+    "reading_note": "手紙（てがみ）: thư.",
+    "compounds": [
+      {
+        "word": "手",
+        "reading": "て",
+        "meaning_vi": "tay"
+      },
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "meaning_vi": "giỏi"
+      },
+      {
+        "word": "手紙",
+        "reading": "てがみ",
+        "meaning_vi": "lá thư"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{手|て}を{洗|あら}います。",
+        "vi": "Rửa tay."
+      }
+    ],
+    "image_id": "img-te",
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-soku",
+    "level": "N5",
+    "char": "足",
+    "han_viet": "TÚC",
+    "meaning_vi": "chân; đủ",
+    "onyomi": [
+      "ソク"
+    ],
+    "kunyomi": [
+      "あし",
+      "た(りる)"
+    ],
+    "reading_note": "足りる（たりる）: đủ.",
+    "compounds": [
+      {
+        "word": "足",
+        "reading": "あし",
+        "meaning_vi": "chân"
+      },
+      {
+        "word": "足りる",
+        "reading": "たりる",
+        "meaning_vi": "đủ"
+      },
+      {
+        "word": "満足",
+        "reading": "まんぞく",
+        "meaning_vi": "hài lòng"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{時間|じかん}が{足|た}りません。",
+        "vi": "Không đủ thời gian."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-ji2",
+    "level": "N5",
+    "char": "耳",
+    "han_viet": "NHĨ",
+    "meaning_vi": "tai",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "みみ"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "耳",
+        "reading": "みみ",
+        "meaning_vi": "tai"
+      },
+      {
+        "word": "耳鼻科",
+        "reading": "じびか",
+        "meaning_vi": "khoa tai mũi họng"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{耳|みみ}が{痛|いた}いです。",
+        "vi": "Tôi đau tai."
+      }
+    ],
+    "image_id": "img-mimi",
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-u",
+    "level": "N5",
+    "char": "右",
+    "han_viet": "HỮU",
+    "meaning_vi": "phải",
+    "onyomi": [
+      "ウ",
+      "ユウ"
+    ],
+    "kunyomi": [
+      "みぎ"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "右",
+        "reading": "みぎ",
+        "meaning_vi": "bên phải"
+      },
+      {
+        "word": "右手",
+        "reading": "みぎて",
+        "meaning_vi": "tay phải"
+      },
+      {
+        "word": "左右",
+        "reading": "さゆう",
+        "meaning_vi": "trái phải"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{右|みぎ}へ{曲|ま}がってください。",
+        "vi": "Hãy rẽ phải."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-sa",
+    "level": "N5",
+    "char": "左",
+    "han_viet": "TẢ",
+    "meaning_vi": "trái",
+    "onyomi": [
+      "サ"
+    ],
+    "kunyomi": [
+      "ひだり"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "左",
+        "reading": "ひだり",
+        "meaning_vi": "bên trái"
+      },
+      {
+        "word": "左手",
+        "reading": "ひだりて",
+        "meaning_vi": "tay trái"
+      },
+      {
+        "word": "左右",
+        "reading": "さゆう",
+        "meaning_vi": "trái phải"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{左|ひだり}に{駅|えき}があります。",
+        "vi": "Bên trái có nhà ga."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-zen",
+    "level": "N5",
+    "char": "前",
+    "han_viet": "TIỀN",
+    "meaning_vi": "trước",
+    "onyomi": [
+      "ゼン"
+    ],
+    "kunyomi": [
+      "まえ"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "前",
+        "reading": "まえ",
+        "meaning_vi": "phía trước; trước"
+      },
+      {
+        "word": "午前",
+        "reading": "ごぜん",
+        "meaning_vi": "buổi sáng (AM)"
+      },
+      {
+        "word": "名前",
+        "reading": "なまえ",
+        "meaning_vi": "tên"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{駅|えき}の{前|まえ}で{会|あ}います。",
+        "vi": "Gặp nhau trước nhà ga."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-go",
+    "level": "N5",
+    "char": "後",
+    "han_viet": "HẬU",
+    "meaning_vi": "sau",
+    "onyomi": [
+      "ゴ",
+      "コウ"
+    ],
+    "kunyomi": [
+      "あと",
+      "うし(ろ)",
+      "のち"
+    ],
+    "reading_note": "後ろ（うしろ）: phía sau; 後（あと）: sau đó.",
+    "compounds": [
+      {
+        "word": "午後",
+        "reading": "ごご",
+        "meaning_vi": "buổi chiều (PM)"
+      },
+      {
+        "word": "後ろ",
+        "reading": "うしろ",
+        "meaning_vi": "phía sau"
+      },
+      {
+        "word": "後",
+        "reading": "あと",
+        "meaning_vi": "sau đó"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{午後|ごご}{三時|さんじ}に{会|あ}います。",
+        "vi": "Gặp lúc 3 giờ chiều."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-kyuu",
+    "level": "N5",
+    "char": "休",
+    "han_viet": "HƯU",
+    "meaning_vi": "nghỉ",
+    "onyomi": [
+      "キュウ"
+    ],
+    "kunyomi": [
+      "やす(む)",
+      "やす(み)"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "休む",
+        "reading": "やすむ",
+        "meaning_vi": "nghỉ"
+      },
+      {
+        "word": "休み",
+        "reading": "やすみ",
+        "meaning_vi": "ngày nghỉ"
+      },
+      {
+        "word": "休日",
+        "reading": "きゅうじつ",
+        "meaning_vi": "ngày nghỉ lễ"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{明日|あした}は{休|やす}みです。",
+        "vi": "Ngày mai nghỉ."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-ten",
+    "level": "N5",
+    "char": "天",
+    "han_viet": "THIÊN",
+    "meaning_vi": "trời",
+    "onyomi": [
+      "テン"
+    ],
+    "kunyomi": [
+      "あま",
+      "あめ"
+    ],
+    "reading_note": "あま-/あめ- ít gặp trong từ thường ngày.",
+    "compounds": [
+      {
+        "word": "天気",
+        "reading": "てんき",
+        "meaning_vi": "thời tiết"
+      },
+      {
+        "word": "天才",
+        "reading": "てんさい",
+        "meaning_vi": "thiên tài"
+      },
+      {
+        "word": "天井",
+        "reading": "てんじょう",
+        "meaning_vi": "trần nhà"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{今日|きょう}は{天気|てんき}がいいです。",
+        "vi": "Hôm nay thời tiết đẹp."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-ki2",
+    "level": "N5",
+    "char": "気",
+    "han_viet": "KHÍ",
+    "meaning_vi": "khí; tinh thần",
+    "onyomi": [
+      "キ",
+      "ケ"
+    ],
+    "kunyomi": [],
+    "reading_note": "Không có kunyomi phổ biến. 気持ち（きもち）、元気（げんき）、天気（てんき）、人気（にんき）.",
+    "compounds": [
+      {
+        "word": "元気",
+        "reading": "げんき",
+        "meaning_vi": "khỏe mạnh"
+      },
+      {
+        "word": "天気",
+        "reading": "てんき",
+        "meaning_vi": "thời tiết"
+      },
+      {
+        "word": "気持ち",
+        "reading": "きもち",
+        "meaning_vi": "cảm giác"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{元気|げんき}ですか。",
+        "vi": "Bạn có khỏe không?"
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-dan",
+    "level": "N5",
+    "char": "男",
+    "han_viet": "NAM",
+    "meaning_vi": "đàn ông",
+    "onyomi": [
+      "ダン",
+      "ナン"
+    ],
+    "kunyomi": [
+      "おとこ"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "男",
+        "reading": "おとこ",
+        "meaning_vi": "đàn ông"
+      },
+      {
+        "word": "男性",
+        "reading": "だんせい",
+        "meaning_vi": "nam giới"
+      },
+      {
+        "word": "長男",
+        "reading": "ちょうなん",
+        "meaning_vi": "con trai cả"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{男|おとこ}の{人|ひと}が{来|き}ました。",
+        "vi": "Một người đàn ông đã đến."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-jo",
+    "level": "N5",
+    "char": "女",
+    "han_viet": "NỮ",
+    "meaning_vi": "phụ nữ",
+    "onyomi": [
+      "ジョ",
+      "ニョ"
+    ],
+    "kunyomi": [
+      "おんな"
+    ],
+    "reading_note": "彼女（かのじょ）: cô ấy; 女性（じょせい）.",
+    "compounds": [
+      {
+        "word": "女",
+        "reading": "おんな",
+        "meaning_vi": "phụ nữ"
+      },
+      {
+        "word": "女性",
+        "reading": "じょせい",
+        "meaning_vi": "nữ giới"
+      },
+      {
+        "word": "彼女",
+        "reading": "かのじょ",
+        "meaning_vi": "cô ấy; bạn gái"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{女|おんな}の{人|ひと}が{来|き}ました。",
+        "vi": "Một người phụ nữ đã đến."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-shi",
+    "level": "N5",
+    "char": "子",
+    "han_viet": "TỬ",
+    "meaning_vi": "con; trẻ",
+    "onyomi": [
+      "シ",
+      "ス"
+    ],
+    "kunyomi": [
+      "こ"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "子供",
+        "reading": "こども",
+        "meaning_vi": "trẻ em"
+      },
+      {
+        "word": "男の子",
+        "reading": "おとこのこ",
+        "meaning_vi": "bé trai"
+      },
+      {
+        "word": "椅子",
+        "reading": "いす",
+        "meaning_vi": "cái ghế (ス)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{子供|こども}が{好|す}きです。",
+        "vi": "Tôi thích trẻ con."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-fu",
+    "level": "N5",
+    "char": "父",
+    "han_viet": "PHỤ",
+    "meaning_vi": "bố",
+    "onyomi": [
+      "フ"
+    ],
+    "kunyomi": [
+      "ちち"
+    ],
+    "reading_note": "お父さん（おとうさん）: bố (người khác); 父（ちち）: bố (mình).",
+    "compounds": [
+      {
+        "word": "父",
+        "reading": "ちち",
+        "meaning_vi": "bố (của mình)"
+      },
+      {
+        "word": "お父さん",
+        "reading": "おとうさん",
+        "meaning_vi": "bố (cách gọi lịch sự)"
+      },
+      {
+        "word": "父親",
+        "reading": "ちちおや",
+        "meaning_vi": "người cha"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{父|ちち}は{会社|かいしゃ}で{働|はたら}いています。",
+        "vi": "Bố tôi làm việc ở công ty."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-bo",
+    "level": "N5",
+    "char": "母",
+    "han_viet": "MẪU",
+    "meaning_vi": "mẹ",
+    "onyomi": [
+      "ボ"
+    ],
+    "kunyomi": [
+      "はは"
+    ],
+    "reading_note": "お母さん（おかあさん）: mẹ (người khác); 母（はは）: mẹ (mình).",
+    "compounds": [
+      {
+        "word": "母",
+        "reading": "はは",
+        "meaning_vi": "mẹ (của mình)"
+      },
+      {
+        "word": "お母さん",
+        "reading": "おかあさん",
+        "meaning_vi": "mẹ (cách gọi lịch sự)"
+      },
+      {
+        "word": "母親",
+        "reading": "ははおや",
+        "meaning_vi": "người mẹ"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{母|はは}は{料理|りょうり}が{上手|じょうず}です。",
+        "vi": "Mẹ tôi nấu ăn giỏi."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-yuu",
+    "level": "N5",
+    "char": "友",
+    "han_viet": "HỮU",
+    "meaning_vi": "bạn",
+    "onyomi": [
+      "ユウ"
+    ],
+    "kunyomi": [
+      "とも"
+    ],
+    "reading_note": "友達（ともだち）là cách đọc đặc biệt dạng ghép.",
+    "compounds": [
+      {
+        "word": "友達",
+        "reading": "ともだち",
+        "meaning_vi": "bạn bè"
+      },
+      {
+        "word": "友人",
+        "reading": "ゆうじん",
+        "meaning_vi": "bạn hữu"
+      },
+      {
+        "word": "親友",
+        "reading": "しんゆう",
+        "meaning_vi": "bạn thân"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{友達|ともだち}と{会|あ}います。",
+        "vi": "Gặp bạn."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-haku",
+    "level": "N5",
+    "char": "白",
+    "han_viet": "BẠCH",
+    "meaning_vi": "trắng",
+    "onyomi": [
+      "ハク",
+      "ビャク"
+    ],
+    "kunyomi": [
+      "しろ(い)",
+      "しろ"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "白い",
+        "reading": "しろい",
+        "meaning_vi": "trắng"
+      },
+      {
+        "word": "白",
+        "reading": "しろ",
+        "meaning_vi": "màu trắng"
+      },
+      {
+        "word": "白黒",
+        "reading": "しろくろ",
+        "meaning_vi": "trắng đen"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{白|しろ}い{猫|ねこ}がいます。",
+        "vi": "Có con mèo trắng."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-koku",
+    "level": "N5",
+    "char": "国",
+    "han_viet": "QUỐC",
+    "meaning_vi": "nước; quốc gia",
+    "onyomi": [
+      "コク"
+    ],
+    "kunyomi": [
+      "くに"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "国",
+        "reading": "くに",
+        "meaning_vi": "đất nước"
+      },
+      {
+        "word": "外国",
+        "reading": "がいこく",
+        "meaning_vi": "nước ngoài"
+      },
+      {
+        "word": "中国",
+        "reading": "ちゅうごく",
+        "meaning_vi": "Trung Quốc"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{外国|がいこく}へ{行|い}きたいです。",
+        "vi": "Tôi muốn đi nước ngoài."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-gai",
+    "level": "N5",
+    "char": "外",
+    "han_viet": "NGOẠI",
+    "meaning_vi": "ngoài",
+    "onyomi": [
+      "ガイ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "そと",
+      "ほか",
+      "はず(す)"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "外",
+        "reading": "そと",
+        "meaning_vi": "bên ngoài"
+      },
+      {
+        "word": "外国",
+        "reading": "がいこく",
+        "meaning_vi": "nước ngoài"
+      },
+      {
+        "word": "外す",
+        "reading": "はずす",
+        "meaning_vi": "tháo ra"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{外|そと}は{雨|あめ}です。",
+        "vi": "Bên ngoài đang mưa."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-go2",
+    "level": "N5",
+    "char": "語",
+    "han_viet": "NGỮ",
+    "meaning_vi": "ngôn ngữ; từ",
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "かた(る)"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "日本語",
+        "reading": "にほんご",
+        "meaning_vi": "tiếng Nhật"
+      },
+      {
+        "word": "英語",
+        "reading": "えいご",
+        "meaning_vi": "tiếng Anh"
+      },
+      {
+        "word": "語る",
+        "reading": "かたる",
+        "meaning_vi": "kể; nói"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{日本語|にほんご}を{勉強|べんきょう}します。",
+        "vi": "Học tiếng Nhật."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-nyuu",
+    "level": "N5",
+    "char": "入",
+    "han_viet": "NHẬP",
+    "meaning_vi": "vào",
+    "onyomi": [
+      "ニュウ"
+    ],
+    "kunyomi": [
+      "い(る)",
+      "はい(る)",
+      "い(れる)"
+    ],
+    "reading_note": "入る（はいる）: vào; 入れる（いれる）: cho vào; 入口（いりぐち）.",
+    "compounds": [
+      {
+        "word": "入る",
+        "reading": "はいる",
+        "meaning_vi": "đi vào"
+      },
+      {
+        "word": "入口",
+        "reading": "いりぐち",
+        "meaning_vi": "lối vào"
+      },
+      {
+        "word": "入学",
+        "reading": "にゅうがく",
+        "meaning_vi": "nhập học"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{部屋|へや}に{入|はい}ります。",
+        "vi": "Vào phòng."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-shutsu",
+    "level": "N5",
+    "char": "出",
+    "han_viet": "XUẤT",
+    "meaning_vi": "ra",
+    "onyomi": [
+      "シュツ",
+      "スイ"
+    ],
+    "kunyomi": [
+      "で(る)",
+      "だ(す)"
+    ],
+    "reading_note": "出す（だす）: lấy ra, nộp.",
+    "compounds": [
+      {
+        "word": "出る",
+        "reading": "でる",
+        "meaning_vi": "đi ra"
+      },
+      {
+        "word": "出口",
+        "reading": "でぐち",
+        "meaning_vi": "lối ra"
+      },
+      {
+        "word": "出発",
+        "reading": "しゅっぱつ",
+        "meaning_vi": "xuất phát"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{八時|はちじ}に{家|いえ}を{出|で}ます。",
+        "vi": "Tôi ra khỏi nhà lúc 8 giờ."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-rai",
+    "level": "N5",
+    "char": "来",
+    "han_viet": "LAI",
+    "meaning_vi": "đến",
+    "onyomi": [
+      "ライ"
+    ],
+    "kunyomi": [
+      "く(る)",
+      "きた(る)"
+    ],
+    "reading_note": "来る có ba dạng đọc: くる / き(ます) / こ(ない).",
+    "compounds": [
+      {
+        "word": "来る",
+        "reading": "くる",
+        "meaning_vi": "đến"
+      },
+      {
+        "word": "来年",
+        "reading": "らいねん",
+        "meaning_vi": "năm sau"
+      },
+      {
+        "word": "来週",
+        "reading": "らいしゅう",
+        "meaning_vi": "tuần sau"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{友達|ともだち}が{来|き}ます。",
+        "vi": "Bạn tôi đến."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-sho",
+    "level": "N5",
+    "char": "書",
+    "han_viet": "THƯ",
+    "meaning_vi": "viết; sách",
+    "onyomi": [
+      "ショ"
+    ],
+    "kunyomi": [
+      "か(く)"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "書く",
+        "reading": "かく",
+        "meaning_vi": "viết"
+      },
+      {
+        "word": "辞書",
+        "reading": "じしょ",
+        "meaning_vi": "từ điển"
+      },
+      {
+        "word": "図書館",
+        "reading": "としょかん",
+        "meaning_vi": "thư viện"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{名前|なまえ}を{書|か}いてください。",
+        "vi": "Hãy viết tên."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-doku",
+    "level": "N5",
+    "char": "読",
+    "han_viet": "ĐỘC",
+    "meaning_vi": "đọc",
+    "onyomi": [
+      "ドク",
+      "トク",
+      "トウ"
+    ],
+    "kunyomi": [
+      "よ(む)"
+    ],
+    "reading_note": "読点（とうてん）: dấu phẩy — dùng トウ.",
+    "compounds": [
+      {
+        "word": "読む",
+        "reading": "よむ",
+        "meaning_vi": "đọc"
+      },
+      {
+        "word": "読書",
+        "reading": "どくしょ",
+        "meaning_vi": "đọc sách"
+      },
+      {
+        "word": "読み方",
+        "reading": "よみかた",
+        "meaning_vi": "cách đọc"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{新聞|しんぶん}を{読|よ}みます。",
+        "vi": "Đọc báo."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-wa",
+    "level": "N5",
+    "char": "話",
+    "han_viet": "THOẠI",
+    "meaning_vi": "nói; câu chuyện",
+    "onyomi": [
+      "ワ"
+    ],
+    "kunyomi": [
+      "はな(す)",
+      "はなし"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "話す",
+        "reading": "はなす",
+        "meaning_vi": "nói"
+      },
+      {
+        "word": "会話",
+        "reading": "かいわ",
+        "meaning_vi": "hội thoại"
+      },
+      {
+        "word": "電話",
+        "reading": "でんわ",
+        "meaning_vi": "điện thoại"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{日本語|にほんご}で{話|はな}します。",
+        "vi": "Nói bằng tiếng Nhật."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-bun",
+    "level": "N5",
+    "char": "聞",
+    "han_viet": "VĂN",
+    "meaning_vi": "nghe; hỏi",
+    "onyomi": [
+      "ブン",
+      "モン"
+    ],
+    "kunyomi": [
+      "き(く)",
+      "き(こえる)"
+    ],
+    "reading_note": "聞く: nghe/hỏi; 聞こえる: nghe thấy.",
+    "compounds": [
+      {
+        "word": "聞く",
+        "reading": "きく",
+        "meaning_vi": "nghe; hỏi"
+      },
+      {
+        "word": "新聞",
+        "reading": "しんぶん",
+        "meaning_vi": "báo"
+      },
+      {
+        "word": "聞こえる",
+        "reading": "きこえる",
+        "meaning_vi": "nghe thấy"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{音楽|おんがく}を{聞|き}きます。",
+        "vi": "Nghe nhạc."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-u2",
+    "level": "N5",
+    "char": "雨",
+    "han_viet": "VŨ",
+    "meaning_vi": "mưa",
+    "onyomi": [
+      "ウ"
+    ],
+    "kunyomi": [
+      "あめ",
+      "あま"
+    ],
+    "reading_note": "あま- trong 雨戸（あまど）, 雨傘（あまがさ）.",
+    "compounds": [
+      {
+        "word": "雨",
+        "reading": "あめ",
+        "meaning_vi": "mưa"
+      },
+      {
+        "word": "大雨",
+        "reading": "おおあめ",
+        "meaning_vi": "mưa lớn"
+      },
+      {
+        "word": "雨天",
+        "reading": "うてん",
+        "meaning_vi": "trời mưa"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{雨|あめ}が{降|ふ}っています。",
+        "vi": "Trời đang mưa."
+      }
+    ],
+    "image_id": "img-ame",
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-in",
+    "level": "N4",
+    "char": "飲",
+    "han_viet": "ẨM",
+    "meaning_vi": "uống",
+    "onyomi": [
+      "イン"
+    ],
+    "kunyomi": [
+      "の(む)"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "飲む",
+        "reading": "のむ",
+        "meaning_vi": "uống"
+      },
+      {
+        "word": "飲み物",
+        "reading": "のみもの",
+        "meaning_vi": "đồ uống"
+      },
+      {
+        "word": "飲料水",
+        "reading": "いんりょうすい",
+        "meaning_vi": "nước uống"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{水|みず}を{飲|の}みます。",
+        "vi": "Uống nước."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-bai",
+    "level": "N4",
+    "char": "買",
+    "han_viet": "MÃI",
+    "meaning_vi": "mua",
+    "onyomi": [
+      "バイ"
+    ],
+    "kunyomi": [
+      "か(う)"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "買う",
+        "reading": "かう",
+        "meaning_vi": "mua"
+      },
+      {
+        "word": "買い物",
+        "reading": "かいもの",
+        "meaning_vi": "mua sắm"
+      },
+      {
+        "word": "売買",
+        "reading": "ばいばい",
+        "meaning_vi": "mua bán"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{買|か}い{物|もの}に{行|い}きます。",
+        "vi": "Đi mua sắm."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-byou",
+    "level": "N4",
+    "char": "病",
+    "han_viet": "BỆNH",
+    "meaning_vi": "bệnh",
+    "onyomi": [
+      "ビョウ",
+      "ヘイ"
+    ],
+    "kunyomi": [
+      "や(む)",
+      "やまい"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "病院",
+        "reading": "びょういん",
+        "meaning_vi": "bệnh viện"
+      },
+      {
+        "word": "病気",
+        "reading": "びょうき",
+        "meaning_vi": "bệnh tật"
+      },
+      {
+        "word": "病人",
+        "reading": "びょうにん",
+        "meaning_vi": "người bệnh"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{病気|びょうき}で{休|やす}みました。",
+        "vi": "Tôi nghỉ vì ốm."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-umi2",
+    "level": "N4",
+    "char": "海",
+    "han_viet": "HẢI",
+    "meaning_vi": "biển",
+    "onyomi": [
+      "カイ"
+    ],
+    "kunyomi": [
+      "うみ"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "海",
+        "reading": "うみ",
+        "meaning_vi": "biển"
+      },
+      {
+        "word": "海外",
+        "reading": "かいがい",
+        "meaning_vi": "hải ngoại; nước ngoài"
+      },
+      {
+        "word": "海岸",
+        "reading": "かいがん",
+        "meaning_vi": "bờ biển"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{海|うみ}がきれいです。",
+        "vi": "Biển đẹp."
+      }
+    ],
+    "image_id": "img-umi",
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-setsu",
+    "level": "N4",
+    "char": "雪",
+    "han_viet": "TUYẾT",
+    "meaning_vi": "tuyết",
+    "onyomi": [
+      "セツ"
+    ],
+    "kunyomi": [
+      "ゆき"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "雪",
+        "reading": "ゆき",
+        "meaning_vi": "tuyết"
+      },
+      {
+        "word": "大雪",
+        "reading": "おおゆき",
+        "meaning_vi": "tuyết lớn"
+      },
+      {
+        "word": "雪だるま",
+        "reading": "ゆきだるま",
+        "meaning_vi": "người tuyết"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{雪|ゆき}が{降|ふ}ります。",
+        "vi": "Tuyết rơi."
+      }
+    ],
+    "image_id": "img-yuki",
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-sei2",
+    "level": "N4",
+    "char": "星",
+    "han_viet": "TINH",
+    "meaning_vi": "sao",
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "ほし"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "星",
+        "reading": "ほし",
+        "meaning_vi": "ngôi sao"
+      },
+      {
+        "word": "星空",
+        "reading": "ほしぞら",
+        "meaning_vi": "bầu trời đầy sao"
+      },
+      {
+        "word": "火星",
+        "reading": "かせい",
+        "meaning_vi": "sao Hỏa"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{星|ほし}がきれいです。",
+        "vi": "Sao đẹp."
+      }
+    ],
+    "image_id": "img-hoshi",
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-kei",
+    "level": "N3",
+    "char": "経",
+    "han_viet": "KINH",
+    "meaning_vi": "đi qua; kinh qua",
+    "onyomi": [
+      "ケイ",
+      "キョウ"
+    ],
+    "kunyomi": [
+      "へ(る)"
+    ],
+    "reading_note": "経験（けいけん）、経済（けいざい）dùng ケイ; お経（おきょう）dùng キョウ.",
+    "compounds": [
+      {
+        "word": "経験",
+        "reading": "けいけん",
+        "meaning_vi": "kinh nghiệm"
+      },
+      {
+        "word": "経済",
+        "reading": "けいざい",
+        "meaning_vi": "kinh tế"
+      },
+      {
+        "word": "経理",
+        "reading": "けいり",
+        "meaning_vi": "kế toán"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{経験|けいけん}があります。",
+        "vi": "Tôi có kinh nghiệm."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-ken2",
+    "level": "N3",
+    "char": "験",
+    "han_viet": "NGHIỆM",
+    "meaning_vi": "kiểm nghiệm; thử",
+    "onyomi": [
+      "ケン",
+      "ゲン"
+    ],
+    "kunyomi": [],
+    "reading_note": "ゲン trong 霊験（れいげん）— ít gặp.",
+    "compounds": [
+      {
+        "word": "経験",
+        "reading": "けいけん",
+        "meaning_vi": "kinh nghiệm"
+      },
+      {
+        "word": "試験",
+        "reading": "しけん",
+        "meaning_vi": "kỳ thi"
+      },
+      {
+        "word": "実験",
+        "reading": "じっけん",
+        "meaning_vi": "thí nghiệm"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{試験|しけん}があります。",
+        "vi": "Có kỳ thi."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-seki",
+    "level": "N3",
+    "char": "責",
+    "han_viet": "TRÁCH",
+    "meaning_vi": "trách; chịu trách nhiệm",
+    "onyomi": [
+      "セキ"
+    ],
+    "kunyomi": [
+      "せ(める)"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "責任",
+        "reading": "せきにん",
+        "meaning_vi": "trách nhiệm"
+      },
+      {
+        "word": "責める",
+        "reading": "せめる",
+        "meaning_vi": "khiển trách"
+      },
+      {
+        "word": "責任者",
+        "reading": "せきにんしゃ",
+        "meaning_vi": "người chịu trách nhiệm"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{責任|せきにん}を{持|も}ちます。",
+        "vi": "Nhận trách nhiệm."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-nin",
+    "level": "N3",
+    "char": "任",
+    "han_viet": "NHIỆM",
+    "meaning_vi": "giao phó; nhiệm vụ",
+    "onyomi": [
+      "ニン"
+    ],
+    "kunyomi": [
+      "まか(せる)",
+      "まか(す)"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "責任",
+        "reading": "せきにん",
+        "meaning_vi": "trách nhiệm"
+      },
+      {
+        "word": "担任",
+        "reading": "たんにん",
+        "meaning_vi": "giáo viên chủ nhiệm"
+      },
+      {
+        "word": "任せる",
+        "reading": "まかせる",
+        "meaning_vi": "giao phó"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{仕事|しごと}を{任|まか}せます。",
+        "vi": "Giao công việc."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-ken3",
+    "level": "N2",
+    "char": "検",
+    "han_viet": "KIỂM",
+    "meaning_vi": "kiểm tra",
+    "onyomi": [
+      "ケン"
+    ],
+    "kunyomi": [],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "検討",
+        "reading": "けんとう",
+        "meaning_vi": "xem xét"
+      },
+      {
+        "word": "検査",
+        "reading": "けんさ",
+        "meaning_vi": "kiểm tra"
+      },
+      {
+        "word": "点検",
+        "reading": "てんけん",
+        "meaning_vi": "kiểm tra định kỳ"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{機械|きかい}を{点検|てんけん}します。",
+        "vi": "Kiểm tra máy móc."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-tou",
+    "level": "N2",
+    "char": "討",
+    "han_viet": "THẢO",
+    "meaning_vi": "thảo luận; đánh",
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "う(つ)"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "検討",
+        "reading": "けんとう",
+        "meaning_vi": "xem xét"
+      },
+      {
+        "word": "討論",
+        "reading": "とうろん",
+        "meaning_vi": "thảo luận; tranh luận"
+      },
+      {
+        "word": "討つ",
+        "reading": "うつ",
+        "meaning_vi": "đánh dẹp (văn viết)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{問題|もんだい}を{検討|けんとう}します。",
+        "vi": "Xem xét vấn đề."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-nou",
+    "level": "N2",
+    "char": "納",
+    "han_viet": "NẠP",
+    "meaning_vi": "nộp; cất; giao nộp",
+    "onyomi": [
+      "ノウ",
+      "ナッ",
+      "ナ",
+      "ナン",
+      "トウ"
+    ],
+    "kunyomi": [
+      "おさ(める)",
+      "おさ(まる)"
+    ],
+    "reading_note": "Nhiều cách đọc: 納期（のうき）、納得（なっとく）、納豆（なっとう）、納屋（なや）、出納（すいとう）、納める（おさめる）. Không nên chỉ học một cách đọc.",
+    "compounds": [
+      {
+        "word": "納期",
+        "reading": "のうき",
+        "meaning_vi": "thời hạn giao hàng"
+      },
+      {
+        "word": "納得",
+        "reading": "なっとく",
+        "meaning_vi": "đồng tình; thuyết phục"
+      },
+      {
+        "word": "納豆",
+        "reading": "なっとう",
+        "meaning_vi": "natto"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{納得|なっとく}できません。",
+        "vi": "Tôi không thể chấp nhận (thấy chưa thỏa đáng)."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-ha",
+    "level": "N1",
+    "char": "把",
+    "han_viet": "BẢ",
+    "meaning_vi": "nắm; cầm",
+    "onyomi": [
+      "ハ"
+    ],
+    "kunyomi": [],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "把握",
+        "reading": "はあく",
+        "meaning_vi": "nắm bắt"
+      },
+      {
+        "word": "一把",
+        "reading": "いちわ",
+        "meaning_vi": "một bó (bộ đếm)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{状況|じょうきょう}を{把握|はあく}します。",
+        "vi": "Nắm bắt tình hình."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-ken4",
+    "level": "N1",
+    "char": "懸",
+    "han_viet": "HUYỀN",
+    "meaning_vi": "treo; lo lắng",
+    "onyomi": [
+      "ケン",
+      "ケ"
+    ],
+    "kunyomi": [
+      "か(ける)",
+      "か(かる)"
+    ],
+    "reading_note": "懸 đọc ケ trong 懸念（けねん）nhưng đọc ケン trong 懸命（けんめい）— cùng một chữ, hai cách đọc, nên học theo từ.",
+    "compounds": [
+      {
+        "word": "懸念",
+        "reading": "けねん",
+        "meaning_vi": "lo ngại"
+      },
+      {
+        "word": "懸命",
+        "reading": "けんめい",
+        "meaning_vi": "hết sức; nỗ lực"
+      },
+      {
+        "word": "懸ける",
+        "reading": "かける",
+        "meaning_vi": "treo; đặt cược (văn viết)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{一生懸命|いっしょうけんめい}{働|はたら}きます。",
+        "vi": "Làm việc hết sức mình."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "k-shin",
+    "level": "N4",
+    "char": "新",
+    "han_viet": "TÂN",
+    "meaning_vi": "mới",
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [
+      "あたら(しい)",
+      "あら(た)"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "新しい",
+        "reading": "あたらしい",
+        "meaning_vi": "mới"
+      },
+      {
+        "word": "新聞",
+        "reading": "しんぶん",
+        "meaning_vi": "báo chí"
+      },
+      {
+        "word": "新年",
+        "reading": "しんねん",
+        "meaning_vi": "năm mới"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{新|あたら}しい{本|ほん}を{買|か}いました。",
+        "vi": "Tôi đã mua một cuốn sách mới."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "k-ko",
+    "level": "N4",
+    "char": "古",
+    "han_viet": "CỔ",
+    "meaning_vi": "cũ",
+    "onyomi": [
+      "コ"
+    ],
+    "kunyomi": [
+      "ふる(い)"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "古い",
+        "reading": "ふるい",
+        "meaning_vi": "cũ"
+      },
+      {
+        "word": "中古",
+        "reading": "ちゅうこ",
+        "meaning_vi": "đồ cũ (second-hand)"
+      },
+      {
+        "word": "古代",
+        "reading": "こだい",
+        "meaning_vi": "cổ đại"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "この{家|いえ}はとても{古|ふる}いです。",
+        "vi": "Ngôi nhà này rất cũ."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "k-un",
+    "level": "N4",
+    "char": "運",
+    "han_viet": "VẬN",
+    "meaning_vi": "vận chuyển; vận mệnh",
+    "onyomi": [
+      "ウン"
+    ],
+    "kunyomi": [
+      "はこ(ぶ)"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "運ぶ",
+        "reading": "はこぶ",
+        "meaning_vi": "vận chuyển; mang"
+      },
+      {
+        "word": "運転",
+        "reading": "うんてん",
+        "meaning_vi": "lái xe"
+      },
+      {
+        "word": "運動",
+        "reading": "うんどう",
+        "meaning_vi": "vận động"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{荷物|にもつ}を{運|はこ}びます。",
+        "vi": "Tôi mang hành lý."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "k-dou",
+    "level": "N4",
+    "char": "動",
+    "han_viet": "ĐỘNG",
+    "meaning_vi": "động; di chuyển",
+    "onyomi": [
+      "ドウ"
+    ],
+    "kunyomi": [
+      "うご(く)"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "動く",
+        "reading": "うごく",
+        "meaning_vi": "chuyển động"
+      },
+      {
+        "word": "動物",
+        "reading": "どうぶつ",
+        "meaning_vi": "động vật"
+      },
+      {
+        "word": "運動",
+        "reading": "うんどう",
+        "meaning_vi": "vận động"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{時計|とけい}が{動|うご}きません。",
+        "vi": "Đồng hồ không chạy."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "k-ben",
+    "level": "N4",
+    "char": "勉",
+    "han_viet": "MIỄN",
+    "meaning_vi": "cố gắng",
+    "onyomi": [
+      "ベン"
+    ],
+    "kunyomi": [],
+    "reading_note": "Hầu như chỉ gặp trong từ 勉強 (học tập).",
+    "compounds": [
+      {
+        "word": "勉強",
+        "reading": "べんきょう",
+        "meaning_vi": "học tập"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{毎日|まいにち}{日本語|にほんご}を{勉強|べんきょう}します。",
+        "vi": "Mỗi ngày tôi học tiếng Nhật."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "k-kyou",
+    "level": "N4",
+    "char": "強",
+    "han_viet": "CƯỜNG",
+    "meaning_vi": "mạnh",
+    "onyomi": [
+      "キョウ",
+      "ゴウ"
+    ],
+    "kunyomi": [
+      "つよ(い)"
+    ],
+    "reading_note": "Một số từ đọc là ゴウ (ví dụ 強引 ごういん).",
+    "compounds": [
+      {
+        "word": "強い",
+        "reading": "つよい",
+        "meaning_vi": "mạnh"
+      },
+      {
+        "word": "勉強",
+        "reading": "べんきょう",
+        "meaning_vi": "học tập"
+      },
+      {
+        "word": "強力",
+        "reading": "きょうりょく",
+        "meaning_vi": "mạnh mẽ"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{風|かぜ}が{強|つよ}いです。",
+        "vi": "Gió mạnh."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "k-kan",
+    "level": "N3",
+    "char": "関",
+    "han_viet": "QUAN",
+    "meaning_vi": "liên quan; cửa ải",
+    "onyomi": [
+      "カン"
+    ],
+    "kunyomi": [
+      "せき"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "関係",
+        "reading": "かんけい",
+        "meaning_vi": "quan hệ"
+      },
+      {
+        "word": "関心",
+        "reading": "かんしん",
+        "meaning_vi": "quan tâm"
+      },
+      {
+        "word": "玄関",
+        "reading": "げんかん",
+        "meaning_vi": "cửa ra vào; sảnh nhà"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{政治|せいじ}に{関心|かんしん}があります。",
+        "vi": "Tôi quan tâm đến chính trị."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "k-kei2",
+    "level": "N3",
+    "char": "係",
+    "han_viet": "HỆ",
+    "meaning_vi": "liên hệ; phụ trách",
+    "onyomi": [
+      "ケイ"
+    ],
+    "kunyomi": [
+      "かか(る)",
+      "かかり"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "関係",
+        "reading": "かんけい",
+        "meaning_vi": "quan hệ"
+      },
+      {
+        "word": "係",
+        "reading": "かかり",
+        "meaning_vi": "người phụ trách"
+      },
+      {
+        "word": "係員",
+        "reading": "かかりいん",
+        "meaning_vi": "nhân viên phụ trách"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{係|かかり}の{人|ひと}に{聞|き}いてください。",
+        "vi": "Xin hãy hỏi người phụ trách."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "k-shuu",
+    "level": "N3",
+    "char": "習",
+    "han_viet": "TẬP",
+    "meaning_vi": "học; luyện tập",
+    "onyomi": [
+      "シュウ"
+    ],
+    "kunyomi": [
+      "なら(う)"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "習う",
+        "reading": "ならう",
+        "meaning_vi": "học (từ ai đó)"
+      },
+      {
+        "word": "習慣",
+        "reading": "しゅうかん",
+        "meaning_vi": "thói quen"
+      },
+      {
+        "word": "練習",
+        "reading": "れんしゅう",
+        "meaning_vi": "luyện tập"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "ピアノを{習|なら}っています。",
+        "vi": "Tôi đang học piano."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "k-kan2",
+    "level": "N3",
+    "char": "慣",
+    "han_viet": "QUÁN",
+    "meaning_vi": "quen",
+    "onyomi": [
+      "カン"
+    ],
+    "kunyomi": [
+      "な(れる)",
+      "な(らす)"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "慣れる",
+        "reading": "なれる",
+        "meaning_vi": "quen với"
+      },
+      {
+        "word": "習慣",
+        "reading": "しゅうかん",
+        "meaning_vi": "thói quen"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{新|あたら}しい{生活|せいかつ}に{慣|な}れました。",
+        "vi": "Tôi đã quen với cuộc sống mới."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "k-ii",
+    "level": "N2",
+    "char": "維",
+    "han_viet": "DUY",
+    "meaning_vi": "giữ; sợi dây",
+    "onyomi": [
+      "イ"
+    ],
+    "kunyomi": [],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "維持",
+        "reading": "いじ",
+        "meaning_vi": "duy trì"
+      },
+      {
+        "word": "繊維",
+        "reading": "せんい",
+        "meaning_vi": "sợi; chất xơ"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{健康|けんこう}を{維持|いじ}する。",
+        "vi": "Duy trì sức khỏe."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "k-mochi",
+    "level": "N2",
+    "char": "持",
+    "han_viet": "TRÌ",
+    "meaning_vi": "cầm; giữ",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "も(つ)"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "持つ",
+        "reading": "もつ",
+        "meaning_vi": "cầm; mang"
+      },
+      {
+        "word": "気持ち",
+        "reading": "きもち",
+        "meaning_vi": "cảm giác; tâm trạng"
+      },
+      {
+        "word": "維持",
+        "reading": "いじ",
+        "meaning_vi": "duy trì"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{傘|かさ}を{持|も}っていきます。",
+        "vi": "Tôi mang ô theo."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "k-tei",
+    "level": "N2",
+    "char": "提",
+    "han_viet": "ĐỀ",
+    "meaning_vi": "đưa ra; đề xuất",
+    "onyomi": [
+      "テイ"
+    ],
+    "kunyomi": [
+      "さ(げる)"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "提案",
+        "reading": "ていあん",
+        "meaning_vi": "đề xuất"
+      },
+      {
+        "word": "提出",
+        "reading": "ていしゅつ",
+        "meaning_vi": "nộp"
+      },
+      {
+        "word": "提供",
+        "reading": "ていきょう",
+        "meaning_vi": "cung cấp"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{宿題|しゅくだい}を{提出|ていしゅつ}します。",
+        "vi": "Tôi nộp bài tập."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "k-gai2",
+    "level": "N1",
+    "char": "概",
+    "han_viet": "KHÁI",
+    "meaning_vi": "đại khái; khái quát",
+    "onyomi": [
+      "ガイ"
+    ],
+    "kunyomi": [],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "概念",
+        "reading": "がいねん",
+        "meaning_vi": "khái niệm"
+      },
+      {
+        "word": "大概",
+        "reading": "たいがい",
+        "meaning_vi": "đại khái; hầu hết"
+      },
+      {
+        "word": "概要",
+        "reading": "がいよう",
+        "meaning_vi": "tóm tắt; đại cương"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{事業|じぎょう}の{概要|がいよう}を{説明|せつめい}する。",
+        "vi": "Giải thích tóm tắt về dự án."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "k-yoku",
+    "level": "N1",
+    "char": "抑",
+    "han_viet": "ỨC",
+    "meaning_vi": "đè nén; kiềm chế",
+    "onyomi": [
+      "ヨク"
+    ],
+    "kunyomi": [
+      "おさ(える)"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "抑制",
+        "reading": "よくせい",
+        "meaning_vi": "kiềm chế"
+      },
+      {
+        "word": "抑える",
+        "reading": "おさえる",
+        "meaning_vi": "kìm nén; giữ ở mức"
+      },
+      {
+        "word": "抑止",
+        "reading": "よくし",
+        "meaning_vi": "răn đe; ngăn chặn"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{怒|いか}りを{抑|おさ}える。",
+        "vi": "Kìm nén cơn giận."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "k-soku2",
+    "level": "N1",
+    "char": "促",
+    "han_viet": "XÚC",
+    "meaning_vi": "thúc giục",
+    "onyomi": [
+      "ソク"
+    ],
+    "kunyomi": [
+      "うなが(す)"
+    ],
+    "reading_note": "",
+    "compounds": [
+      {
+        "word": "促進",
+        "reading": "そくしん",
+        "meaning_vi": "thúc đẩy"
+      },
+      {
+        "word": "促す",
+        "reading": "うながす",
+        "meaning_vi": "thúc giục; khuyến khích"
+      },
+      {
+        "word": "催促",
+        "reading": "さいそく",
+        "meaning_vi": "nhắc nhở; thúc giục"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "{注意|ちゅうい}を{促|うなが}す。",
+        "vi": "Nhắc nhở chú ý."
+      }
+    ],
+    "image_id": null,
+    "radical": null,
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  }
+]

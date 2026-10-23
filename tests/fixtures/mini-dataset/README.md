@@ -1,0 +1,1 @@
+Dữ liệu GIẢ chỉ dùng cho kiểm thử tự động (e2e). Cấu trúc giống japanese-language-data nhưng nội dung do người soạn code tự viết, KHÔNG phải trích từ JMdict/KANJIDIC2/Tatoeba. Không dùng làm dữ liệu học.

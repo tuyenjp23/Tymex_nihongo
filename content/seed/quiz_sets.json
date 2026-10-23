@@ -1,0 +1,298 @@
+[
+  {
+    "id": "qset-n5-kanji-warmup",
+    "title": "N5 · Khởi động Kanji (10 câu)",
+    "description": "10 câu Kanji cơ bản đầu tiên, giữ đúng thứ tự từ dễ đến khó để làm quen.",
+    "level": "N5",
+    "kind": "practice",
+    "shuffle": false,
+    "order": 10,
+    "items": [
+      {
+        "question_id": "q-n5-001"
+      },
+      {
+        "question_id": "q-n5-002"
+      },
+      {
+        "question_id": "q-n5-003"
+      },
+      {
+        "question_id": "q-n5-004"
+      },
+      {
+        "question_id": "q-n5-005"
+      },
+      {
+        "question_id": "q-n5-006"
+      },
+      {
+        "question_id": "q-n5-007"
+      },
+      {
+        "question_id": "q-n5-008"
+      },
+      {
+        "question_id": "q-n5-009"
+      },
+      {
+        "question_id": "q-n5-010"
+      }
+    ],
+    "tags": [
+      "kanji",
+      "khởi động"
+    ],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "Bộ đề ghép từ các câu hỏi AI soạn trong dữ liệu mẫu. Chưa được người thật rà soát; không phải đề thi chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "qset-n5-grammar-check",
+    "title": "N5 · Kiểm tra ngữ pháp (11 câu)",
+    "description": "Toàn bộ câu ngữ pháp N5 trong dữ liệu mẫu, làm liền mạch rồi xem kết quả ở cuối bài.",
+    "level": "N5",
+    "kind": "test",
+    "shuffle": true,
+    "order": 20,
+    "items": [
+      {
+        "question_id": "q-n5-021"
+      },
+      {
+        "question_id": "q-n5-022"
+      },
+      {
+        "question_id": "q-n5-023"
+      },
+      {
+        "question_id": "q-n5-024"
+      },
+      {
+        "question_id": "q-n5-025"
+      },
+      {
+        "question_id": "q-n5-026"
+      },
+      {
+        "question_id": "q-n5-027"
+      },
+      {
+        "question_id": "q-n5-028"
+      },
+      {
+        "question_id": "q-n5-029"
+      },
+      {
+        "question_id": "q-n5-030"
+      },
+      {
+        "question_id": "q-n5-031"
+      }
+    ],
+    "tags": [
+      "ngữ pháp"
+    ],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "Bộ đề ghép từ các câu hỏi AI soạn trong dữ liệu mẫu. Chưa được người thật rà soát; không phải đề thi chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "qset-n5-mini-mock",
+    "title": "N5 · Thi thử mini (15 câu)",
+    "description": "Từ vựng, Kanji, ngữ pháp, đọc và nghe trộn trong một lượt có đồng hồ đếm ngược.",
+    "level": "N5",
+    "kind": "mock",
+    "shuffle": true,
+    "order": 30,
+    "items": [
+      {
+        "question_id": "q-n5-001"
+      },
+      {
+        "question_id": "q-n5-005"
+      },
+      {
+        "question_id": "q-n5-009"
+      },
+      {
+        "question_id": "q-n5-015"
+      },
+      {
+        "question_id": "q-n5-017"
+      },
+      {
+        "question_id": "q-n5-019"
+      },
+      {
+        "question_id": "q-n5-021"
+      },
+      {
+        "question_id": "q-n5-024"
+      },
+      {
+        "question_id": "q-n5-027"
+      },
+      {
+        "question_id": "q-n5-030"
+      },
+      {
+        "question_id": "q-n5-032"
+      },
+      {
+        "question_id": "q-n5-034"
+      },
+      {
+        "question_id": "q-n5-036"
+      },
+      {
+        "question_id": "q-n5-037"
+      },
+      {
+        "question_id": "q-n5-039"
+      }
+    ],
+    "tags": [
+      "thi thử"
+    ],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "Bộ đề ghép từ các câu hỏi AI soạn trong dữ liệu mẫu. Chưa được người thật rà soát; không phải đề thi chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "qset-n4-all",
+    "title": "N4 · Tổng hợp từ vựng và ngữ pháp",
+    "description": "Toàn bộ câu N4 trong dữ liệu mẫu: cách đọc từ và ngữ pháp, làm một lượt rồi xem kết quả.",
+    "level": "N4",
+    "kind": "test",
+    "shuffle": true,
+    "order": 10,
+    "items": [
+      {
+        "question_id": "q-n4-001"
+      },
+      {
+        "question_id": "q-n4-002"
+      },
+      {
+        "question_id": "q-n4-003"
+      },
+      {
+        "question_id": "q-n4-004"
+      },
+      {
+        "question_id": "q-n4-005"
+      },
+      {
+        "question_id": "q-n4-006"
+      },
+      {
+        "question_id": "q-n4-007"
+      },
+      {
+        "question_id": "q-n4-008"
+      },
+      {
+        "question_id": "q-n4-009"
+      },
+      {
+        "question_id": "q-n4-010"
+      },
+      {
+        "question_id": "q-n4-011"
+      },
+      {
+        "question_id": "q-n4-012"
+      },
+      {
+        "question_id": "q-n4-013"
+      },
+      {
+        "question_id": "q-n4-014"
+      }
+    ],
+    "tags": [
+      "tổng hợp"
+    ],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "Bộ đề ghép từ các câu hỏi AI soạn trong dữ liệu mẫu. Chưa được người thật rà soát; không phải đề thi chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "qset-n3-all",
+    "title": "N3 · Tổng hợp từ vựng và ngữ pháp",
+    "description": "Toàn bộ câu N3 trong dữ liệu mẫu, có phản hồi ngay sau mỗi câu.",
+    "level": "N3",
+    "kind": "practice",
+    "shuffle": true,
+    "order": 10,
+    "items": [
+      {
+        "question_id": "q-n3-001"
+      },
+      {
+        "question_id": "q-n3-002"
+      },
+      {
+        "question_id": "q-n3-003"
+      },
+      {
+        "question_id": "q-n3-004"
+      },
+      {
+        "question_id": "q-n3-005"
+      },
+      {
+        "question_id": "q-n3-006"
+      },
+      {
+        "question_id": "q-n3-007"
+      },
+      {
+        "question_id": "q-n3-008"
+      },
+      {
+        "question_id": "q-n3-009"
+      },
+      {
+        "question_id": "q-n3-010"
+      }
+    ],
+    "tags": [
+      "tổng hợp"
+    ],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "Bộ đề ghép từ các câu hỏi AI soạn trong dữ liệu mẫu. Chưa được người thật rà soát; không phải đề thi chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  }
+]

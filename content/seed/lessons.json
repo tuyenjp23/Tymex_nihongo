@@ -1,0 +1,794 @@
+[
+  {
+    "id": "l-n5-vocab-nature",
+    "level": "N5",
+    "module": "vocabulary",
+    "title": "Thiên nhiên quanh ta",
+    "summary": "9 từ cơ bản về thiên nhiên, có hình minh họa.",
+    "order": 10,
+    "est_minutes": 10,
+    "body": "Bài này gồm các từ chỉ cảnh vật quen thuộc: núi, sông, cây, hoa, bầu trời, mưa, trăng, lửa và nước.\n\nHãy xem hình minh họa, đọc to từ tiếng Nhật rồi đoán nghĩa trước khi lật thẻ. Chú ý **月** vừa là \"trăng\" vừa là \"tháng\", còn **火** (ひ) đồng âm với **日** (ひ) nên phải nhìn chữ Hán để phân biệt.\n\nSau khi học xong, hãy thử trò chơi Picture to Kanji trong Kanji Quest để củng cố.",
+    "item_refs": [
+      {
+        "type": "vocabulary",
+        "id": "v-yama"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-kawa"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-ki"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-hana"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-sora"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-ame"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-tsuki"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-hi"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-mizu"
+      }
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "l-n5-vocab-body",
+    "level": "N5",
+    "module": "vocabulary",
+    "title": "Các bộ phận cơ thể",
+    "summary": "Mắt, miệng, tay, tai, chân.",
+    "order": 20,
+    "est_minutes": 8,
+    "body": "Năm từ về cơ thể thường gặp khi đi khám bệnh hoặc mô tả triệu chứng.\n\nMẹo ghi nhớ: các chữ **目**, **口**, **手**, **耳**, **足** đều bắt nguồn từ hình dạng của bộ phận đó, nên rất hợp với phương pháp học bằng hình ảnh.",
+    "item_refs": [
+      {
+        "type": "vocabulary",
+        "id": "v-me"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-kuchi"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-te"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-mimi"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-ashi"
+      }
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "l-n5-vocab-food",
+    "level": "N5",
+    "module": "vocabulary",
+    "title": "Đồ ăn và thức uống",
+    "summary": "Táo, trà, bánh mì, trứng, cơm, sữa, thịt, cá.",
+    "order": 30,
+    "est_minutes": 10,
+    "body": "Các từ về đồ ăn thức uống dùng hằng ngày. Lưu ý **ご飯** vừa là \"cơm\" vừa chỉ \"bữa ăn\" (朝ご飯 = bữa sáng).\n\nHãy đặt câu với mẫu **〜を食べます／飲みます** để luyện trợ từ を.",
+    "item_refs": [
+      {
+        "type": "vocabulary",
+        "id": "v-ringo"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-ocha"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-pan"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-tamago"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-gohan"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-gyunyu"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-niku"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-sakana"
+      }
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "l-n5-vocab-things",
+    "level": "N5",
+    "module": "vocabulary",
+    "title": "Đồ vật và nơi chốn quanh ta",
+    "summary": "Sách, xe, tàu điện, nhà, trường, đồng hồ, ô, giày, cửa sổ, bàn, ghế, điện thoại, ga.",
+    "order": 40,
+    "est_minutes": 12,
+    "body": "Từ vựng về đồ vật trong nhà và nơi chốn. Nhiều từ này xuất hiện trong mẫu **〜があります／います** (có ... ở đâu).\n\nThử miêu tả căn phòng của bạn bằng 3 câu đơn giản.",
+    "item_refs": [
+      {
+        "type": "vocabulary",
+        "id": "v-hon"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-kuruma"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-densha"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-ie"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-gakkou"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-tokei"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-kasa"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-kutsu"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-mado"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-tsukue"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-isu"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-denwa"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-eki"
+      }
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "l-n5-kanji-days",
+    "level": "N5",
+    "module": "kanji",
+    "title": "Chữ Hán của các thứ trong tuần",
+    "summary": "日・月・火・水・木・金・土.",
+    "order": 50,
+    "est_minutes": 12,
+    "body": "Bảy chữ Hán này tạo nên tên các thứ trong tuần: 日曜日 (Chủ nhật), 月曜日 (thứ Hai), 火曜日, 水曜日, 木曜日, 金曜日, 土曜日.\n\nChú ý: mỗi chữ có cách đọc on'yomi dùng trong tên thứ (ニチ, ゲツ, カ, スイ, モク, キン, ド) và cách đọc kun'yomi khi đứng riêng (ひ, つき, ひ, みず, き, かね, つち).",
+    "item_refs": [
+      {
+        "type": "kanji",
+        "id": "k-nichi"
+      },
+      {
+        "type": "kanji",
+        "id": "k-getsu"
+      },
+      {
+        "type": "kanji",
+        "id": "k-ka"
+      },
+      {
+        "type": "kanji",
+        "id": "k-sui"
+      },
+      {
+        "type": "kanji",
+        "id": "k-moku"
+      },
+      {
+        "type": "kanji",
+        "id": "k-kin"
+      },
+      {
+        "type": "kanji",
+        "id": "k-do"
+      }
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "l-n5-kanji-nature",
+    "level": "N5",
+    "module": "kanji",
+    "title": "Chữ Hán cơ bản: núi, sông, ruộng, người, to, nhỏ, giữa",
+    "summary": "山・川・田・人・大・小・中.",
+    "order": 60,
+    "est_minutes": 12,
+    "body": "Những chữ Hán đơn giản có hình dáng gợi nhớ. Hãy tập viết theo thứ tự nét và đọc cả cách đọc on'yomi lẫn kun'yomi.\n\nKhi gặp từ ghép (ví dụ 大学, 小学校), hãy học theo TỪ thay vì chỉ học từng chữ — vì cách đọc có thể thay đổi.",
+    "item_refs": [
+      {
+        "type": "kanji",
+        "id": "k-san"
+      },
+      {
+        "type": "kanji",
+        "id": "k-sen"
+      },
+      {
+        "type": "kanji",
+        "id": "k-ta"
+      },
+      {
+        "type": "kanji",
+        "id": "k-jin"
+      },
+      {
+        "type": "kanji",
+        "id": "k-dai"
+      },
+      {
+        "type": "kanji",
+        "id": "k-shou"
+      },
+      {
+        "type": "kanji",
+        "id": "k-chuu"
+      }
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "l-n5-grammar-basic",
+    "level": "N5",
+    "module": "grammar",
+    "title": "Câu cơ bản: は・を・に・があります",
+    "summary": "Bốn mẫu câu nền tảng.",
+    "order": 70,
+    "est_minutes": 20,
+    "body": "Bốn mẫu câu này là xương sống của tiếng Nhật sơ cấp: giới thiệu bản thân với **〜は〜です**, nói tân ngữ với **を**, nói đích đến/thời điểm với **に**, và nói sự tồn tại với **があります／います**.\n\nHãy đọc từng điểm ngữ pháp, rồi làm bài luyện tập ngữ pháp ở trang JLPT N5.",
+    "item_refs": [
+      {
+        "type": "grammar",
+        "id": "g-wa-desu"
+      },
+      {
+        "type": "grammar",
+        "id": "g-o-particle"
+      },
+      {
+        "type": "grammar",
+        "id": "g-ni-particle"
+      },
+      {
+        "type": "grammar",
+        "id": "g-ga-arimasu"
+      }
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "l-n5-grammar-request",
+    "level": "N5",
+    "module": "grammar",
+    "title": "Mong muốn, rủ rê và nhờ vả",
+    "summary": "〜たいです・〜ませんか・〜てください.",
+    "order": 80,
+    "est_minutes": 20,
+    "body": "Ba mẫu câu rất hữu ích trong giao tiếp: nói điều mình muốn (**〜たいです**), mời ai làm gì (**〜ませんか**) và nhờ vả (**〜てください**).\n\nSau bài này hãy sang phần Giao tiếp để xem các mẫu này được dùng trong tình huống thật.",
+    "item_refs": [
+      {
+        "type": "grammar",
+        "id": "g-tai-desu"
+      },
+      {
+        "type": "grammar",
+        "id": "g-masen-ka"
+      },
+      {
+        "type": "grammar",
+        "id": "g-te-kudasai"
+      }
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "l-n5-conv-greeting",
+    "level": "N5",
+    "module": "conversation",
+    "title": "Chào hỏi ở công ty",
+    "summary": "Hội thoại đầu giờ làm với đồng nghiệp.",
+    "order": 90,
+    "est_minutes": 10,
+    "body": "Học cách chào buổi sáng lịch sự và xác nhận việc được giao. Sau khi đọc hội thoại, hãy thử phần \"Chọn câu đáp\" để xem phản hồi cho từng cách nói.",
+    "item_refs": [
+      {
+        "type": "conversation",
+        "id": "c-morning-greeting"
+      },
+      {
+        "type": "conversation",
+        "id": "c-restaurant-order"
+      },
+      {
+        "type": "conversation",
+        "id": "c-shopping-price"
+      }
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "l-n5-reading-1",
+    "level": "N5",
+    "module": "reading",
+    "title": "Đọc hiểu ngắn: buổi sáng và ghi chú",
+    "summary": "Hai đoạn đọc ngắn kèm câu hỏi.",
+    "order": 100,
+    "est_minutes": 10,
+    "body": "Đọc kỹ từng đoạn rồi trả lời câu hỏi. Mẹo: gạch chân giờ giấc và địa điểm trước khi nhìn các phương án.",
+    "item_refs": [
+      {
+        "type": "passage",
+        "id": "p-n5-morning"
+      },
+      {
+        "type": "passage",
+        "id": "p-n5-note"
+      }
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "l-n5-listening-1",
+    "level": "N5",
+    "module": "listening",
+    "title": "Nghe hiểu ngắn: mua hàng và lịch hẹn",
+    "summary": "Hai đoạn hội thoại ngắn.",
+    "order": 110,
+    "est_minutes": 10,
+    "body": "Bài nghe dùng giọng đọc tổng hợp của trình duyệt (chất lượng phụ thuộc thiết bị của bạn). Hãy nghe trước, chỉ xem transcript sau khi đã trả lời.",
+    "item_refs": [
+      {
+        "type": "passage",
+        "id": "p-n5-listen-shop"
+      },
+      {
+        "type": "passage",
+        "id": "p-n5-listen-plan"
+      }
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "l-n4-vocab-work",
+    "level": "N4",
+    "module": "vocabulary",
+    "title": "Từ vựng công việc cơ bản",
+    "summary": "Họp, chuẩn bị, giải thích, kế hoạch, liên lạc, thuận tiện.",
+    "order": 10,
+    "est_minutes": 12,
+    "body": "Những từ rất hay gặp trong văn phòng. Học theo từ ghép và theo câu ví dụ.",
+    "item_refs": [
+      {
+        "type": "vocabulary",
+        "id": "v-kaigi"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-junbi"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-setsumei"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-yotei"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-renraku"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-tsugou"
+      }
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "l-n4-grammar-1",
+    "level": "N4",
+    "module": "grammar",
+    "title": "Ngữ pháp N4 (gợi ý): ながら・たことがある・ので",
+    "summary": "Ba mẫu câu thường gặp.",
+    "order": 20,
+    "est_minutes": 15,
+    "body": "Ba mẫu câu mở rộng khả năng diễn đạt: hành động đồng thời, kinh nghiệm đã từng và nêu lý do lịch sự.",
+    "item_refs": [
+      {
+        "type": "grammar",
+        "id": "g-nagara"
+      },
+      {
+        "type": "grammar",
+        "id": "g-koto-ga-aru"
+      },
+      {
+        "type": "grammar",
+        "id": "g-node"
+      }
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "l-n4-conv-workplace",
+    "level": "N4",
+    "module": "conversation",
+    "title": "Giao tiếp công sở: báo cáo, nhờ vả, xin lỗi",
+    "summary": "Ba tình huống công sở thường gặp.",
+    "order": 30,
+    "est_minutes": 15,
+    "body": "Ba hội thoại ngắn về báo cáo với cấp trên, nhờ đồng nghiệp và xin lỗi khi đến muộn. Chú ý sự khác nhau về mức lịch sự giữa các vai.",
+    "item_refs": [
+      {
+        "type": "conversation",
+        "id": "c-report-to-boss"
+      },
+      {
+        "type": "conversation",
+        "id": "c-request-colleague"
+      },
+      {
+        "type": "conversation",
+        "id": "c-apology-late"
+      }
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "l-n3-vocab-abstract",
+    "level": "N3",
+    "module": "vocabulary",
+    "title": "Từ trừu tượng và từ công việc (N3 gợi ý)",
+    "summary": "経験, 責任, 約束, 相談, 確認, 報告, 参加.",
+    "order": 10,
+    "est_minutes": 12,
+    "body": "Các từ này trừu tượng nên không có hình minh họa đơn lẻ — hãy học qua tình huống và câu ví dụ.",
+    "item_refs": [
+      {
+        "type": "vocabulary",
+        "id": "v-keiken"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-sekinin"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-yakusoku"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-soudan"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-kakunin"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-houkoku"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-sanka"
+      }
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "l-n3-conv-phone-meeting",
+    "level": "N3",
+    "module": "conversation",
+    "title": "Điện thoại và họp tiến độ",
+    "summary": "Nghe điện thoại ナカシマ, báo cáo tiến độ.",
+    "order": 20,
+    "est_minutes": 20,
+    "body": "Hai tình huống công việc nâng cao: nghe điện thoại bằng kính ngữ và báo cáo tiến độ trong cuộc họp. Hãy luyện phần phản xạ bằng cách nói to.",
+    "item_refs": [
+      {
+        "type": "conversation",
+        "id": "c-phone-nakashima"
+      },
+      {
+        "type": "conversation",
+        "id": "c-meeting-progress"
+      },
+      {
+        "type": "conversation",
+        "id": "c-email-request"
+      },
+      {
+        "type": "conversation",
+        "id": "c-keigo-reception"
+      }
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "l-n2-work",
+    "level": "N2",
+    "module": "vocabulary",
+    "title": "Từ vựng & ngữ pháp N2 (gợi ý) cho công việc",
+    "summary": "検討・納期・対応・影響 và わけにはいかない.",
+    "order": 10,
+    "est_minutes": 12,
+    "body": "Các từ xuất hiện nhiều trong môi trường sản xuất. Lưu ý chữ **納** có nhiều cách đọc — học theo từ.",
+    "item_refs": [
+      {
+        "type": "vocabulary",
+        "id": "v-kentou"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-nouki"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-taiou"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-eikyou"
+      },
+      {
+        "type": "grammar",
+        "id": "g-wake-ni-wa-ikanai"
+      },
+      {
+        "type": "kanji",
+        "id": "k-nou"
+      }
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "l-n1-advanced",
+    "level": "N1",
+    "module": "grammar",
+    "title": "N1 (gợi ý): 〜ざるを得ない và từ vựng nâng cao",
+    "summary": "把握・懸念・見込み・滞る.",
+    "order": 10,
+    "est_minutes": 15,
+    "body": "Ngữ pháp và từ vựng văn viết, trang trọng. Cấp độ N1 trong app mới chỉ có nội dung mẫu mỏng — hãy bổ sung qua Admin.",
+    "item_refs": [
+      {
+        "type": "grammar",
+        "id": "g-zaru-wo-enai"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-haaku"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-kenen"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-mikomi"
+      },
+      {
+        "type": "vocabulary",
+        "id": "v-todokooru"
+      },
+      {
+        "type": "kanji",
+        "id": "k-ha"
+      },
+      {
+        "type": "kanji",
+        "id": "k-ken4"
+      }
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  }
+]

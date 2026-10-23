@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Đang ngoại tuyến</title>
+<style>
+  body{font-family:system-ui,"Noto Sans JP",sans-serif;margin:0;min-height:100vh;display:grid;place-items:center;background:#fbfaf7;color:#1f2430;padding:1.5rem;text-align:center}
+  @media (prefers-color-scheme: dark){body{background:#12151c;color:#e9ecf3}}
+  main{max-width:28rem}
+  h1{font-size:1.5rem;margin:0 0 .5rem}
+  p{line-height:1.6;margin:.5rem 0}
+  button{margin-top:1rem;padding:.7rem 1.2rem;border-radius:.6rem;border:0;background:#3b5bdb;color:#fff;font-size:1rem;cursor:pointer}
+</style>
+</head>
+<body>
+<main>
+  <h1>Bạn đang ngoại tuyến</h1>
+  <p>Nihongo Compass cần kết nối mạng để tải bài học. Tiến độ đã học vẫn được lưu trong trình duyệt của bạn.</p>
+  <p lang="ja">ネットワークに接続されていません。</p>
+  <button onclick="location.reload()">Thử lại</button>
+</main>
+</body>
+</html>

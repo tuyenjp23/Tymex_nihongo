@@ -1,0 +1,120 @@
+[
+  {
+    "id": "p-n5-morning",
+    "level": "N5",
+    "kind": "reading",
+    "title": "わたしの朝",
+    "body": "{私|わたし}は{毎朝|まいあさ}{七時|しちじ}に{起|お}きます。{朝|あさ}ご{飯|はん}を{食|た}べて、{八時|はちじ}に{家|いえ}を{出|で}ます。{電車|でんしゃ}で{会社|かいしゃ}へ{行|い}きます。",
+    "body_vi": "Mỗi sáng tôi dậy lúc 7 giờ. Ăn sáng xong, 8 giờ tôi ra khỏi nhà. Tôi đến công ty bằng tàu điện.",
+    "script": [],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "p-n5-note",
+    "level": "N5",
+    "kind": "reading",
+    "title": "メモ",
+    "body": "{田中|たなか}さんへ\n{今日|きょう}は{雨|あめ}です。{傘|かさ}を{持|も}って{来|き}てください。\n{明日|あした}は{休|やす}みです。\n{山田|やまだ}",
+    "body_vi": "Gửi anh/chị Tanaka,\nHôm nay trời mưa. Hãy mang ô đến nhé.\nNgày mai được nghỉ.\nYamada",
+    "script": [],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "p-n5-listen-shop",
+    "level": "N5",
+    "kind": "listening",
+    "title": "みせで",
+    "body": "",
+    "body_vi": "",
+    "script": [
+      {
+        "speaker": "店員",
+        "text": "いらっしゃいませ。",
+        "vi": "Xin chào quý khách."
+      },
+      {
+        "speaker": "客",
+        "text": "すみません、りんごはいくらですか。",
+        "vi": "Xin lỗi, táo giá bao nhiêu ạ?"
+      },
+      {
+        "speaker": "店員",
+        "text": "{一|ひと}つ{百円|ひゃくえん}です。",
+        "vi": "Một quả 100 yên ạ."
+      },
+      {
+        "speaker": "客",
+        "text": "じゃあ、{三|みっ}つください。",
+        "vi": "Vậy cho tôi 3 quả."
+      }
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "p-n5-listen-plan",
+    "level": "N5",
+    "kind": "listening",
+    "title": "にちようびの よてい",
+    "body": "",
+    "body_vi": "",
+    "script": [
+      {
+        "speaker": "山田",
+        "text": "{田中|たなか}さん、{日曜日|にちようび}は{何|なに}をしますか。",
+        "vi": "Anh Tanaka, Chủ nhật anh làm gì?"
+      },
+      {
+        "speaker": "田中",
+        "text": "{友達|ともだち}と{映画|えいが}を{見|み}に{行|い}きます。",
+        "vi": "Tôi đi xem phim với bạn."
+      },
+      {
+        "speaker": "山田",
+        "text": "いいですね。{何時|なんじ}からですか。",
+        "vi": "Hay quá. Từ mấy giờ vậy?"
+      },
+      {
+        "speaker": "田中",
+        "text": "{午後|ごご}{二時|にじ}からです。",
+        "vi": "Từ 2 giờ chiều."
+      }
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  }
+]

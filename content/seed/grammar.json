@@ -1,0 +1,1027 @@
+[
+  {
+    "id": "g-wa-desu",
+    "level": "N5",
+    "title": "〜は〜です",
+    "structure": "N1 は N2 です",
+    "meaning_vi": "N1 là N2. Dùng để giới thiệu, định nghĩa hoặc nói danh tính, nghề nghiệp, quốc tịch...",
+    "formation": "Danh từ 1 + は (đọc là \"wa\") + Danh từ 2 + です.\nPhủ định lịch sự: 〜は〜ではありません (hoặc 〜じゃありません trong văn nói).\nNghi vấn: thêm か ở cuối câu.",
+    "usage": "は đóng vai trò là trợ từ chủ đề: đánh dấu điều mà người nói muốn nói đến. です là thể lịch sự của だ. Trong câu hỏi, giọng lên ở cuối câu và か thay cho dấu hỏi.",
+    "examples": [
+      {
+        "ja": "{私|わたし}は{学生|がくせい}です。",
+        "vi": "Tôi là học sinh/sinh viên."
+      },
+      {
+        "ja": "{田中|たなか}さんは{先生|せんせい}です。",
+        "vi": "Anh/chị Tanaka là giáo viên."
+      },
+      {
+        "ja": "マイさんはベトナム{人|じん}ですか。",
+        "vi": "Bạn Mai là người Việt Nam phải không?"
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜が〜です",
+        "note_vi": "は nêu chủ đề đã biết/đang bàn; が thường nhấn vào thông tin mới hoặc chủ ngữ cụ thể (例: 誰が学生ですか → 私が学生です)."
+      }
+    ],
+    "common_mistakes": [
+      "Viết trợ từ は bằng hiragana \"は\" nhưng đọc là \"wa\", không đọc \"ha\".",
+      "Thêm \"です\" sau động từ thể thường (ví dụ: 食べるです) — sai; với động từ dùng 〜ます."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "g-o-particle",
+    "level": "N5",
+    "title": "〜を + 動詞",
+    "structure": "N を V（ます形）",
+    "meaning_vi": "Trợ từ を đánh dấu tân ngữ trực tiếp — đối tượng chịu tác động của hành động.",
+    "formation": "Danh từ + を + động từ.\nVí dụ: パンを食べます (ăn bánh mì), 水を飲みます (uống nước).",
+    "usage": "Dùng với ngoại động từ (ăn, uống, đọc, xem, mua...). Cũng dùng を để chỉ nơi di chuyển qua với một số động từ (道を歩く: đi bộ trên đường).",
+    "examples": [
+      {
+        "ja": "パンを{食|た}べます。",
+        "vi": "Tôi ăn bánh mì."
+      },
+      {
+        "ja": "{本|ほん}を{読|よ}みます。",
+        "vi": "Tôi đọc sách."
+      },
+      {
+        "ja": "{毎日|まいにち}{水|みず}を{飲|の}みます。",
+        "vi": "Ngày nào tôi cũng uống nước."
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜が〜",
+        "note_vi": "Với một số động từ/tính từ chỉ khả năng, sở thích, nhu cầu (好きです, わかります, 〜たいです) thường dùng が (hoặc を với 〜たい) thay vì を."
+      }
+    ],
+    "common_mistakes": [
+      "Nhầm を với お (phát âm giống nhau) khi viết: trợ từ luôn viết là \"を\".",
+      "Dùng が thay を với ngoại động từ thông thường: パンが食べます (sai nếu muốn nói ăn bánh mì)."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "g-ni-particle",
+    "level": "N5",
+    "title": "〜に（場所・時間）",
+    "structure": "N（場所）に 行きます/来ます/帰ります・N（時間）に V",
+    "meaning_vi": "に chỉ đích đến của chuyển động hoặc thời điểm cụ thể của hành động.",
+    "formation": "Địa điểm + に + 行きます / 来ます / 帰ります.\nThời điểm cụ thể (giờ, ngày, tháng) + に + động từ. (Từ như 今日, 明日, 毎日 thường không dùng に.)",
+    "usage": "に đi với đích đến và thời điểm cụ thể có số (七時に, 日曜日に). へ cũng có thể chỉ hướng di chuyển, tự nhiên thay thế に trong 行く/来る.",
+    "examples": [
+      {
+        "ja": "{学校|がっこう}に{行|い}きます。",
+        "vi": "Tôi đi đến trường."
+      },
+      {
+        "ja": "{七時|しちじ}に{起|お}きます。",
+        "vi": "Tôi dậy lúc 7 giờ."
+      },
+      {
+        "ja": "{日曜日|にちようび}に{友達|ともだち}に{会|あ}います。",
+        "vi": "Chủ nhật tôi gặp bạn."
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜で（場所）",
+        "note_vi": "に: đích đến/nơi tồn tại; で: nơi diễn ra hành động (図書館で勉強します)."
+      }
+    ],
+    "common_mistakes": [
+      "Dùng に với 今日・明日・毎日 (sai: 明日に行きます → 明日行きます).",
+      "Nhầm に và で khi chỉ nơi chốn."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "g-ga-arimasu",
+    "level": "N5",
+    "title": "〜があります／います",
+    "structure": "N（場所）に N が あります/います",
+    "meaning_vi": "Ở (nơi nào) có (cái gì/ai). あります cho vật, います cho người và động vật.",
+    "formation": "Địa điểm + に + vật + が + あります.\nĐịa điểm + に + người/động vật + が + います.\nPhủ định: ありません / いません.",
+    "usage": "Dùng để nói sự tồn tại. Khi nêu chủ đề là vị trí của vật/người cụ thể đã biết: 〜は〜にあります/います (本はかばんの中にあります).",
+    "examples": [
+      {
+        "ja": "{机|つくえ}の{上|うえ}に{本|ほん}があります。",
+        "vi": "Trên bàn có quyển sách."
+      },
+      {
+        "ja": "{庭|にわ}に{犬|いぬ}がいます。",
+        "vi": "Ở vườn có con chó."
+      },
+      {
+        "ja": "{駅|えき}の{前|まえ}に{銀行|ぎんこう}があります。",
+        "vi": "Trước ga có ngân hàng."
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜は〜にあります",
+        "note_vi": "Mẫu \"N は 場所に あります\" trả lời câu hỏi \"N ở đâu?\"; mẫu \"場所に N が あります\" giới thiệu thông tin mới \"ở đó có gì\"."
+      }
+    ],
+    "common_mistakes": [
+      "Dùng あります cho người/động vật (sai: 先生があります).",
+      "Dùng を thay が trong câu tồn tại."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "g-tai-desu",
+    "level": "N5",
+    "title": "〜たいです",
+    "structure": "V（ます形の語幹）＋ たいです",
+    "meaning_vi": "Muốn làm gì (diễn tả mong muốn của người nói; hoặc của người nghe trong câu hỏi).",
+    "formation": "Bỏ ます + たい + です. 食べます → 食べたいです; 行きます → 行きたいです.\nPhủ định: 〜たくないです / 〜たくありません. Quá khứ: 〜たかったです.\nTân ngữ có thể dùng を hoặc が: 水を飲みたい / 水が飲みたい.",
+    "usage": "Dùng cho mong muốn của chính người nói. Nói về mong muốn của người thứ ba thường dùng 〜たがっています hoặc 〜たいそうです. Với người trên, nên hỏi gián tiếp (〜はいかがですか) thay vì 〜たいですか.",
+    "examples": [
+      {
+        "ja": "{水|みず}が{飲|の}みたいです。",
+        "vi": "Tôi muốn uống nước."
+      },
+      {
+        "ja": "{日本|にほん}へ{行|い}きたいです。",
+        "vi": "Tôi muốn đi Nhật."
+      },
+      {
+        "ja": "{今日|きょう}は{何|なに}も{食|た}べたくないです。",
+        "vi": "Hôm nay tôi không muốn ăn gì cả."
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜がほしいです",
+        "note_vi": "ほしい dùng với DANH TỪ (車がほしい: muốn có xe); 〜たい dùng với ĐỘNG TỪ (車を買いたい: muốn mua xe)."
+      }
+    ],
+    "common_mistakes": [
+      "Dùng 〜たいです cho mong muốn của người thứ ba (sai: 田中さんは行きたいです).",
+      "Chia nhầm: 食べるたいです (sai — phải bỏ ます: 食べたいです)."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "g-masen-ka",
+    "level": "N5",
+    "title": "〜ませんか／〜ましょう",
+    "structure": "V（ます形）ませんか ・ V（ます形）ましょう",
+    "meaning_vi": "〜ませんか: mời/rủ làm gì cùng nhau. 〜ましょう: đề nghị \"nào, chúng ta hãy...\" hoặc đồng ý lời mời.",
+    "formation": "V ます → V ませんか (rủ). V ます → V ましょう (đề nghị/đáp lại).",
+    "usage": "Dạng phủ định ませんか nghe nhẹ nhàng, tôn trọng người nghe hơn 〜ますか khi rủ. Đáp lại: ええ、いいですね / はい、そうしましょう, hoặc từ chối nhẹ: すみません、ちょっと…",
+    "examples": [
+      {
+        "ja": "いっしょに{昼|ひる}ご{飯|はん}を{食|た}べませんか。",
+        "vi": "Bạn ăn trưa cùng tôi nhé?"
+      },
+      {
+        "ja": "ええ、{食|た}べましょう。",
+        "vi": "Vâng, cùng ăn nào."
+      },
+      {
+        "ja": "{明日|あした}{映画|えいが}を{見|み}に{行|い}きませんか。",
+        "vi": "Ngày mai đi xem phim không?"
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜ますか",
+        "note_vi": "〜ますか chỉ hỏi sự thật/ý định (食べますか: bạn có ăn không?); 〜ませんか mang sắc thái mời mọc."
+      }
+    ],
+    "common_mistakes": [
+      "Trả lời lời mời bằng 〜ません một cách thẳng thừng — nghe cứng; nên đáp mềm hơn.",
+      "Dùng ましょう cho người trên để ra lệnh."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "g-te-kudasai",
+    "level": "N5",
+    "title": "〜てください",
+    "structure": "V（て形）＋ ください",
+    "meaning_vi": "Xin hãy làm... (nhờ vả/yêu cầu lịch sự; cũng dùng để hướng dẫn, chỉ thị).",
+    "formation": "Chia động từ sang thể て rồi thêm ください.\nNhóm 1: 書く→書いて, 飲む→飲んで, 行く→行って (ngoại lệ); Nhóm 2: 食べる→食べて; する→して; 来る→来て.",
+    "usage": "Dùng khi nhờ người ngang hàng/dưới hoặc trong hướng dẫn công khai. Với người trên hoặc khi cần lịch sự hơn, dùng 〜ていただけませんか / 〜てくださいませんか. Phủ định: 〜ないでください.",
+    "examples": [
+      {
+        "ja": "ここに{名前|なまえ}を{書|か}いてください。",
+        "vi": "Xin hãy viết tên vào đây."
+      },
+      {
+        "ja": "ゆっくり{話|はな}してください。",
+        "vi": "Xin hãy nói chậm lại."
+      },
+      {
+        "ja": "ここで{写真|しゃしん}を{撮|と}らないでください。",
+        "vi": "Xin đừng chụp ảnh ở đây."
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜ていただけませんか",
+        "note_vi": "Lịch sự hơn, phù hợp khi nhờ cấp trên, khách hàng."
+      }
+    ],
+    "common_mistakes": [
+      "Chia sai て với các động từ ngoại lệ: 行く → 行って (không phải 行いて).",
+      "Dùng 〜てください để ra lệnh trực tiếp cho cấp trên."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "g-nagara",
+    "level": "N4",
+    "title": "〜ながら",
+    "structure": "V1（ます形の語幹）＋ ながら ＋ V2",
+    "meaning_vi": "Vừa V1 vừa V2 (hai hành động diễn ra đồng thời; V2 là hành động chính).",
+    "formation": "Bỏ ます của V1 + ながら + V2. 音楽を聞きながら勉強します.",
+    "usage": "Hai hành động cùng chủ ngữ. Hành động chính (thường là hoạt động kéo dài hoặc quan trọng hơn) đặt ở vế sau.",
+    "examples": [
+      {
+        "ja": "{音楽|おんがく}を{聞|き}きながら{勉強|べんきょう}します。",
+        "vi": "Tôi vừa nghe nhạc vừa học."
+      },
+      {
+        "ja": "{歩|ある}きながら{電話|でんわ}をしないでください。",
+        "vi": "Xin đừng vừa đi vừa nghe điện thoại."
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜て",
+        "note_vi": "〜て nối các hành động nối tiếp nhau; 〜ながら nhấn mạnh đồng thời."
+      }
+    ],
+    "common_mistakes": [
+      "Dùng khi hai vế có chủ ngữ khác nhau.",
+      "Nối hai hành động không thể diễn ra đồng thời một cách tự nhiên."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "g-koto-ga-aru",
+    "level": "N4",
+    "title": "〜たことがあります",
+    "structure": "V（た形）＋ ことがあります",
+    "meaning_vi": "Đã từng làm gì (nói về kinh nghiệm trong quá khứ).",
+    "formation": "Động từ thể た + ことがあります. 日本へ行ったことがあります.\nPhủ định: 〜たことがありません (chưa từng).",
+    "usage": "Nói về kinh nghiệm đã có, không nêu thời điểm cụ thể. Nếu nêu thời điểm cụ thể, dùng thì quá khứ thông thường (去年日本へ行きました).",
+    "examples": [
+      {
+        "ja": "{富士山|ふじさん}に{登|のぼ}ったことがあります。",
+        "vi": "Tôi đã từng leo núi Phú Sĩ."
+      },
+      {
+        "ja": "{寿司|すし}を{食|た}べたことがありません。",
+        "vi": "Tôi chưa từng ăn sushi."
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜ことがある（辞書形）",
+        "note_vi": "V辞書形 + ことがある nghĩa là \"thỉnh thoảng có khi\" (ví dụ: 遅れることがある). Khác với 〜たことがある (đã từng)."
+      }
+    ],
+    "common_mistakes": [
+      "Dùng cùng với thời điểm cụ thể (去年…たことがあります) — không tự nhiên.",
+      "Nhầm giữa 辞書形 và た形."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "g-node",
+    "level": "N4",
+    "title": "〜ので",
+    "structure": "普通形 ＋ ので（な形容詞・名詞は「な」）",
+    "meaning_vi": "Vì... nên... (nêu lý do một cách khách quan, lịch sự, mềm hơn から).",
+    "formation": "Động từ/い形容詞: thể thường + ので. な形容詞/danh từ: 〜な + ので (静かなので, 雨なので).",
+    "usage": "Hay dùng khi giải thích lý do, xin phép, xin lỗi vì nghe tự nhiên và lịch sự hơn から. Vế sau thường không dùng mệnh lệnh/rủ rê mạnh.",
+    "examples": [
+      {
+        "ja": "{雨|あめ}なので、{出|で}かけません。",
+        "vi": "Vì trời mưa nên tôi không ra ngoài."
+      },
+      {
+        "ja": "{用事|ようじ}があるので、{先|さき}に{帰|かえ}ります。",
+        "vi": "Vì có việc nên tôi về trước."
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜から",
+        "note_vi": "から nhấn mạnh lý do mang tính chủ quan của người nói, dùng được cả với mệnh lệnh/rủ rê (危ないから、行かないで!). ので khách quan, nhẹ nhàng hơn."
+      }
+    ],
+    "common_mistakes": [
+      "Quên な trước ので với danh từ/な形容詞 (雨ので → 雨なので).",
+      "Dùng ので ở vế sau có mệnh lệnh mạnh."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "g-you-ni",
+    "level": "N3",
+    "title": "〜ように（目的）",
+    "structure": "V（辞書形/ない形）＋ ように ＋ V",
+    "meaning_vi": "Để (cho) ... — chỉ mục đích/trạng thái mong muốn đạt được; thường dùng khi vế trước là động từ không chủ ý (thể khả năng, ない形, các động từ trạng thái).",
+    "formation": "V辞書形 / V可能形 / Vない形 + ように + hành động mục đích.\nVí dụ: 日本語が話せるように、毎日練習しています.",
+    "usage": "Vế trước diễn tả điều người nói muốn đạt được nhưng không hoàn toàn kiểm soát (khả năng, trạng thái). Khi hành động ở vế trước là chủ ý của người nói, thường dùng 〜ために.",
+    "examples": [
+      {
+        "ja": "{日本語|にほんご}が{話|はな}せるように、{毎日|まいにち}{練習|れんしゅう}しています。",
+        "vi": "Để nói được tiếng Nhật, tôi luyện tập mỗi ngày."
+      },
+      {
+        "ja": "{忘|わす}れないように、メモをとります。",
+        "vi": "Để không quên, tôi ghi chú lại."
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜ために",
+        "note_vi": "ために dùng với động từ chủ ý (留学するために貯金する). ように dùng với khả năng/không chủ ý (話せるように)."
+      }
+    ],
+    "common_mistakes": [
+      "Dùng ために với thể khả năng (話せるために...) — thường không tự nhiên.",
+      "Nhầm với ように trong 〜ようにする (cố gắng làm)."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "g-wake-ni-wa-ikanai",
+    "level": "N2",
+    "title": "〜わけにはいかない",
+    "structure": "V（辞書形）＋ わけにはいかない",
+    "meaning_vi": "Không thể (làm gì) vì lý do xã hội/đạo lý/hoàn cảnh — dù muốn cũng không được.",
+    "formation": "V辞書形 + わけにはいかない. 休む → 休むわけにはいかない.\nPhủ định kép: 〜ないわけにはいかない (không thể không làm = buộc phải làm).",
+    "usage": "Diễn tả sự ràng buộc từ hoàn cảnh, trách nhiệm, chứ không phải \"không đủ khả năng\". Khác với 〜ことはできない (không thể về mặt khả năng).",
+    "examples": [
+      {
+        "ja": "{明日|あした}は{大切|たいせつ}な{会議|かいぎ}があるので、{休|やす}むわけにはいかない。",
+        "vi": "Ngày mai có cuộc họp quan trọng nên tôi không thể nghỉ."
+      },
+      {
+        "ja": "{約束|やくそく}したので、{行|い}かないわけにはいかない。",
+        "vi": "Vì đã hứa nên không thể không đi."
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜ことはできない",
+        "note_vi": "Chỉ khả năng thực tế. わけにはいかない: lý do đạo lý/xã hội khiến không thể."
+      }
+    ],
+    "common_mistakes": [
+      "Dùng cho việc đơn thuần không đủ khả năng (日本語が話せるわけにはいかない — sai).",
+      "Chia thể khả năng trước わけにはいかない."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "g-zaru-wo-enai",
+    "level": "N1",
+    "title": "〜ざるを得ない",
+    "structure": "V（ない形）＋ ざるを得ない",
+    "meaning_vi": "Đành phải / buộc phải (làm gì) — không còn lựa chọn khác.",
+    "formation": "Ngăn ない của động từ + ざるを得ない. 行く→行かざるを得ない; 食べる→食べざるを得ない; する→せざるを得ない (ngoại lệ).",
+    "usage": "Văn viết/trang trọng. Diễn tả sự bất đắc dĩ phải làm điều mình không muốn vì hoàn cảnh.",
+    "examples": [
+      {
+        "ja": "{雨|あめ}が{降|ふ}ってきたので、{試合|しあい}を{中止|ちゅうし}せざるを{得|え}なかった。",
+        "vi": "Vì trời bắt đầu mưa nên đành phải hủy trận đấu."
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜しかない",
+        "note_vi": "しかない (chỉ còn cách) phổ thông, dùng nhiều trong hội thoại; ざるを得ない mang tính văn viết, trang trọng hơn."
+      }
+    ],
+    "common_mistakes": [
+      "Chia する thành しざるを得ない (đúng là せざるを得ない).",
+      "Dùng cho hành động tự nguyện."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-22 cho dữ liệu mẫu; chưa có giáo viên/người bản ngữ rà soát.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-22T00:00:00.000Z",
+    "updated_at": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "g-temo-ii",
+    "level": "N4",
+    "title": "〜てもいいです",
+    "structure": "V（て形）＋ もいいです／もいいですか",
+    "meaning_vi": "Được phép làm V; hỏi xin phép “làm V có được không?”.",
+    "formation": "V(て) + もいいです。Hỏi xin phép: 〜てもいいですか。Trả lời: はい、いいですよ／すみません、ちょっと…（từ chối nhẹ nhàng）.",
+    "usage": "Dùng khi cho phép hoặc xin phép. Khi từ chối, người Nhật thường tránh nói thẳng 「いいえ、だめです」.",
+    "examples": [
+      {
+        "ja": "ここで{写真|しゃしん}を{撮|と}ってもいいですか。",
+        "vi": "Tôi chụp ảnh ở đây có được không?"
+      },
+      {
+        "ja": "もう{帰|かえ}ってもいいですよ。",
+        "vi": "Bạn về được rồi đấy."
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜てはいけません",
+        "note_vi": "〜てもいい là cho phép; 〜てはいけません là cấm."
+      }
+    ],
+    "common_mistakes": [
+      "Dùng て形 sai (ví dụ 食べるもいいです thay vì 食べてもいいです)."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "g-tewa-ikenai",
+    "level": "N4",
+    "title": "〜てはいけません",
+    "structure": "V（て形）＋ はいけません",
+    "meaning_vi": "Không được làm V (cấm đoán, quy định).",
+    "formation": "V(て) + はいけません。Văn nói thân mật: 〜ちゃだめ／〜てはだめ.",
+    "usage": "Dùng khi nêu quy tắc, cấm đoán hoặc nhắc nhở nghiêm túc; có thể nghe cứng khi nói với người trên.",
+    "examples": [
+      {
+        "ja": "{図書館|としょかん}で{大|おお}きい{声|こえ}で{話|はな}してはいけません。",
+        "vi": "Không được nói to trong thư viện."
+      },
+      {
+        "ja": "ここに{車|くるま}を{止|と}めてはいけません。",
+        "vi": "Không được đỗ xe ở đây."
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜ないでください",
+        "note_vi": "〜ないでください là lời nhờ/yêu cầu lịch sự; 〜てはいけません là quy định, cấm đoán."
+      }
+    ],
+    "common_mistakes": [
+      "Nhầm với 〜なくてはいけません (phải làm) — nghĩa ngược lại."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "g-nakereba-naranai",
+    "level": "N4",
+    "title": "〜なければなりません",
+    "structure": "V（ない形の ない→なければ）＋ なりません",
+    "meaning_vi": "Phải làm V (nghĩa vụ, sự cần thiết).",
+    "formation": "V(ない) bỏ い + ければ + なりません。Văn nói: 〜なきゃ／〜なくちゃ。Tương đương: 〜なければいけません.",
+    "usage": "Diễn đạt nghĩa vụ hoặc việc cần thiết theo quy định, hoàn cảnh.",
+    "examples": [
+      {
+        "ja": "{明日|あした}は{早|はや}く{起|お}きなければなりません。",
+        "vi": "Ngày mai tôi phải dậy sớm."
+      },
+      {
+        "ja": "{毎日|まいにち}{薬|くすり}を{飲|の}まなければなりません。",
+        "vi": "Mỗi ngày tôi phải uống thuốc."
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜なくてもいいです",
+        "note_vi": "〜なければならない: phải làm; 〜なくてもいい: không cần làm."
+      }
+    ],
+    "common_mistakes": [
+      "Nhầm sang 〜なくてもいい (không cần) vì cùng chứa 〜なく."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "g-ta-hou-ga-ii",
+    "level": "N4",
+    "title": "〜たほうがいい",
+    "structure": "V（た形）＋ ほうがいい／V（ない形）＋ ほうがいい",
+    "meaning_vi": "Nên làm V (lời khuyên); 〜ないほうがいい: nên không làm V.",
+    "formation": "V(た) + ほうがいいです。Phủ định: V(ない) + ほうがいいです (không dùng ないたほうが).",
+    "usage": "Đưa lời khuyên dựa trên tình huống. Với người trên, nói trực tiếp có thể hơi mạnh.",
+    "examples": [
+      {
+        "ja": "{風邪|かぜ}をひいたので、{早|はや}く{寝|ね}たほうがいいです。",
+        "vi": "Vì bị cảm nên bạn nên đi ngủ sớm."
+      },
+      {
+        "ja": "{夜遅|よるおそ}くコーヒーは{飲|の}まないほうがいいですよ。",
+        "vi": "Khuya thì không nên uống cà phê đấy."
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜たらどうですか",
+        "note_vi": "〜たらどうですか là gợi ý mềm hơn; 〜たほうがいい là khuyên rõ ràng hơn."
+      }
+    ],
+    "common_mistakes": [
+      "Dùng ないたほうがいい (sai). Phủ định đúng là V(ない) + ほうがいい."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "g-you-ni-naru",
+    "level": "N3",
+    "title": "〜ようになる",
+    "structure": "V（thể từ điển／thể khả năng／ない形）＋ ようになる",
+    "meaning_vi": "Trở nên (có thể) V; thay đổi trạng thái hoặc thói quen theo thời gian.",
+    "formation": "V(原形) + ようになる／V(可能形) + ようになる／V(ない) + ようになる (trở nên không còn…).",
+    "usage": "Nhấn mạnh sự thay đổi dần dần so với trước. Khác với 〜ことになる (được quyết định).",
+    "examples": [
+      {
+        "ja": "{毎日|まいにち}{練習|れんしゅう}したので、{日本語|にほんご}が{話|はな}せるようになりました。",
+        "vi": "Vì luyện tập mỗi ngày nên tôi đã nói được tiếng Nhật."
+      },
+      {
+        "ja": "{最近|さいきん}、{彼|かれ}は{早|はや}く{起|お}きるようになった。",
+        "vi": "Dạo này anh ấy đã dậy sớm hơn."
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜ことになる",
+        "note_vi": "〜ようになる: tự nhiên thay đổi; 〜ことになる: sự việc được quyết định (thường bởi bên ngoài)."
+      }
+    ],
+    "common_mistakes": [
+      "Dùng với danh từ trực tiếp (không nối với động từ)."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "g-tame-ni",
+    "level": "N3",
+    "title": "〜ために",
+    "structure": "V（thể từ điển）／Nの ＋ ために",
+    "meaning_vi": "Để (mục đích); vì (nguyên nhân, lợi ích).",
+    "formation": "V(原形) + ために／N + の + ために。Mục đích: chủ ngữ hai vế giống nhau.",
+    "usage": "Mục đích: động từ ở vế trước là hành động có chủ ý. So với 〜ように (mục đích với trạng thái/khả năng).",
+    "examples": [
+      {
+        "ja": "{健康|けんこう}のために、{毎朝|まいあさ}{走|はし}っています。",
+        "vi": "Vì sức khỏe, mỗi sáng tôi chạy bộ."
+      },
+      {
+        "ja": "{家|いえ}を{買|か}うために、{貯金|ちょきん}しています。",
+        "vi": "Tôi đang tiết kiệm để mua nhà."
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜ように",
+        "note_vi": "〜ために: mục đích do ý chí; 〜ように: mục đích dạng trạng thái/khả năng (ví dụ 話せるように)."
+      }
+    ],
+    "common_mistakes": [
+      "Dùng động từ khả năng hoặc ない sau ために khi muốn nói mục đích (nên dùng ように)."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "g-bakari",
+    "level": "N3",
+    "title": "〜ばかり",
+    "structure": "N／V（て形）＋ ばかり",
+    "meaning_vi": "Chỉ toàn là…; cứ toàn…(thường mang sắc thái chê bai hoặc thiên lệch).",
+    "formation": "N + ばかり／V(て) + ばかりいる。Khác: 〜たばかり (vừa mới làm xong).",
+    "usage": "Nhấn mạnh sự thiên lệch: làm/được toàn một thứ. Sắc thái thường tiêu cực.",
+    "examples": [
+      {
+        "ja": "{彼|かれ}は{漫画|まんが}ばかり{読|よ}んでいる。",
+        "vi": "Anh ấy chỉ toàn đọc truyện tranh."
+      },
+      {
+        "ja": "{子|こ}どもはゲームをしてばかりいる。",
+        "vi": "Đứa trẻ cứ chơi game suốt."
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜だけ",
+        "note_vi": "〜だけ: chỉ (trung tính); 〜ばかり: toàn là, hay mang ý chê."
+      }
+    ],
+    "common_mistakes": [
+      "Nhầm 〜たばかり (vừa mới) với 〜てばかり (cứ toàn)."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "g-ni-taishite",
+    "level": "N2",
+    "title": "〜に対して",
+    "structure": "N ＋ に対して",
+    "meaning_vi": "Đối với…; ngược lại với…(chỉ đối tượng của hành động/thái độ, hoặc sự đối lập).",
+    "formation": "N + に対して／N + に対し／N + に対しての + N.",
+    "usage": "Chỉ đối tượng mà hành động hướng tới (khách hàng, ý kiến…) hoặc dùng để đối chiếu hai điều trái ngược.",
+    "examples": [
+      {
+        "ja": "{親|おや}の{意見|いけん}に{対|たい}して、{子|こ}どもが{反対|はんたい}した。",
+        "vi": "Đứa trẻ đã phản đối ý kiến của cha mẹ."
+      },
+      {
+        "ja": "{兄|あに}は{社交的|しゃこうてき}なのに{対|たい}して、{弟|おとうと}は{内気|うちき}だ。",
+        "vi": "Anh trai thì hòa đồng, ngược lại em trai thì nhút nhát."
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜について",
+        "note_vi": "〜について: về (chủ đề); 〜に対して: đối với (đối tượng/thái độ) hoặc đối lập."
+      }
+    ],
+    "common_mistakes": [
+      "Dùng に対して khi chỉ muốn nói “về chủ đề…” (nên dùng について)."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "g-ni-chigainai",
+    "level": "N2",
+    "title": "〜に違いない",
+    "structure": "V（普通形）／い形／な形（語幹）／N ＋ に違いない",
+    "meaning_vi": "Chắc chắn là…; không thể nghi ngờ (phán đoán chắc chắn dựa trên căn cứ).",
+    "formation": "Động từ/tính từ い: thể thường + に違いない. Tính từ な và danh từ: bỏ だ → 静か／学生 + に違いない.",
+    "usage": "Mức chắc chắn cao hơn 〜かもしれない, thường dùng khi người nói có căn cứ.",
+    "examples": [
+      {
+        "ja": "{電気|でんき}がついているから、{彼|かれ}は{家|いえ}にいるに{違|ちが}いない。",
+        "vi": "Vì đèn đang sáng nên chắc chắn anh ấy ở nhà."
+      },
+      {
+        "ja": "あの{店|みせ}は{高|たか}いに{違|ちが}いない。",
+        "vi": "Quán đó chắc chắn là đắt."
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜かもしれない",
+        "note_vi": "〜かもしれない: có thể (khả năng thấp); 〜に違いない: chắc chắn."
+      }
+    ],
+    "common_mistakes": [
+      "Thêm だ trước に違いない với な形容詞/danh từ (静かだに違いない)."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "g-wake-ga-nai",
+    "level": "N2",
+    "title": "〜わけがない",
+    "structure": "V（普通形）／い形／な形（な）／Nの ＋ わけがない",
+    "meaning_vi": "Không thể nào…; làm gì có chuyện…",
+    "formation": "Thể thường + わけがない／わけはない. な形: 〜なわけがない. Danh từ: Nのわけがない.",
+    "usage": "Phủ định mạnh khả năng một việc xảy ra, thường dựa trên lý lẽ hoặc hiểu biết của người nói.",
+    "examples": [
+      {
+        "ja": "{全然|ぜんぜん}{泳|およ}げない{彼|かれ}が{金|きん}メダルを{取|と}れるわけがない。",
+        "vi": "Người hoàn toàn không biết bơi như anh ấy thì không thể nào giành huy chương vàng."
+      },
+      {
+        "ja": "そんな{簡単|かんたん}に{直|なお}るわけがない。",
+        "vi": "Làm gì có chuyện khỏi dễ dàng như vậy."
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜はずがない",
+        "note_vi": "〜わけがない và 〜はずがない gần nghĩa; 〜わけがない thường mạnh và cảm xúc hơn."
+      }
+    ],
+    "common_mistakes": [
+      "Nhầm với 〜わけではない (không hẳn là…, phủ định một phần)."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "g-kaneru",
+    "level": "N1",
+    "title": "〜かねない",
+    "structure": "V（ます形の語幹）＋ かねない",
+    "meaning_vi": "Có thể sẽ…(điều không tốt); không loại trừ khả năng xấu.",
+    "formation": "V(ます語幹) + かねない. Đối lập: 〜かねる (khó có thể/không thể làm).",
+    "usage": "Chỉ dùng với khả năng tiêu cực, không mong muốn.",
+    "examples": [
+      {
+        "ja": "そんな{運転|うんてん}をしていると、{事故|じこ}を{起|お}こしかねない。",
+        "vi": "Lái xe kiểu đó thì có thể gây tai nạn."
+      },
+      {
+        "ja": "あの{人|ひと}なら{嘘|うそ}をつきかねない。",
+        "vi": "Nếu là người đó thì có thể nói dối đấy."
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜かねる",
+        "note_vi": "〜かねない: có thể xảy ra (xấu); 〜かねる: khó/không thể làm (từ chối lịch sự)."
+      }
+    ],
+    "common_mistakes": [
+      "Dùng cho khả năng tích cực (ví dụ 成功しかねない — không tự nhiên)."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "g-zu-ni-wa-irarenai",
+    "level": "N1",
+    "title": "〜ずにはいられない",
+    "structure": "V（ない形・ない除く）＋ ずにはいられない",
+    "meaning_vi": "Không thể không…; không kiềm được mà phải…",
+    "formation": "V(ない) bỏ ない + ずにはいられない. する → せずにはいられない. Tương đương: 〜ないではいられない.",
+    "usage": "Diễn tả hành động bột phát do cảm xúc/bản năng mà người nói không kiềm chế được.",
+    "examples": [
+      {
+        "ja": "その{話|はなし}を{聞|き}いて、{笑|わら}わずにはいられなかった。",
+        "vi": "Nghe câu chuyện đó, tôi không thể nhịn cười."
+      },
+      {
+        "ja": "{困|こま}っている{人|ひと}を{見|み}ると、{助|たす}けずにはいられない。",
+        "vi": "Thấy người gặp khó khăn là tôi không thể không giúp."
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜わけにはいかない",
+        "note_vi": "〜ずにはいられない: không kiềm được (cảm xúc); 〜わけにはいかない: không thể vì hoàn cảnh/đạo lý."
+      }
+    ],
+    "common_mistakes": [
+      "Quên dạng đặc biệt: する → せずには (không phải しずには)."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "g-wo-motte",
+    "level": "N1",
+    "title": "〜をもって",
+    "structure": "N ＋ をもって",
+    "meaning_vi": "Bằng…; kể từ/đến (mốc thời gian) …(văn phong trang trọng).",
+    "formation": "N + をもって. Chỉ phương tiện/cách thức hoặc mốc thời gian (本日をもって、〜).",
+    "usage": "Văn viết, thông báo chính thức; mốc thời gian + をもって + sự việc chấm dứt/bắt đầu.",
+    "examples": [
+      {
+        "ja": "{本日|ほんじつ}をもって、{当店|とうてん}は{営業|えいぎょう}を{終了|しゅうりょう}いたします。",
+        "vi": "Kể từ hôm nay, cửa hàng chúng tôi sẽ ngừng kinh doanh."
+      },
+      {
+        "ja": "{拍手|はくしゅ}をもって{迎|むか}えた。",
+        "vi": "Đón tiếp bằng tràng pháo tay."
+      }
+    ],
+    "comparisons": [
+      {
+        "target": "〜で",
+        "note_vi": "〜で là cách nói thường ngày; 〜をもって trang trọng hơn."
+      }
+    ],
+    "common_mistakes": [
+      "Dùng trong hội thoại thân mật (nghe quá cứng)."
+    ],
+    "tags": [],
+    "origin": "ai_generated",
+    "status": "ai_generated",
+    "hidden": false,
+    "source_id": "src-ai-seed",
+    "source_note": "AI (Claude) soạn ngày 2026-10-23 để mở rộng dữ liệu mẫu cấp N4–N1; chưa có giáo viên/người bản ngữ rà soát. Không phải đề/giáo trình chính thức.",
+    "reviewed_by": null,
+    "last_verified": null,
+    "created_at": "2026-10-23T00:00:00.000Z",
+    "updated_at": "2026-10-23T00:00:00.000Z"
+  }
+]

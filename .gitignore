@@ -1,0 +1,21 @@
+node_modules
+.next
+out
+coverage
+test-results
+playwright-report
+tsconfig.tsbuildinfo
+next-env.d.ts
+
+# Môi trường & bí mật — KHÔNG commit
+.env
+.env.local
+.env.*.local
+
+# Dữ liệu chạy thật ở chế độ local (Admin ghi vào đây)
+/data/*
+!/data/.gitkeep
+
+# Bộ dữ liệu nguồn lớn (tải riêng, xem docs/CAP-NHAT-DU-LIEU.md) và sản phẩm của lệnh import
+/japanese-language-data-main/
+/data/import/

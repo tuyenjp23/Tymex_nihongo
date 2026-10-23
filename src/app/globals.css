@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+/*
+ * Token màu/bo góc/font được SINH TỪ theme (src/config/theme.ts + cài đặt admin) và chèn vào <style> ở layout.
+ * Ở đây chỉ ánh xạ biến đó sang tiện ích Tailwind. Không hard-code màu trong component.
+ */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+  --color-ring: var(--ring);
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) * 0.75);
+  --radius-sm: calc(var(--radius) * 0.5);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --font-sans: var(--font-body);
+  --font-jp: var(--font-jp);
+}
+
+:root {
+  /* Giá trị dự phòng nếu <style> theme chưa được chèn (ví dụ trang lỗi cực sớm). */
+  --background: #fbfaf7;
+  --foreground: #1f2430;
+  --primary: #3b5bdb;
+  --primary-foreground: #ffffff;
+  --accent: #c2410c;
+  --accent-foreground: #ffffff;
+  --card: #ffffff;
+  --muted: #f1efe9;
+  --muted-foreground: #5f6470;
+  --border: #dedbd3;
+  --ring: #3b5bdb;
+  --success: #15803d;
+  --warning: #b45309;
+  --danger: #b91c1c;
+  --radius: 12px;
+  --card-padding: 1.25rem;
+  --gap: 1rem;
+  --page-padding: 1.5rem;
+  --card-bg: #ffffff;
+  --card-border: transparent;
+  --card-border-width: 1px;
+  --card-shadow: 0 1px 2px rgb(20 30 60 / 0.06);
+  --font-body: system-ui, sans-serif;
+  --font-jp: "Noto Sans JP", sans-serif;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-padding-top: 4.5rem;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Chữ Nhật dùng bộ font riêng */
+.jp {
+  font-family: var(--font-jp);
+  line-height: 1.9;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+.jp-lg { font-size: 1.5rem; }
+.jp-xl { font-size: 2.25rem; line-height: 1.5; }
+.jp-kanji { font-family: var(--font-jp); font-size: 5rem; line-height: 1.1; }
+
+/* Furigana / romaji bật-tắt bằng thuộc tính trên <html> (đặt bởi script chống nháy + nút trên thanh trên cùng) */
+html[data-furigana="off"] rt { display: none; }
+rt { font-size: 0.5em; font-weight: 400; letter-spacing: 0.02em; }
+.nc-romaji { display: none; color: var(--muted-foreground); font-size: 0.8em; font-family: var(--font-body); line-height: 1.4; }
+html[data-romaji="on"] .nc-romaji { display: block; }
+html[data-romaji="on"] .nc-romaji-inline { display: inline; }
+
+/* Thẻ nội dung — kiểu thẻ do theme quyết định (nổi / viền / phẳng / dịu) */
+.nc-card {
+  background: var(--card-bg);
+  border: var(--card-border-width) solid var(--card-border);
+  box-shadow: var(--card-shadow);
+  border-radius: var(--radius);
+  padding: var(--card-padding);
+}
+
+:focus-visible {
+  outline: 3px solid var(--ring);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+dialog.nc-dialog {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--card);
+  color: var(--foreground);
+  padding: 0;
+  width: min(36rem, calc(100vw - 2rem));
+  max-height: calc(100dvh - 2rem);
+  margin: auto;
+  box-shadow: 0 20px 60px rgb(0 0 0 / 0.35);
+}
+dialog.nc-dialog::backdrop { background: rgb(10 14 25 / 0.55); }
+dialog.nc-drawer { margin: 0; width: min(20rem, 88vw); max-height: 100dvh; height: 100dvh; border-radius: 0; border-width: 0 1px 0 0; }
+
+@keyframes nc-pop { 0% { transform: scale(0.96); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
+@keyframes nc-shake { 0%,100% { transform: translateX(0); } 25% { transform: translateX(-5px); } 75% { transform: translateX(5px); } }
+.nc-pop { animation: nc-pop 0.18s ease-out; }
+.nc-shake { animation: nc-shake 0.28s ease-in-out; }
+@keyframes nc-shimmer { 0% { background-position: -200% 0; } 100% { background-position: 200% 0; } }
+.nc-skeleton { background: linear-gradient(90deg, var(--muted) 25%, color-mix(in oklab, var(--muted), var(--foreground) 6%) 50%, var(--muted) 75%); background-size: 200% 100%; animation: nc-shimmer 1.4s linear infinite; border-radius: var(--radius-sm); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; scroll-behavior: auto !important; }
+}
+
+/* Văn bản bài học */
+.nc-prose p { margin: 0 0 0.9em; }
+.nc-prose p:last-child { margin-bottom: 0; }
+.nc-prose strong { font-weight: 700; }
+
+/* Chạm tối thiểu 44px cho nút điều khiển trên màn hình cảm ứng */
+@media (pointer: coarse) {
+  .nc-touch { min-height: 44px; min-width: 44px; }
+}
+
+@media print {
+  .nc-no-print { display: none !important; }
+  body { background: #fff; color: #000; }
+}

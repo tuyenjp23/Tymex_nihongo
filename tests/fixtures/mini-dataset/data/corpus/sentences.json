@@ -1,0 +1,21 @@
+{
+ "metadata": {
+  "source": "fixture-test",
+  "license": "CC-BY 2.0 FR (sentence text)",
+  "source_version": "3.6.2",
+  "upstream_dict_date": "2026-04-06",
+  "count": 2
+ },
+ "sentences": [
+  {
+   "id": "tatoeba-1",
+   "japanese": "図書館に行きます。",
+   "english": "I go to the library."
+  },
+  {
+   "id": "tatoeba-2",
+   "japanese": "図書館はとても大きいです。",
+   "english": "The library is very big."
+  }
+ ]
+}
