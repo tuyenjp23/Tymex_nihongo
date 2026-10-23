@@ -26,9 +26,11 @@ export const defaultTheme: ThemeSettings = {
 /** Bộ font hệ thống (không tải font ngoài → nhanh, hiển thị Kanji/Kana đúng trên Windows/macOS/Android/iOS). */
 export const FONT_STACKS = {
   body: {
-    sans: '"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic UI","Yu Gothic","Meiryo","Noto Sans JP","Noto Sans",system-ui,-apple-system,"Segoe UI",sans-serif',
-    serif: '"Hiragino Mincho ProN","Yu Mincho","Noto Serif JP","Noto Serif",Georgia,serif',
-    rounded: '"Hiragino Maru Gothic ProN","Yu Gothic UI","Meiryo","Noto Sans JP",system-ui,sans-serif',
+    // Font có đủ dấu tiếng Việt đứng ĐẦU (Segoe UI, Roboto, Noto Sans, Helvetica/Arial), font Nhật đứng sau để trình duyệt chỉ dùng chúng cho Kanji/Kana.
+    // Nếu để font Nhật (Yu Gothic UI, Meiryo, Hiragino) đứng đầu, Windows/macOS hiển thị sai các chữ có 2 dấu như "ồ", "ế" (dấu tách rời khỏi chữ).
+    sans: '"Segoe UI",Roboto,"Noto Sans","Helvetica Neue",Arial,system-ui,-apple-system,"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic UI","Yu Gothic","Meiryo","Noto Sans JP",sans-serif',
+    serif: '"Noto Serif",Georgia,"Times New Roman","Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif',
+    rounded: '"Segoe UI",Roboto,"Noto Sans","Helvetica Neue",Arial,system-ui,"Hiragino Maru Gothic ProN","Yu Gothic UI","Meiryo","Noto Sans JP",sans-serif',
   },
   jp: {
     gothic: '"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo","Noto Sans JP",sans-serif',

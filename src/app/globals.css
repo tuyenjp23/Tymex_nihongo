@@ -53,7 +53,7 @@
   --card-border: transparent;
   --card-border-width: 1px;
   --card-shadow: 0 1px 2px rgb(20 30 60 / 0.06);
-  --font-body: system-ui, sans-serif;
+  --font-body: "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, system-ui, sans-serif;
   --font-jp: "Noto Sans JP", sans-serif;
 }
 
