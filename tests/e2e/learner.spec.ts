@@ -25,11 +25,17 @@ test("điều hướng chính: các trang module mở được và có tiêu đ�
 test("tìm kiếm từ vựng: gõ romaji và tiếng Việt không dấu", async ({ page }) => {
   await page.goto("/vocabulary");
   const box = page.getByRole("searchbox", { name: "Tìm kiếm", exact: true });
+  // Tìm kiếm chạy trên server (form GET): Enter → tải lại trang với ?q=…
   await box.fill("yama");
+  await box.press("Enter");
+  await expect(page).toHaveURL(/q=yama/);
   await expect(page.getByRole("link", { name: /núi/ }).first()).toBeVisible();
-  await box.fill("nui");
+  await page.getByRole("searchbox", { name: "Tìm kiếm", exact: true }).fill("nui");
+  await page.getByRole("searchbox", { name: "Tìm kiếm", exact: true }).press("Enter");
+  await expect(page).toHaveURL(/q=nui/);
   await expect(page.getByRole("link", { name: /núi/ }).first()).toBeVisible();
-  await box.fill("zzzzqq");
+  await page.getByRole("searchbox", { name: "Tìm kiếm", exact: true }).fill("zzzzqq");
+  await page.getByRole("searchbox", { name: "Tìm kiếm", exact: true }).press("Enter");
   await expect(page.getByText("Không tìm thấy mục nào")).toBeVisible();
 });
 

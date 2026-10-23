@@ -68,3 +68,11 @@ Cần sửa đồng bộ: `types.ts` (COLLECTION_KEYS) → `schemas.ts` → `adm
 - Dùng lại `validateRecord` (Zod + nguồn gốc + tham chiếu) của Admin; chỉ ghi qua `FileStore`.
 - Trang Admin `/admin/data-sources`, `/admin/data-quality`; trang người học `/sources#ghi-cong`.
 - Kiểm thử: `tests/unit/import.test.ts` (dữ liệu giả nhỏ) và `tests/e2e/import.spec.ts` (e2e nạp `tests/fixtures/mini-dataset` qua đúng lệnh `import:apply`; dữ liệu giả, không phải dữ liệu học).
+
+## Lớp dữ liệu nhập sẵn và danh sách lớn
+- `src/lib/store/base-layer.ts` đọc `content/imported/<collection>.json` (cache theo mtime, chỉ đọc); `layered-store.ts` (`LayeredStore`) bọc FileStore/SupabaseStore trong `getStore()`: list = kho + bản nhập sẵn kho chưa có (kho thắng theo ID); sửa mục nhập sẵn → tạo bản ghi cùng ID trong kho (kiểm tra xung đột theo `updated_at` của bản nhập sẵn); xóa mục chỉ có ở lớp nhập sẵn bị từ chối (dùng Ẩn); `listOwn` = chỉ phần trong kho (dùng cho sao lưu).
+- `src/lib/import/export-base.ts` + lệnh `import:export-base` tạo lớp này từ thư mục dữ liệu đã nhập (kiểm tra schema, ID trùng, manifest).
+- Danh sách lớn (Từ vựng, Kanji): `src/lib/listing.ts` (đọc tham số URL an toàn, lọc, phân trang, link) + `components/content/server-explorer.tsx` (form GET, lọc trên server) + `explorer-list.tsx` (client, chỉ vẽ 1 trang và dấu "đã xem"). Chuỗi tìm kiếm tính một lần cho mỗi bản ghi (`src/lib/memo-index.ts`, WeakMap). Các danh sách nhỏ (Ngữ pháp, Bài học, Hội thoại) vẫn dùng `Explorer` lọc ở trình duyệt.
+- "Đã xem x/y" theo cấp: server chỉ gửi tổng; trình duyệt tải bảng mã→cấp từ `/api/item-levels` (`src/lib/item-levels.ts`, `use-item-levels.ts`).
+- `next.config.ts` khai báo `outputFileTracingIncludes` để Vercel đóng gói `content/imported` cùng các hàm server (đã kiểm tra trong `.nft.json` sau build).
+- Kiểm thử: `tests/unit/layered-store.test.ts`, `listing.test.ts`, `export-base.test.ts`; `tests/e2e/base-layer.spec.ts` (server e2e dùng bản trích `tests/fixtures/imported`).

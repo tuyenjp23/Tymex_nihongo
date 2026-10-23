@@ -24,7 +24,7 @@ export default async function GrammarPage({ searchParams }: { searchParams: Prom
   }));
   return (
     <>
-      <PageHeader title="Ngữ pháp" description="Cấu trúc, cách chia, cách dùng, ví dụ, so sánh với mẫu dễ nhầm và lỗi thường gặp." />
+      <PageHeader title="Ngữ pháp" titleJa="文法" description="Cấu trúc, cách chia, cách dùng, ví dụ, so sánh với mẫu dễ nhầm và lỗi thường gặp." />
       <LevelNote />
       <Explorer initialLevel={initialLevel} rows={rows} searchPlaceholder="Tìm mẫu câu, nghĩa, ví dụ…" />
     </>

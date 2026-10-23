@@ -8,7 +8,7 @@ const badgeVariants = cva("inline-flex items-center gap-1 rounded-full border px
     tone: {
       neutral: "border-border bg-muted text-foreground",
       primary: "border-transparent bg-[color-mix(in_oklab,var(--primary)_14%,var(--background))] text-primary",
-      accent: "border-transparent bg-[color-mix(in_oklab,var(--accent)_14%,var(--background))] text-accent",
+      accent: "border-transparent bg-[color-mix(in_oklab,var(--accent)_14%,var(--background))] text-accent-text",
       success: "border-transparent bg-[color-mix(in_oklab,var(--success)_14%,var(--background))] text-success",
       warning: "border-transparent bg-[color-mix(in_oklab,var(--warning)_16%,var(--background))] text-warning",
       danger: "border-transparent bg-[color-mix(in_oklab,var(--danger)_14%,var(--background))] text-danger",

@@ -111,8 +111,33 @@ Dữ liệu nhập vào **cùng collection** `vocabulary` / `kanji` / `sentences
 
 ## 9. Giới hạn đã biết
 
-- Công cụ ghi vào **kho local**. Với Supabase: nhập trên máy local rồi dùng "Sao lưu toàn bộ" → khôi phục ở Admin (hoặc sinh SQL seed); **chưa thử trên Supabase thật**.
-- Chỉ có dữ liệu tiếng Anh; tiếng Việt chỉ từ bản dịch máy có gắn nhãn hoặc do người nhập.
-- Nhập đầy đủ N5–N1 sẽ tạo hàng chục nghìn bản ghi: trang "Từ vựng/Kanji" gửi toàn bộ danh sách xuống trình duyệt, cần phân trang trước khi nhập hết (chưa làm).
+- Công cụ nhập ghi vào **kho local** (thư mục `data/`). Để đưa lên website dùng **lớp dữ liệu nhập sẵn** (mục 10) — không còn phải khôi phục hàng chục MB qua Admin.
+- Chỉ có dữ liệu tiếng Anh; tiếng Việt chỉ từ bản dịch máy có gắn nhãn hoặc do người nhập. Mục chưa có tiếng Việt vẫn xem/tìm được (hiện nghĩa tiếng Anh, nhãn "EN:") nhưng **không** đưa vào trò chơi/flashcard/ôn tập (đáp án phải là tiếng Việt).
+- Lớp nhập sẵn là **ảnh chụp tại thời điểm xuất**: nếu bộ dữ liệu nguồn cập nhật, phải nhập lại và xuất lại (mục 10). Chưa thử trên Supabase thật với bản đầy đủ ngoài các kiểm tra đã nêu trong README.
 - Bộ lọc nội dung nhạy cảm là heuristic.
 - Phiên bản bộ dữ liệu đã kiểm tra: 0.9.0 (JMdict/KANJIDIC2 3.6.2, từ điển ngày 2026-04-06).
+
+## 10. Đưa dữ liệu đã nhập lên website: "lớp dữ liệu nhập sẵn" (`content/imported`)
+
+Website chạy trên Vercel (ổ đĩa chỉ đọc) + Supabase. Nhập ~18.000 bản ghi thẳng vào database sẽ làm mỗi lượt xem trang phải đọc lại hàng chục nghìn dòng. Vì vậy dữ liệu nhập được **xuất thành file JSON tĩnh** và đóng gói cùng mã nguồn:
+
+- `content/imported/vocabulary.json`, `kanji.json`, `sentences.json` (chỉ đọc) và `manifest.json` (số lượng theo cấp/trạng thái, phiên bản bộ dữ liệu, mã các lần nhập, cảnh báo).
+- Khi chạy, kho gộp hai lớp: **bản ghi trong kho (database) thắng theo ID**, rồi tới bản nhập sẵn. Danh sách = kho + các bản nhập sẵn mà kho chưa có.
+- Admin **sửa** một mục nhập sẵn (thêm nghĩa tiếng Việt, đổi trạng thái…) → tạo một bản ghi cùng ID trong database (bản "đã sửa"), file nhập sẵn không đổi. Admin **không xóa** được mục chỉ có ở lớp nhập sẵn — dùng "Ẩn (người học không thấy)". Xóa bản đã sửa thì quay về bản nhập sẵn.
+- Sao lưu "toàn bộ" ở Admin chỉ chứa phần trong database (phần bạn thêm/sửa); lớp nhập sẵn đã nằm trong GitHub.
+- Trang Từ vựng/Kanji tìm, lọc và phân trang (48 mục/trang) **trên server**: trình duyệt chỉ nhận một trang. Trang chủ/JLPT tính "đã xem" qua `/api/item-levels` (cache ngắn).
+
+### Quy trình cập nhật
+
+1. Nhập trên máy như mục 2 (`import:plan` → `import:apply --yes` cho từng nhóm `jlpt-n5` … `jlpt-n1`; muốn để trống tiếng Việt thì thêm `--no-translations`, nếu không file `content/import/translations-vi.jsonl` (bản dịch máy thử nghiệm) sẽ tự được nạp).
+2. `npm run import:quality` để xem báo cáo chất lượng.
+3. `npm run import:export-base` (chạy thử, in số lượng) rồi `npm run import:export-base -- --yes` (ghi `content/imported/*`). Lệnh từ chối nếu có ID trùng với dữ liệu mẫu hoặc bản ghi sai schema; cảnh báo nếu có bản ghi đã được người xác minh (xuất ra sẽ "đóng băng" bản đó).
+4. `npm run validate:content` (kiểm tra cả `content/imported`), `npm test`, `npm run build`.
+5. Commit + push `content/imported/*` (khoảng 23 MB, dưới giới hạn 100 MB/file của GitHub) → Vercel tự build lại.
+
+Biến môi trường `NC_IMPORTED_DIR` trỏ sang thư mục khác (dùng cho test); thiếu thư mục thì chỉ còn dữ liệu của kho.
+
+### Việc cần làm khi hiển thị cho người học
+
+- Giữ trang ghi công `/sources#ghi-cong` (JMdict/KANJIDIC2 — CC BY-SA 4.0 + giấy phép EDRDG; Tatoeba — CC BY 2.0 FR/CC0). Danh sách N5–N1 là của cộng đồng (Waller), **không phải danh sách chính thức của JLPT**.
+- Mọi bản ghi nhập sẵn có trạng thái *Đã nhập – chưa kiểm tra*; không tự thành *Đã xác minh*.

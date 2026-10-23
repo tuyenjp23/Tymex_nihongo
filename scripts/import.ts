@@ -8,9 +8,10 @@
  *   rollback --run ID [--yes]   Hoàn tác một lần nhập (chạy thử nếu thiếu --yes)
  *   backup           Sao lưu thư mục dữ liệu (file JSON) ngay bây giờ
  *   translate-export Xuất danh sách mục chưa có tiếng Việt để dịch (điền "vi" rồi nạp lại bằng --translations)
+ *   export-base      Xuất các mục đã nhập thành "dữ liệu nhập sẵn" content/imported/*.json (đưa lên website; xem docs/CAP-NHAT-DU-LIEU.md)
  *   quality          Kiểm tra chất lượng dữ liệu đang có (thiếu cách đọc/nghĩa/nguồn/giấy phép, dịch máy chưa duyệt, câu trùng…)
  *
- * Tùy chọn chung: --group jlpt-n5  --kinds vocabulary,kanji,sentences  --limit 50  --dataset <thư mục>  --translations <file.jsonl>
+ * Tùy chọn chung: --group jlpt-n5  --kinds vocabulary,kanji,sentences  --limit 50  --dataset <thư mục>  --translations <file.jsonl>  --no-translations
  * Biến môi trường: NC_DATA_DIR (thư mục dữ liệu của Admin), NC_SEED_DIR, NC_IMPORT_DATASET.
  */
 import fs from "node:fs";
@@ -21,6 +22,7 @@ import { GROUPS, KINDS, inspectDataset, resolveGroup, sourceGate, type Kind } fr
 import { SKIP_REASON_LABELS } from "../src/lib/import/normalize";
 import { runQualityChecks, renderQualityText } from "../src/lib/import/quality";
 import type { Source } from "../src/lib/schemas";
+import { BASE_COLLECTIONS, ExportError, buildBaseExport, type BaseCollection } from "../src/lib/import/export-base";
 
 interface Args {
   cmd: string;
@@ -68,7 +70,8 @@ function common(a: Args) {
   const limit = limitRaw ? Number(limitRaw) : null;
   if (limitRaw && (!Number.isInteger(limit) || limit! < 1)) fail("--limit phải là số nguyên dương", 2);
   const defaultTr = path.join(root, "content", "import", "translations-vi.jsonl");
-  const translationsFile = str(a, "translations") ?? (fs.existsSync(defaultTr) ? defaultTr : undefined);
+  // --no-translations: không nạp bản dịch máy nào (kể cả file mặc định) → phần tiếng Việt để trống
+  const translationsFile = a.flags.has("no-translations") ? undefined : (str(a, "translations") ?? (fs.existsSync(defaultTr) ? defaultTr : undefined));
   const maxSentencesPerWord = str(a, "max-sentences") ? Number(str(a, "max-sentences")) : 3;
   return { datasetDir, group, groupId, kinds, limit, translationsFile, maxSentencesPerWord };
 }
@@ -194,6 +197,50 @@ async function main() {
       fs.mkdirSync(path.dirname(out), { recursive: true });
       fs.writeFileSync(out, lines.join("\n") + (lines.length ? "\n" : ""));
       console.log(`Đã xuất ${lines.length} mục chưa có trong kho (cần dịch) → ${out}\nĐiền trường "vi" rồi nạp bằng --translations. Mọi bản dịch sẽ được gắn nhãn "dịch máy – chưa kiểm tra".`);
+      return;
+    }
+
+    case "export-base": {
+      // Đọc từ thư mục dữ liệu (NC_DATA_DIR hoặc --from), ghi vào content/imported (hoặc --out). Không sửa dữ liệu nguồn.
+      const fromDir = path.resolve(str(a, "from") ?? dataDir);
+      const outDir = path.resolve(str(a, "out") ?? path.join(root, "content", "imported"));
+      const readJson = (f: string): Record<string, unknown>[] => (fs.existsSync(f) ? (JSON.parse(fs.readFileSync(f, "utf8")) as Record<string, unknown>[]) : []);
+      const records = {} as Record<BaseCollection, never[]>;
+      const seedIds = {} as Record<BaseCollection, Set<string>>;
+      for (const c of BASE_COLLECTIONS) {
+        records[c] = readJson(path.join(fromDir, `${c}.json`)) as never[];
+        seedIds[c] = new Set(readJson(path.join(seedDir, `${c}.json`)).map((r) => String(r.id)));
+      }
+      let result;
+      try {
+        result = buildBaseExport(records, seedIds);
+      } catch (e) {
+        if (e instanceof ExportError) fail(e.message);
+        throw e;
+      }
+      const total = BASE_COLLECTIONS.reduce((s, c) => s + result.manifest.counts[c], 0);
+      if (total === 0) fail(`Không có bản ghi nào mang dấu vết nhập trong ${fromDir}. Hãy chạy import:apply trước (xem docs/CAP-NHAT-DU-LIEU.md).`);
+      if (!a.flags.has("yes")) {
+        console.log(`Chạy thử (thêm --yes để ghi). Sẽ ghi vào ${outDir}:`);
+        for (const c of BASE_COLLECTIONS) console.log(`  ${c}: ${result.manifest.counts[c]} bản ghi`);
+        for (const w of result.manifest.warnings) console.log(`  ⚠ ${w}`);
+        return;
+      }
+      fs.mkdirSync(outDir, { recursive: true });
+      const write = (name: string, body: string) => {
+        const f = path.join(outDir, name);
+        const tmp = `${f}.tmp`;
+        fs.writeFileSync(tmp, body, "utf8");
+        fs.renameSync(tmp, f);
+      };
+      for (const c of BASE_COLLECTIONS) {
+        write(`${c}.json`, JSON.stringify(result.data[c]) + "\n");
+        const kb = Math.round(fs.statSync(path.join(outDir, `${c}.json`)).size / 1024);
+        console.log(`✓ ${c}.json — ${result.manifest.counts[c]} bản ghi (${kb} KB)`);
+      }
+      write("manifest.json", JSON.stringify(result.manifest, null, 2) + "\n");
+      for (const w of result.manifest.warnings) console.log(`⚠ ${w}`);
+      console.log(`✓ manifest.json — dữ liệu nguồn: ${result.manifest.dataset_versions.join(", ") || "?"}`);
       return;
     }
 

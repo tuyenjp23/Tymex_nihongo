@@ -58,6 +58,7 @@ Dừng ứng dụng: bấm `Ctrl + C` trong terminal.
 | `npm run validate:content` | Kiểm tra toàn bộ nội dung (cấu trúc, nguồn gốc, liên kết, file ảnh). Thêm `-- data` để kiểm tra thư mục `data/` của Admin |
 | `npm run seed:sql` | Tạo lại `supabase/seed.sql` từ `content/seed` |
 | `npm run build:seed` | Dựng lại `content/seed/*.json` từ mã nguồn nội dung trong `content/src` (nội dung N5 gốc + `extra.mjs` cho N4–N1 + `quiz-sets.mjs` cho bộ đề). **Đừng sửa tay `content/seed/*.json`** — lần dựng sau sẽ ghi đè; sửa trong `content/src` rồi chạy lệnh này và `npm run seed:sql` |
+| `npm run import:export-base` | Xuất dữ liệu đã nhập thành `content/imported/*` để đưa lên website (docs/CAP-NHAT-DU-LIEU.md mục 10) |
 | `npm run import:inspect` / `import:plan` / `import:apply` / `import:quality` … | Quy trình nhập dữ liệu có kiểm soát (xem `docs/CAP-NHAT-DU-LIEU.md`) |
 | `npm run gen:images` | Tạo lại ảnh minh họa SVG trong `public/images` |
 

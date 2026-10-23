@@ -29,7 +29,7 @@ export default async function LessonsPage({ searchParams }: { searchParams: Prom
   const groups = [...new Set(items.map((l) => l.module))].map((m) => ({ value: m, label: MODULE_LABELS[m] ?? m }));
   return (
     <>
-      <PageHeader title="Bài học" description="Các bài ngắn có thứ tự, gắn với từ vựng/Kanji/ngữ pháp/hội thoại tương ứng." />
+      <PageHeader title="Bài học" titleJa="レッスン" description="Các bài ngắn có thứ tự, gắn với từ vựng/Kanji/ngữ pháp/hội thoại tương ứng." />
       <Explorer initialLevel={initialLevel} rows={rows} groupLabel="Mô-đun" groups={groups} searchPlaceholder="Tìm bài học…" />
     </>
   );

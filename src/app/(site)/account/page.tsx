@@ -26,7 +26,7 @@ export default async function AccountPage() {
   const { data } = await supabase.auth.getUser();
   return (
     <>
-      <PageHeader title="Tài khoản & đồng bộ" description="Đăng nhập để giữ tiến độ học giữa nhiều thiết bị. Không đăng nhập vẫn học bình thường." />
+      <PageHeader title="Tài khoản & đồng bộ" titleJa="アカウント" description="Đăng nhập để giữ tiến độ học giữa nhiều thiết bị. Không đăng nhập vẫn học bình thường." />
       {data.user ? (
         <div className="space-y-4">
           <Card className="flex flex-wrap items-center justify-between gap-3">

@@ -9,6 +9,8 @@ import { ButtonLink } from "@/components/ui/button";
 import { Alert } from "@/components/ui/states";
 import { OfficialExam } from "@/components/content/official-exam";
 import { BackLink } from "@/components/content/bits";
+import { SceneBanner } from "@/components/art/scene-banner";
+import type { SceneId } from "@/config/japan-photos";
 
 export async function generateMetadata({ params }: { params: Promise<{ level: string }> }) {
   const { level } = await params;
@@ -40,8 +42,12 @@ export default async function LevelPage({ params }: { params: Promise<{ level: s
   return (
     <>
       <BackLink href="/jlpt">Luyện thi JLPT</BackLink>
+      <SceneBanner scene={`level-${level}` as SceneId} className="mb-5 aspect-[16/5] sm:aspect-[16/4]" sizes="(max-width: 1280px) 100vw, 1100px" priority>
+        <p className="nc-display-ja text-5xl font-bold leading-none">{level}</p>
+      </SceneBanner>
       <PageHeader
         title={`JLPT ${level}`}
+        titleJa="日本語能力試験"
         description={JLPT_OFFICIAL[level].summaryVi.reading}
         actions={
           <>

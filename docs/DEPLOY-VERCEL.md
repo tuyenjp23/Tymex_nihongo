@@ -85,7 +85,7 @@ Nếu một mục lỗi, ghi lại thông báo lỗi (Vercel → **Logs**, Supab
 ## 7. Lưu ý cho bản công khai
 
 - **Nội dung đều do AI soạn, chưa có người xác minh** (trạng thái hiển thị cho người học). Nên nói rõ với người dùng thử đây là bản thử nghiệm.
-- **Dữ liệu nhập từ JMdict/KANJIDIC2/Tatoeba chưa nằm trong bản công khai** (bạn chọn chưa đưa lên). Khi muốn đưa lên: nhập trên máy (`docs/CAP-NHAT-DU-LIEU.md`), rà soát, rồi dùng "Sao lưu toàn bộ" → "Khôi phục" ở `/admin/import-export` trên site Supabase. Khi đó phải giữ trang ghi công `/sources#ghi-cong` và tuân thủ CC BY-SA/EDRDG.
+- **Dữ liệu nhập từ JMdict/KANJIDIC2/Tatoeba** nằm trong thư mục `content/imported` (đóng gói cùng mã nguồn, chỉ đọc) khi bạn commit + push thư mục này. Cách tạo/cập nhật: `docs/CAP-NHAT-DU-LIEU.md` mục 10. Phải giữ trang ghi công `/sources#ghi-cong` và tuân thủ CC BY-SA/EDRDG/Tatoeba. Mỗi hàm server của Vercel mang thêm ~23 MB dữ liệu và dùng khoảng 350 MB RAM khi đã nạp (đã đo cục bộ) — nằm trong hạn mức hiện hành của gói miễn phí nhưng hãy xem trang giới hạn của Vercel vì có thể thay đổi.
 - Gói miễn phí của Supabase/Vercel có giới hạn riêng (dung lượng, băng thông, **dự án không hoạt động có thể bị tạm dừng**) và có thể thay đổi — xem trang giá/điều khoản hiện hành của từng bên.
 - Ứng dụng không có tính năng AI trả phí nào đang chạy nên không phát sinh chi phí API AI.
 - Trang `/admin/login` công khai trên mạng; an toàn dựa vào Supabase Auth + vai trò + kiểm tra quyền phía máy chủ. Dùng mật khẩu admin dài, riêng biệt, và cân nhắc bật xác thực hai bước cho tài khoản Supabase/GitHub/Vercel của bạn.

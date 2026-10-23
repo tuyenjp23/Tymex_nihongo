@@ -1,16 +1,19 @@
 import { ensureModule, getVisible } from "@/lib/content";
 import { PageHeader } from "@/components/ui/card";
-import { Explorer, type ExplorerRow } from "@/components/content/explorer";
+import { ServerExplorer } from "@/components/content/server-explorer";
+import type { ExplorerRow } from "@/components/content/explorer-list";
 import { LevelNote } from "@/components/content/bits";
-import { buildSearchIndex, withRomaji } from "@/lib/search";
 import { itemKey } from "@/lib/progress/model";
-import { meaningText, searchEnglish } from "@/lib/vocab-meaning";
+import { meaningText } from "@/lib/vocab-meaning";
+import { kanjiIndex } from "@/lib/memo-index";
+import { parseListQuery } from "@/lib/listing";
 
 export const metadata = { title: "Kanji" };
 
-export default async function KanjiPage({ searchParams }: { searchParams: Promise<{ level?: string }> }) {
-  const { level } = await searchParams;
-  const initialLevel = ["N5", "N4", "N3", "N2", "N1"].includes(level ?? "") ? (level as string) : "";
+type SP = { q?: string | string[]; level?: string | string[]; page?: string | string[] };
+
+export default async function KanjiPage({ searchParams }: { searchParams: Promise<SP> }) {
+  const query = parseListQuery(await searchParams);
   await ensureModule("kanji");
   const items = await getVisible("kanji");
   const rows: ExplorerRow[] = items.map((k) => ({
@@ -24,17 +27,13 @@ export default async function KanjiPage({ searchParams }: { searchParams: Promis
     meta: [k.onyomi[0], k.kunyomi[0]].filter(Boolean).join(" · "),
     status: k.status,
     seenKey: itemKey("kanji", k.id),
-    index: buildSearchIndex([
-      k.char, k.han_viet, k.meaning_vi, searchEnglish(k), ...k.onyomi, ...k.kunyomi,
-      ...k.onyomi.map(withRomaji), ...k.kunyomi.map(withRomaji),
-      ...k.compounds.flatMap((c) => [c.word, c.reading, c.meaning_vi]),
-    ]),
+    index: kanjiIndex(k),
   }));
   return (
     <>
-      <PageHeader title="Kanji" description="Âm Hán Việt, nghĩa, cách đọc On/Kun, từ ghép và ví dụ. Gõ Kanji, kana, romaji hoặc âm Hán Việt để tìm." />
+      <PageHeader title="Kanji" titleJa="漢字" description="Âm Hán Việt, nghĩa, cách đọc On/Kun, từ ghép và ví dụ. Gõ Kanji, kana, romaji hoặc âm Hán Việt để tìm." />
       <LevelNote />
-      <Explorer initialLevel={initialLevel} rows={rows} searchPlaceholder="Tìm Kanji, âm Hán Việt, cách đọc, nghĩa…" />
+      <ServerExplorer basePath="/kanji" rows={rows} query={query} searchPlaceholder="Tìm Kanji, âm Hán Việt, cách đọc, nghĩa…" />
     </>
   );
 }

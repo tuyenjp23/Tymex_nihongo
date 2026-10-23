@@ -12,10 +12,11 @@ export const defaultTheme: ThemeSettings = {
   logoUrl: null,
   faviconUrl: null,
   colors: {
-    light: { primary: "#3b5bdb", accent: "#c2410c", background: "#fbfaf7", foreground: "#1f2430" },
-    dark: { primary: "#8ba3ff", accent: "#ff9a62", background: "#12151c", foreground: "#e9ecf3" },
+    // Premium Japanese Learning: ivory (nền) · indigo 藍 (chủ đạo) · vermilion 朱 (nhấn) — vàng champagne là màu trang trí, thêm ở lib/theme.ts
+    light: { primary: "#202b50", accent: "#c94b4b", background: "#f7f5ef", foreground: "#1c2340" },
+    dark: { primary: "#aebdf5", accent: "#f08a84", background: "#0f1428", foreground: "#eeeadf" },
   },
-  radius: 12,
+  radius: 14,
   density: "comfortable",
   cardStyle: "elevated",
   fontBody: "sans",

@@ -22,7 +22,7 @@ export function Figure({ src, alt, className, fallback }: { src: string; alt: st
   if (failed) {
     return (
       <div role="img" aria-label={alt} className={cn("grid place-items-center rounded-md bg-muted text-center text-xs text-muted-foreground", className)}>
-        <span className="jp px-2 text-2xl">{fallback ?? "🖼"}</span>
+        <span className="jp px-2 text-2xl">{fallback ?? "画"}</span>
         <span className="px-2 pb-2">Không tải được hình</span>
       </div>
     );

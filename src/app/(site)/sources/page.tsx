@@ -30,6 +30,7 @@ export default async function SourcesPage() {
     <>
       <PageHeader
         title="Nguồn học liệu"
+        titleJa="出典"
         description="Minh bạch về nguồn gốc: mỗi từ, Kanji, câu hỏi, hội thoại đều trỏ về một nguồn và có trạng thái xác minh."
       />
       <Alert tone="info" title="Cách app xử lý bản quyền" className="mb-[var(--gap)]">

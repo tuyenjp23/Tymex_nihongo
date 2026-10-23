@@ -21,6 +21,12 @@
   --color-warning: var(--warning);
   --color-danger: var(--danger);
   --color-ring: var(--ring);
+  --color-accent-text: var(--accent-text);
+  --color-gold: var(--gold);
+  --color-gold-strong: var(--gold-strong);
+  --color-ink: var(--ink);
+  --color-ink-foreground: var(--ink-foreground);
+  --color-border-soft: var(--border-soft);
   --radius-lg: var(--radius);
   --radius-md: calc(var(--radius) * 0.75);
   --radius-sm: calc(var(--radius) * 0.5);
@@ -31,28 +37,34 @@
 
 :root {
   /* Giá trị dự phòng nếu <style> theme chưa được chèn (ví dụ trang lỗi cực sớm). */
-  --background: #fbfaf7;
-  --foreground: #1f2430;
-  --primary: #3b5bdb;
+  --background: #f7f5ef;
+  --foreground: #1c2340;
+  --primary: #202b50;
   --primary-foreground: #ffffff;
-  --accent: #c2410c;
+  --accent: #c94b4b;
   --accent-foreground: #ffffff;
+  --accent-text: #b3403f;
+  --gold: #c7a76c;
+  --gold-strong: #7c6226;
+  --ink: #202b50;
+  --ink-foreground: #f7f5ef;
   --card: #ffffff;
-  --muted: #f1efe9;
-  --muted-foreground: #5f6470;
-  --border: #dedbd3;
-  --ring: #3b5bdb;
+  --muted: #f0ede4;
+  --muted-foreground: #565c70;
+  --border: #dad6ca;
+  --border-soft: #e9e5da;
+  --ring: #202b50;
   --success: #15803d;
   --warning: #b45309;
   --danger: #b91c1c;
-  --radius: 12px;
+  --radius: 14px;
   --card-padding: 1.25rem;
   --gap: 1rem;
   --page-padding: 1.5rem;
   --card-bg: #ffffff;
-  --card-border: transparent;
+  --card-border: #e9e5da;
   --card-border-width: 1px;
-  --card-shadow: 0 1px 2px rgb(20 30 60 / 0.06);
+  --card-shadow: 0 1px 2px rgb(32 43 80 / 0.05), 0 8px 24px -8px rgb(32 43 80 / 0.07);
   --font-body: "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, system-ui, sans-serif;
   --font-jp: "Noto Sans JP", sans-serif;
 }
@@ -61,6 +73,9 @@ html {
   -webkit-text-size-adjust: 100%;
   scroll-padding-top: 4.5rem;
 }
+
+/* Tiêu đề: đậm, chặt hơn một chút để phân cấp rõ (tiếng Việt vẫn dùng font có đủ dấu) */
+h1, h2, h3 { letter-spacing: -0.01em; text-wrap: balance; }
 
 body {
   background: var(--background);
@@ -81,6 +96,8 @@ body {
 .jp-lg { font-size: 1.5rem; }
 .jp-xl { font-size: 2.25rem; line-height: 1.5; }
 .jp-kanji { font-family: var(--font-jp); font-size: 5rem; line-height: 1.1; }
+/* Chữ Nhật dạng tiêu đề (Mincho): chỉ dùng cho tiêu đề tiếng Nhật, không dùng cho chữ Việt */
+:root { --font-jp-display: "Hiragino Mincho ProN", "Yu Mincho", "YuMincho", "Noto Serif JP", "MS PMincho", serif; }
 
 /* Furigana / romaji bật-tắt bằng thuộc tính trên <html> (đặt bởi script chống nháy + nút trên thanh trên cùng) */
 html[data-furigana="off"] rt { display: none; }
@@ -103,6 +120,35 @@ html[data-romaji="on"] .nc-romaji-inline { display: inline; }
   outline-offset: 2px;
   border-radius: var(--radius-sm);
 }
+/* Nền chàm (thanh bên, hero): vòng focus màu vàng để vẫn nhìn rõ */
+.nc-on-ink :focus-visible { outline-color: var(--gold); }
+
+/* ───── Bản sắc Nhật Bản: dấu ấn 判子 (hanko), nhãn chuyên mục, hoa văn sóng 青海波 ───── */
+.nc-hanko { background: var(--accent); color: var(--accent-foreground); border-radius: 0.4rem; font-family: var(--font-jp); font-weight: 700; box-shadow: inset 0 0 0 2px color-mix(in oklab, #fff 28%, transparent); }
+.nc-eyebrow { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold-strong); }
+.nc-eyebrow::before { content: ""; width: 1.25rem; height: 2px; background: var(--gold); border-radius: 2px; }
+.nc-display-ja { font-family: var(--font-jp-display); font-weight: 700; letter-spacing: 0.04em; line-height: 1.35; }
+.nc-seigaiha {
+  --_c: color-mix(in oklab, var(--gold) 38%, transparent);
+  background-image:
+    radial-gradient(circle at 50% 100%, transparent 38%, var(--_c) 39%, var(--_c) 42%, transparent 43%, transparent 56%, var(--_c) 57%, var(--_c) 60%, transparent 61%),
+    radial-gradient(circle at 50% 100%, transparent 38%, var(--_c) 39%, var(--_c) 42%, transparent 43%, transparent 56%, var(--_c) 57%, var(--_c) 60%, transparent 61%);
+  background-size: 56px 28px;
+  background-position: 0 0, 28px 14px;
+}
+
+/* Hero có ảnh: lớp phủ chàm đảm bảo chữ trắng/ngà luôn đọc được (≥ 4.5:1) bất kể ảnh sáng hay tối */
+.nc-hero { position: relative; isolation: isolate; overflow: hidden; border-radius: calc(var(--radius) * 1.6); background: var(--ink); color: var(--ink-foreground); }
+.nc-hero-scrim { position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, rgb(20 27 54 / 0.92) 0%, rgb(20 27 54 / 0.78) 42%, rgb(20 27 54 / 0.22) 100%); }
+@media (max-width: 640px) { .nc-hero-scrim { background: linear-gradient(180deg, rgb(20 27 54 / 0.55) 0%, rgb(20 27 54 / 0.9) 70%); } }
+
+/* Xuất hiện nhẹ khi vào trang (tôn trọng prefers-reduced-motion ở khối bên dưới) */
+@keyframes nc-rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.nc-rise { animation: nc-rise 0.45s cubic-bezier(0.2, 0.7, 0.2, 1) both; animation-delay: calc(var(--i, 0) * 60ms); }
+
+/* Thẻ có thể bấm: nâng nhẹ khi rê chuột/focus */
+.nc-lift { transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease; }
+.nc-lift:hover, .nc-lift:focus-visible { transform: translateY(-2px); border-color: color-mix(in oklab, var(--gold) 70%, var(--border)); box-shadow: 0 2px 4px rgb(32 43 80 / 0.06), 0 14px 32px -10px rgb(32 43 80 / 0.18); }
 
 dialog.nc-dialog {
   border: 1px solid var(--border);

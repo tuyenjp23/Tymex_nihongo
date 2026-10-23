@@ -11,6 +11,10 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   allowedDevOrigins,
   poweredByHeader: false,
+  // Lớp dữ liệu nhập sẵn được đọc bằng đường dẫn động lúc chạy (xem src/lib/store/index.ts) → phải khai báo để Vercel đóng gói kèm các hàm server.
+  outputFileTracingIncludes: {
+    "/**": ["./content/imported/**/*"],
+  },
   async headers() {
     return [
       {

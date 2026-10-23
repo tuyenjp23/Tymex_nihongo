@@ -308,7 +308,7 @@ function Inner({ pool, passages, kind, level, skill, wrongMode, backHref, fixedS
                   onClick={() => choose(o.id)}
                   aria-pressed={picked}
                   className={cn(
-                    "nc-touch flex w-full items-start gap-3 rounded-md border px-3 py-3 text-left transition-colors",
+                    "nc-touch flex w-full items-start gap-3 rounded-lg border px-3 py-3 text-left transition-colors",
                     !answer && "border-border hover:bg-muted",
                     answer && !showFeedback && picked && "border-primary bg-muted",
                     answer && !showFeedback && !picked && "border-border opacity-70",

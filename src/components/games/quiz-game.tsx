@@ -129,7 +129,7 @@ export function QuizGame({
                   disabled={!!answer}
                   onClick={() => choose(o.id)}
                   className={cn(
-                    "nc-touch flex min-h-14 w-full items-center gap-3 rounded-md border px-3 py-2 text-left transition-colors",
+                    "nc-touch flex min-h-14 w-full items-center gap-3 rounded-lg border px-3 py-2 text-left transition-colors",
                     !answer && "border-border hover:bg-muted",
                     answer && right && "border-success bg-[color-mix(in_oklab,var(--success)_14%,var(--card))]",
                     answer && picked && !right && "nc-shake border-danger bg-[color-mix(in_oklab,var(--danger)_14%,var(--card))]",
@@ -138,8 +138,8 @@ export function QuizGame({
                 >
                   <span className="grid h-6 w-6 shrink-0 place-items-center rounded-full border border-border text-xs font-semibold">{i + 1}</span>
                   {o.ja ? <Ja text={o.text} className="flex-1 text-xl" /> : <span className="flex-1 text-base">{o.text}</span>}
-                  {answer && right ? <CheckCircle2 size={18} className="text-success" aria-label="Đáp án đúng" /> : null}
-                  {answer && picked && !right ? <XCircle size={18} className="text-danger" aria-label="Bạn chọn sai" /> : null}
+                  {answer && right ? <span className="flex items-center gap-1 text-sm font-medium text-success"><CheckCircle2 size={18} aria-hidden="true" /><span>Đáp án đúng</span></span> : null}
+                  {answer && picked && !right ? <span className="flex items-center gap-1 text-sm font-medium text-danger"><XCircle size={18} aria-hidden="true" /><span>Bạn chọn</span></span> : null}
                 </button>
               </li>
             );

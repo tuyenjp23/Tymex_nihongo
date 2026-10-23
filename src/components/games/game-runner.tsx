@@ -290,7 +290,7 @@ function Inner({ mode, items, topics, defaults, questionRefs }: GameRunnerProps)
       <Card className="text-center">
         <p className="text-sm text-muted-foreground">{mode.title}</p>
         <p className="mt-1 text-5xl font-bold tabular-nums">{r.score}<span className="text-xl text-muted-foreground"> điểm</span></p>
-        {isRecord ? <p className="mt-1 text-sm font-semibold text-accent">Điểm cao nhất của bạn!</p> : null}
+        {isRecord ? <p className="mt-1 text-sm font-semibold text-accent-text">Điểm cao nhất của bạn!</p> : null}
         <p className="mt-2 text-sm">{r.correct}/{r.answered} {isBoard ? "cặp" : isBuilder ? "từ ghép được (không xem đáp án)" : "câu đúng"}{r.maxCombo >= 2 ? ` · combo cao nhất ×${r.maxCombo}` : ""}{r.detail ? ` · ${r.detail}` : ""}</p>
         <p className="mt-1 text-sm text-muted-foreground">+{r.xp} XP · {r.minutes} phút</p>
         <div className="mt-4 flex flex-wrap justify-center gap-2">

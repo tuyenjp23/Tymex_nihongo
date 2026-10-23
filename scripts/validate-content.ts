@@ -45,12 +45,34 @@ for (const c of COLLECTION_KEYS) {
   }
 }
 
+// Lớp "dữ liệu nhập sẵn" (content/imported) — kiểm tra cùng bộ quy tắc khi đang kiểm tra dữ liệu mẫu mặc định (CI)
+const importedDir = path.resolve(process.env.NC_IMPORTED_DIR ?? path.join(root, "content", "imported"));
+const importedData: Partial<Record<CollectionKey, Record<string, unknown>[]>> = {};
+if (dir === seedDir && fs.existsSync(importedDir)) {
+  for (const c of ["vocabulary", "kanji", "sentences"] as const) {
+    const f = path.join(importedDir, `${c}.json`);
+    if (!fs.existsSync(f)) continue;
+    try {
+      const parsed = JSON.parse(fs.readFileSync(f, "utf8"));
+      if (!Array.isArray(parsed)) throw new Error("không phải mảng");
+      importedData[c] = parsed;
+    } catch (e) {
+      fail(`${path.relative(root, f)}: không đọc được (${(e as Error).message})`);
+    }
+  }
+}
+
 const ids: IdSets = {};
 for (const c of COLLECTION_KEYS) {
   const seen = new Set<string>();
   for (const r of data[c]) {
     const id = String(r.id);
     if (seen.has(id)) fail(`${c}/${id}: ID bị trùng`);
+    seen.add(id);
+  }
+  for (const r of importedData[c] ?? []) {
+    const id = String(r.id);
+    if (seen.has(id)) fail(`${c}/${id}: ID của dữ liệu nhập sẵn trùng với dữ liệu mẫu hoặc bị lặp`);
     seen.add(id);
   }
   ids[c] = seen;
@@ -68,7 +90,16 @@ for (const c of COLLECTION_KEYS) {
       fail(`${c}/${String(r.id)}: ${res.errors.map((e) => `${e.path || "(chung)"} — ${e.message}`).join("; ")}`);
     }
   }
-  stats[c] = `${data[c].length} bản ghi${bad ? `, ${bad} lỗi` : ""}`;
+  let importedN = 0;
+  for (const r of importedData[c] ?? []) {
+    importedN++;
+    const res = validateRecord(c, r, ctx);
+    if (!res.ok) {
+      bad++;
+      fail(`imported/${c}/${String(r.id)}: ${res.errors.map((e) => `${e.path || "(chung)"} — ${e.message}`).join("; ")}`);
+    }
+  }
+  stats[c] = `${data[c].length} bản ghi${importedN ? ` + ${importedN} nhập sẵn` : ""}${bad ? `, ${bad} lỗi` : ""}`;
 }
 
 // Tệp ảnh phải tồn tại (đường dẫn công khai /images/... → public/images/...)

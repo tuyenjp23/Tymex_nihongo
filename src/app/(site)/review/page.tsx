@@ -21,7 +21,7 @@ export default async function ReviewPage() {
   ];
   return (
     <>
-      <PageHeader title="Ôn tập" description="Flashcard ôn theo lịch lặp lại ngắt quãng (SM-2): ôn đúng lúc sắp quên." />
+      <PageHeader title="Ôn tập" titleJa="復習" description="Flashcard ôn theo lịch lặp lại ngắt quãng (SM-2): ôn đúng lúc sắp quên." />
       <ReviewSession items={items} />
     </>
   );

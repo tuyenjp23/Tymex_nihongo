@@ -64,6 +64,8 @@ export interface ContentStore {
   readonly mode: "local" | "supabase";
   list<K extends CollectionKey>(c: K): Promise<CollectionTypes[K][]>;
   get<K extends CollectionKey>(c: K, id: string): Promise<CollectionTypes[K] | null>;
+  /** Chỉ phần dữ liệu nằm trong kho (không gồm lớp "nhập sẵn" chỉ đọc đóng gói cùng mã nguồn). Dùng cho sao lưu: lớp nhập sẵn đã nằm trong mã nguồn. */
+  listOwn?<K extends CollectionKey>(c: K): Promise<CollectionTypes[K][]>;
   /**
    * Tạo hoặc cập nhật. `created_at` được giữ, `updated_at` đặt lại = bây giờ.
    * `opts.expectedUpdatedAt` (chống ghi đè khi hai người sửa cùng lúc): chuỗi = "tôi đã mở bản có updated_at này", null = "tôi đang tạo mới".

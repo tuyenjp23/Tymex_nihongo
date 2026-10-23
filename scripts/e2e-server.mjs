@@ -11,6 +11,8 @@ const dataDir = fs.mkdtempSync(path.join(os.tmpdir(), "nc-e2e-"));
 const env = {
   ...process.env,
   NC_DATA_DIR: dataDir,
+  // Lớp "dữ liệu nhập sẵn": dùng bản trích nhỏ trong tests/fixtures/imported thay vì bản 23 MB thật (E2E_REAL_BASE=1 để thử bản thật).
+  NC_IMPORTED_DIR: process.env.E2E_REAL_BASE === "1" ? path.join(process.cwd(), "content", "imported") : path.join(process.cwd(), "tests", "fixtures", "imported"),
   ADMIN_PASSWORD: "e2e-password-123",
   SESSION_SECRET: "e2e-session-secret-0123456789-abcdefghijklmnop",
   NEXT_PUBLIC_SUPABASE_URL: "",

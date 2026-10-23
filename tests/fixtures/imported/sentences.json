@@ -1,0 +1,119 @@
+[
+ {
+  "id": "tatoeba-4711",
+  "ja": "何と言ったら良いか分かりません。",
+  "translations": [
+   {
+    "lang": "en",
+    "text": "I don't know what I should say.",
+    "kind": "source"
+   }
+  ],
+  "word_refs": [
+   "jm-2846738"
+  ],
+  "level": null,
+  "level_source": null,
+  "attribution": "Tatoeba #4711, CC BY 2.0 FR (một số câu CC0). Tác giả: xem trang gốc.",
+  "source_url": "https://tatoeba.org/en/sentences/show/4711",
+  "license": "CC BY 2.0 FR",
+  "tags": [],
+  "import": {
+   "source_id": "src-tatoeba",
+   "external_id": "4711",
+   "dataset_version": "jld-0.9.0/jmdict-simplified-3.6.2/2026-04-06",
+   "imported_at": "2026-10-23T08:06:57.938Z",
+   "run_id": "20261023-080657-jlpt-n5",
+   "license": "CC BY 2.0 FR",
+   "content_hash": "911d8fb203d78716abc7",
+   "base_hash": "11af02ebea60f7c84a36"
+  },
+  "origin": "imported_dataset",
+  "status": "imported",
+  "hidden": false,
+  "source_id": "src-tatoeba",
+  "source_note": "Câu do cộng đồng Tatoeba đóng góp, được biên tập viên JMdict chọn để minh họa từ; bản dịch tiếng Anh theo nguồn. Chưa có người rà soát cho người học Việt.",
+  "reviewed_by": null,
+  "last_verified": null,
+  "created_at": "2026-10-23T08:06:57.938Z",
+  "updated_at": "2026-10-23T08:07:00.203Z"
+ },
+ {
+  "id": "tatoeba-158106",
+  "ja": "私は何軒もの店でその本を探しました。",
+  "translations": [
+   {
+    "lang": "en",
+    "text": "I inquired about the book in many stores.",
+    "kind": "source"
+   }
+  ],
+  "word_refs": [
+   "jm-2846738"
+  ],
+  "level": null,
+  "level_source": null,
+  "attribution": "Tatoeba #158106, CC BY 2.0 FR (một số câu CC0). Tác giả: xem trang gốc.",
+  "source_url": "https://tatoeba.org/en/sentences/show/158106",
+  "license": "CC BY 2.0 FR",
+  "tags": [],
+  "import": {
+   "source_id": "src-tatoeba",
+   "external_id": "158106",
+   "dataset_version": "jld-0.9.0/jmdict-simplified-3.6.2/2026-04-06",
+   "imported_at": "2026-10-23T08:06:57.938Z",
+   "run_id": "20261023-080657-jlpt-n5",
+   "license": "CC BY 2.0 FR",
+   "content_hash": "1aa0ddefd7959a2c4ded",
+   "base_hash": "70fb7374b1b30a6bad87"
+  },
+  "origin": "imported_dataset",
+  "status": "imported",
+  "hidden": false,
+  "source_id": "src-tatoeba",
+  "source_note": "Câu do cộng đồng Tatoeba đóng góp, được biên tập viên JMdict chọn để minh họa từ; bản dịch tiếng Anh theo nguồn. Chưa có người rà soát cho người học Việt.",
+  "reviewed_by": null,
+  "last_verified": null,
+  "created_at": "2026-10-23T08:06:57.938Z",
+  "updated_at": "2026-10-23T08:07:00.211Z"
+ },
+ {
+  "id": "tatoeba-184431",
+  "ja": "学校の前に何本か木が見えます。",
+  "translations": [
+   {
+    "lang": "en",
+    "text": "You see some trees in front of the school.",
+    "kind": "source"
+   }
+  ],
+  "word_refs": [
+   "jm-2846738"
+  ],
+  "level": null,
+  "level_source": null,
+  "attribution": "Tatoeba #184431, CC BY 2.0 FR (một số câu CC0). Tác giả: xem trang gốc.",
+  "source_url": "https://tatoeba.org/en/sentences/show/184431",
+  "license": "CC BY 2.0 FR",
+  "tags": [],
+  "import": {
+   "source_id": "src-tatoeba",
+   "external_id": "184431",
+   "dataset_version": "jld-0.9.0/jmdict-simplified-3.6.2/2026-04-06",
+   "imported_at": "2026-10-23T08:06:57.938Z",
+   "run_id": "20261023-080657-jlpt-n5",
+   "license": "CC BY 2.0 FR",
+   "content_hash": "6a752a5a6d76ae1f565e",
+   "base_hash": "5c7650eaaa7dc880e27d"
+  },
+  "origin": "imported_dataset",
+  "status": "imported",
+  "hidden": false,
+  "source_id": "src-tatoeba",
+  "source_note": "Câu do cộng đồng Tatoeba đóng góp, được biên tập viên JMdict chọn để minh họa từ; bản dịch tiếng Anh theo nguồn. Chưa có người rà soát cho người học Việt.",
+  "reviewed_by": null,
+  "last_verified": null,
+  "created_at": "2026-10-23T08:06:57.938Z",
+  "updated_at": "2026-10-23T08:07:00.228Z"
+ }
+]

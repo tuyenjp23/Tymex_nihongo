@@ -14,6 +14,7 @@
     "test:watch": "vitest",
     "test:e2e": "playwright test",
     "gen:images": "node scripts/generate-images.mjs",
+    "photos:fetch": "tsx scripts/fetch-photos.ts",
     "validate:content": "tsx scripts/validate-content.ts",
     "dev:lan": "next dev -H 0.0.0.0",
     "start:lan": "next start -H 0.0.0.0",
@@ -27,7 +28,8 @@
     "import:rollback": "tsx scripts/import.ts rollback",
     "import:backup": "tsx scripts/import.ts backup",
     "import:translate-export": "tsx scripts/import.ts translate-export",
-    "import:quality": "tsx scripts/import.ts quality"
+    "import:quality": "tsx scripts/import.ts quality",
+    "import:export-base": "tsx scripts/import.ts export-base"
   },
   "engines": {
     "node": ">=20.9"

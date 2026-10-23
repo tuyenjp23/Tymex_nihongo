@@ -1,13 +1,14 @@
 import Link from "next/link";
 import { getImagesMap, getVisible } from "@/lib/content";
 import { isModuleEnabled } from "@/lib/settings";
-import { buildSearchIndex, matchesQuery, withRomaji } from "@/lib/search";
+import { buildSearchIndex, matchesQuery } from "@/lib/search";
+import { kanjiIndex, sentenceIndex, vocabIndex } from "@/lib/memo-index";
 import { PageHeader, Card, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { EmptyState } from "@/components/ui/states";
 import { Ja } from "@/components/ja";
 import { CONVERSATION_CATEGORY_LABELS } from "@/lib/types";
-import { kanjiLine, meaningText, searchEnglish } from "@/lib/vocab-meaning";
+import { kanjiLine, meaningText } from "@/lib/vocab-meaning";
 
 export const metadata = { title: "Tìm kiếm" };
 const MAX = 12;
@@ -25,7 +26,7 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
       groups.push({
         title: "Từ vựng",
         items: vocab
-          .filter((v) => matchesQuery(buildSearchIndex([v.word, v.reading, withRomaji(v.reading), v.meaning_vi, searchEnglish(v), ...(v.alt_forms ?? []), ...(v.alt_readings ?? []), v.topic]), q))
+          .filter((v) => matchesQuery(vocabIndex(v), q))
           .slice(0, MAX)
           .map((v) => ({ href: `/vocabulary/${v.id}`, ja: v.word === v.reading ? v.word : `{${v.word}|${v.reading}}`, text: meaningText(v), level: v.level })),
       });
@@ -33,7 +34,7 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
       groups.push({
         title: "Kanji",
         items: kanji
-          .filter((k) => matchesQuery(buildSearchIndex([k.char, k.han_viet, k.meaning_vi, searchEnglish(k), ...k.onyomi, ...k.kunyomi, ...k.onyomi.map(withRomaji), ...k.kunyomi.map(withRomaji), ...k.compounds.flatMap((c) => [c.word, c.reading])]), q))
+          .filter((k) => matchesQuery(kanjiIndex(k), q))
           .slice(0, MAX)
           .map((k) => ({ href: `/kanji/${k.id}`, ja: k.char, text: kanjiLine(k), level: k.level })),
       });
@@ -41,7 +42,7 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
       groups.push({
         title: "Câu ví dụ",
         items: sentences
-          .filter((s) => matchesQuery(buildSearchIndex([s.ja, ...(s.translations ?? []).map((t) => t.text)]), q))
+          .filter((s) => matchesQuery(sentenceIndex(s), q))
           .slice(0, MAX)
           .map((s) => {
             const vi = (s.translations ?? []).find((t) => t.lang === "vi");
@@ -80,7 +81,7 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
 
   return (
     <>
-      <PageHeader title="Tìm kiếm" description="Gõ Kanji, kana, romaji hoặc tiếng Việt (có/không dấu)." />
+      <PageHeader title="Tìm kiếm" titleJa="検索" description="Gõ Kanji, kana, romaji hoặc tiếng Việt (có/không dấu)." />
       <form action="/search" role="search" className="mb-[var(--gap)] flex max-w-xl gap-2">
         <label htmlFor="search-page-q" className="sr-only">Từ khóa</label>
         <input id="search-page-q" name="q" type="search" defaultValue={q} placeholder="Ví dụ: yama, núi, 山, ながら…" className="nc-touch h-10 flex-1 rounded-md border border-border bg-card px-3 text-sm" />

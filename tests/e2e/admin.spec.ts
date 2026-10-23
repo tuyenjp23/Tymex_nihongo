@@ -57,8 +57,7 @@ test.describe("nội dung", () => {
     await page.waitForURL("**/admin/content/vocabulary/e2e-vocab-1");
 
     // Người học thấy mục này
-    await page.goto("/vocabulary");
-    await page.getByRole("searchbox", { name: "Tìm kiếm", exact: true }).fill("kỳ thi (e2e)");
+    await page.goto("/vocabulary?q=" + encodeURIComponent("kỳ thi (e2e)"));
     await expect(page.getByRole("link", { name: /試験/ }).first()).toBeVisible();
 
     // Ẩn mục → người học không còn thấy
@@ -66,8 +65,7 @@ test.describe("nội dung", () => {
     await page.getByRole("switch", { name: /Ẩn \(người học không thấy\)/ }).click();
     await page.getByRole("button", { name: "Lưu thay đổi" }).click();
     await expect(page.getByText("Đã lưu").first()).toBeVisible();
-    await page.goto("/vocabulary");
-    await page.getByRole("searchbox", { name: "Tìm kiếm", exact: true }).fill("kỳ thi (e2e)");
+    await page.goto("/vocabulary?q=" + encodeURIComponent("kỳ thi (e2e)"));
     await expect(page.getByText("Không tìm thấy mục nào")).toBeVisible();
 
     // Nhật ký ghi lại, và xóa được

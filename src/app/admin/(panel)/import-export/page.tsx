@@ -13,7 +13,7 @@ export const metadata = { title: "Nhập / xuất dữ liệu" };
 export default async function ImportExportPage() {
   await requireAdmin();
   const store = await getStore();
-  const counts = await Promise.all(COLLECTION_KEYS.map(async (c) => [c, (await store.list(c)).length] as const));
+  const counts = await Promise.all(COLLECTION_KEYS.map(async (c) => [c, (await store.list(c)).length, store.listOwn ? (await store.listOwn(c)).length : null] as const));
   return (
     <>
       <PageHeader title="Nhập / xuất dữ liệu" description="Sao lưu, chỉnh hàng loạt bằng bảng tính, hoặc nạp nội dung mới. Mọi dòng nhập đều đi qua cùng bộ quy tắc như khi sửa tay." />
@@ -24,19 +24,20 @@ export default async function ImportExportPage() {
           <CardDescription className="mt-1">CSV có BOM UTF-8 để Excel đọc đúng tiếng Nhật/Việt. Ô có danh sách hoặc đối tượng được ghi dạng JSON.</CardDescription>
         </div>
         <ul className="divide-y divide-border text-sm">
-          {counts.map(([c, n]) => (
+          {counts.map(([c, n, own]) => (
             <li key={c} className="flex flex-wrap items-center justify-between gap-2 py-2">
-              <span>{COLLECTION_LABELS[c].plural} <span className="text-muted-foreground">({n})</span></span>
+              <span>{COLLECTION_LABELS[c].plural} <span className="text-muted-foreground">({n}{own !== null && own !== n ? `, trong đó ${own} nằm trong kho` : ""})</span></span>
               <span className="flex gap-2">
                 <ButtonLink size="sm" variant="outline" href={`/api/admin/export?collection=${c}&format=json`} prefetch={false}>JSON</ButtonLink>
                 <ButtonLink size="sm" variant="outline" href={`/api/admin/export?collection=${c}&format=csv`} prefetch={false}>CSV</ButtonLink>
+                {own !== null && own !== n ? <ButtonLink size="sm" variant="ghost" href={`/api/admin/export?collection=${c}&format=csv&scope=own`} prefetch={false}>CSV phần trong kho</ButtonLink> : null}
               </span>
             </li>
           ))}
         </ul>
         <div className="flex flex-wrap items-center gap-3 border-t border-border pt-3">
           <ButtonLink href="/api/admin/export?collection=all&format=json" prefetch={false}>Sao lưu toàn bộ (JSON)</ButtonLink>
-          <span className="text-xs text-muted-foreground">Gồm mọi loại nội dung và cấu hình hiện tại. Muốn nạp lại cả bản sao lưu: dùng khung "Khôi phục toàn bộ" bên dưới.</span>
+          <span className="text-xs text-muted-foreground">Gồm nội dung nằm trong kho (phần bạn thêm/sửa) và cấu hình hiện tại; dữ liệu nhập sẵn đã nằm trong mã nguồn/GitHub nên không đưa vào file này. Muốn nạp lại cả bản sao lưu: dùng khung "Khôi phục toàn bộ" bên dưới.</span>
         </div>
       </Card>
 

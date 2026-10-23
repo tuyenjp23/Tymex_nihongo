@@ -1,0 +1,241 @@
+[
+ {
+  "id": "jm-1000320",
+  "level": "N5",
+  "word": "あそこ",
+  "reading": "あそこ",
+  "meaning_vi": "",
+  "vi_kind": "missing",
+  "alt_forms": [
+   "彼処",
+   "彼所"
+  ],
+  "alt_readings": [
+   "あすこ",
+   "かしこ",
+   "アソコ",
+   "あしこ",
+   "あこ"
+  ],
+  "senses": [
+   {
+    "pos": [
+     "pn"
+    ],
+    "glosses": [
+     {
+      "lang": "en",
+      "text": "there"
+     },
+     {
+      "lang": "en",
+      "text": "over there"
+     },
+     {
+      "lang": "en",
+      "text": "that place"
+     },
+     {
+      "lang": "en",
+      "text": "yonder"
+     },
+     {
+      "lang": "en",
+      "text": "you-know-where"
+     }
+    ],
+    "gloss_vi": "",
+    "misc": [
+     "uk"
+    ],
+    "fields": [],
+    "info": [
+     "place physically distant from both speaker and listener"
+    ],
+    "lang_source": []
+   },
+   {
+    "pos": [
+     "n"
+    ],
+    "glosses": [
+     {
+      "lang": "en",
+      "text": "that far"
+     },
+     {
+      "lang": "en",
+      "text": "that much"
+     },
+     {
+      "lang": "en",
+      "text": "that point"
+     }
+    ],
+    "gloss_vi": "",
+    "misc": [
+     "uk"
+    ],
+    "fields": [],
+    "info": [
+     "something psychologically distant from both speaker and listener"
+    ],
+    "lang_source": []
+   }
+  ],
+  "level_source": "src-waller-jlpt",
+  "import": {
+   "source_id": "src-jmdict",
+   "external_id": "1000320",
+   "dataset_version": "jld-0.9.0/jmdict-simplified-3.6.2/2026-04-06",
+   "imported_at": "2026-10-23T08:06:57.938Z",
+   "run_id": "20261023-080657-jlpt-n5",
+   "license": "CC BY-SA 4.0 + EDRDG Licence",
+   "content_hash": "853744ac665023499ce6",
+   "base_hash": "14fbde37a7b8e9be59b9"
+  },
+  "pos": "đại từ / danh từ",
+  "topic": "uncategorized",
+  "examples": [],
+  "image_id": null,
+  "audio_url": null,
+  "imageable": false,
+  "tags": [
+   "common"
+  ],
+  "note": "",
+  "origin": "imported_dataset",
+  "status": "imported",
+  "hidden": false,
+  "source_id": "src-jmdict",
+  "source_note": "Nhập từ JMdict (EDRDG), mục 1000320, qua bộ Japanese Language Data. Cấp N5 theo danh sách JLPT cộng đồng của Waller (không phải danh sách chính thức). Nghĩa gốc tiếng Anh; chưa có người rà soát.",
+  "reviewed_by": null,
+  "last_verified": null,
+  "created_at": "2026-10-23T08:06:57.938Z",
+  "updated_at": "2026-10-23T08:07:00.082Z"
+ },
+ {
+  "id": "jm-2846738",
+  "level": "N5",
+  "word": "何",
+  "reading": "なん",
+  "meaning_vi": "",
+  "vi_kind": "missing",
+  "alt_forms": [],
+  "alt_readings": [],
+  "senses": [
+   {
+    "pos": [
+     "pn"
+    ],
+    "glosses": [
+     {
+      "lang": "en",
+      "text": "what"
+     }
+    ],
+    "gloss_vi": "",
+    "misc": [],
+    "fields": [],
+    "info": [],
+    "lang_source": []
+   },
+   {
+    "pos": [
+     "pref"
+    ],
+    "glosses": [
+     {
+      "lang": "en",
+      "text": "how many"
+     }
+    ],
+    "gloss_vi": "",
+    "misc": [],
+    "fields": [],
+    "info": [
+     "followed by a counter"
+    ],
+    "lang_source": []
+   },
+   {
+    "pos": [
+     "pref"
+    ],
+    "glosses": [
+     {
+      "lang": "en",
+      "text": "many"
+     },
+     {
+      "lang": "en",
+      "text": "a lot of"
+     }
+    ],
+    "gloss_vi": "",
+    "misc": [],
+    "fields": [],
+    "info": [
+     "followed by (optional number), counter and も"
+    ],
+    "lang_source": []
+   },
+   {
+    "pos": [
+     "pref"
+    ],
+    "glosses": [
+     {
+      "lang": "en",
+      "text": "several"
+     },
+     {
+      "lang": "en",
+      "text": "a few"
+     },
+     {
+      "lang": "en",
+      "text": "some"
+     }
+    ],
+    "gloss_vi": "",
+    "misc": [],
+    "fields": [],
+    "info": [
+     "followed by a counter and か"
+    ],
+    "lang_source": []
+   }
+  ],
+  "level_source": "src-waller-jlpt",
+  "import": {
+   "source_id": "src-jmdict",
+   "external_id": "2846738",
+   "dataset_version": "jld-0.9.0/jmdict-simplified-3.6.2/2026-04-06",
+   "imported_at": "2026-10-23T08:06:57.938Z",
+   "run_id": "20261023-080657-jlpt-n5",
+   "license": "CC BY-SA 4.0 + EDRDG Licence",
+   "content_hash": "406f3294f6e858514b0f",
+   "base_hash": "9d73fefae49161ca96ca"
+  },
+  "pos": "đại từ / tiền tố",
+  "topic": "uncategorized",
+  "examples": [],
+  "image_id": null,
+  "audio_url": null,
+  "imageable": false,
+  "tags": [
+   "common"
+  ],
+  "note": "",
+  "origin": "imported_dataset",
+  "status": "imported",
+  "hidden": false,
+  "source_id": "src-jmdict",
+  "source_note": "Nhập từ JMdict (EDRDG), mục 2846738, qua bộ Japanese Language Data. Cấp N5 theo danh sách JLPT cộng đồng của Waller (không phải danh sách chính thức). Nghĩa gốc tiếng Anh; chưa có người rà soát.",
+  "reviewed_by": null,
+  "last_verified": null,
+  "created_at": "2026-10-23T08:06:57.938Z",
+  "updated_at": "2026-10-23T08:07:00.121Z"
+ }
+]

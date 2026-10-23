@@ -39,18 +39,18 @@ describe("theme & độ tương phản", () => {
   });
   it("themeToCss sinh biến CSS cho sáng/tối và cỡ chữ", () => {
     const css = themeToCss(defaultTheme);
-    expect(css).toContain("--primary:#3b5bdb");
+    expect(css).toContain("--primary:#202b50");
     expect(css).toContain('html[data-theme="dark"]');
     expect(css).toContain("prefers-color-scheme: dark");
-    expect(css).toContain("--radius:12px");
+    expect(css).toContain("--radius:14px");
     expect(css).toContain("font-size:16px");
   });
   it("không thể chèn CSS tùy ý: dữ liệu hỏng bị loại và dùng mặc định", () => {
     const evil = { ...defaultTheme, colors: { ...defaultTheme.colors, light: { ...defaultTheme.colors.light, primary: "red;}body{display:none" } } };
     const css = themeToCss(evil);
     expect(css).not.toContain("display:none");
-    expect(css).toContain("--primary:#3b5bdb");
-    expect(themeToCss(null)).toContain("--primary:#3b5bdb");
+    expect(css).toContain("--primary:#202b50");
+    expect(themeToCss(null)).toContain("--primary:#202b50");
     expect(themeToCss("<script>")).not.toContain("<script>");
   });
   it("schema từ chối màu sai, số ngoài khoảng, tên rỗng", () => {
