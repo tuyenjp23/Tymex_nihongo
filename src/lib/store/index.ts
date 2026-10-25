@@ -4,7 +4,7 @@ import { getDataMode } from "./mode";
 import { FileStore } from "./file-store";
 import { SupabaseStore } from "./supabase-store";
 import type { ContentStore } from "./types";
-import { createSupabaseServerClient } from "../supabase/server";
+import { createSupabasePublicClient, createSupabaseServerClient } from "../supabase/server";
 import { fileBaseLayer } from "./base-layer";
 import { LayeredStore } from "./layered-store";
 
@@ -30,6 +30,19 @@ function fileStore(): FileStore {
 export async function getStore(): Promise<ContentStore> {
   const inner: ContentStore = getDataMode() === "supabase" ? new SupabaseStore(await createSupabaseServerClient()) : fileStore();
   return new LayeredStore(inner, baseLayer());
+}
+
+/**
+ * Store cho đường ĐỌC CÔNG KHAI phía người học (chỉ lib/content.ts và lib/settings.ts dùng).
+ * Ở chế độ Supabase dùng client anon KHÔNG gắn cookie phiên → không gọi `cookies()` → các trang
+ * học viên giữ được ISR/CDN cache thay vì bị ép sang dynamic như khi dùng getStore().
+ * RLS phía DB đảm bảo client này chỉ thấy đúng dữ liệu được phép hiển thị công khai
+ * (nội dung không nháp/không ẩn theo policy *_read_public; app_settings đọc tự do).
+ * TUYỆT ĐỐI không dùng store này để ghi hay cho khu admin — ghi/admin luôn qua getStore().
+ */
+export async function getPublicStore(): Promise<ContentStore> {
+  if (getDataMode() !== "supabase") return getStore();
+  return new LayeredStore(new SupabaseStore(createSupabasePublicClient()), baseLayer());
 }
 
 /** Thư mục lớp nhập sẵn (chỉ đọc, đóng gói cùng mã nguồn). Đổi bằng NC_IMPORTED_DIR (dùng cho test). */
