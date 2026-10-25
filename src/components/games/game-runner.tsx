@@ -2,7 +2,7 @@
 import * as React from "react";
 import Link from "next/link";
 import type { GameItem, GameQuestion } from "@/lib/games/types";
-import { buildDailyReview, buildImagePairs, buildKanjiToMeaning, buildMemoryPairs, buildPictureToKanji, buildReadingChallenge, buildSpeedPool, filterPool, type MatchPair } from "@/lib/games/builders";
+import { buildDailyReview, buildImagePairs, buildKanjiToMeaning, buildListeningQuest, buildMemoryPairs, buildOddOneOut, buildPictureToKanji, buildReadingChallenge, buildReverseRecall, buildSpeedPool, filterPool, type MatchPair } from "@/lib/games/builders";
 import type { GameState } from "@/lib/games/engine";
 import { dailyFocusKeys } from "@/lib/games/focus";
 import { mulberry32, randomSeed } from "@/lib/rng";
@@ -111,6 +111,9 @@ function Inner({ mode, items, topics, defaults, questionRefs }: GameRunnerProps)
       case "image-matching": builtPairs = buildImagePairs(items, { ...base, count: Math.min(count, 6) }, rng); break;
       case "memory-match": builtPairs = buildMemoryPairs(items, { ...base, count: Math.min(count, 8) }, rng); break;
       case "word-builder": builtPuzzles = buildWordBuilder(items, base, rng); break;
+      case "listening-quest": built = buildListeningQuest(items, { ...base, tier: 2 }, rng); break;
+      case "reverse-recall": built = buildReverseRecall(items, { ...base, tier: 3 }, rng); break;
+      case "odd-one-out": built = buildOddOneOut(items, { ...base, tier: 2 }, rng); break;
     }
     if (isBoard ? builtPairs.length < 3 : isBuilder ? builtPuzzles.length < 3 : built.length < 3) {
       toast("Không đủ dữ liệu phù hợp để tạo ván chơi. Hãy chọn thêm cấp độ/chủ đề hoặc nhờ quản trị viên bổ sung.", "error");
@@ -320,7 +323,7 @@ function Inner({ mode, items, topics, defaults, questionRefs }: GameRunnerProps)
               const mine = q.options.find((o) => o.id === chosen);
               return (
                 <li key={q.id} className="border-t border-border pt-3 first:border-0 first:pt-0">
-                  <p>{q.prompt.kind === "text" ? <Ja text={q.prompt.text} className="text-lg" /> : <span>(câu hỏi hình)</span>}</p>
+                  <p>{q.prompt.kind === "text" ? <Ja text={q.prompt.text} className="text-lg" /> : q.prompt.kind === "audio" ? <span>(câu hỏi nghe — từ đúng: <Ja text={q.prompt.text} className="text-lg" />)</span> : <span>(câu hỏi hình)</span>}</p>
                   <p>Bạn chọn: <span className="text-danger">{mine?.text}</span> · Đúng: <span className="font-medium text-success">{right.text}</span></p>
                   <p className="text-muted-foreground">{q.explanation}</p>
                 </li>

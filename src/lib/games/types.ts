@@ -22,7 +22,12 @@ export interface GameItem {
 
 export type GamePrompt =
   | { kind: "image"; src: string; alt: string }
-  | { kind: "text"; text: string; ja: boolean; sub?: string; context?: { ja: string; vi: string; target: string } };
+  | { kind: "text"; text: string; ja: boolean; sub?: string; context?: { ja: string; vi: string; target: string } }
+  /**
+   * Nghe (Listening Quest): `text` là câu/từ tiếng Nhật cần PHÁT ÂM — TUYỆT ĐỐI không hiển thị trước khi người chơi trả lời
+   * (sẽ lộ đáp án); chỉ hiển thị `hint` (ví dụ "Nghe từ này"). Sau khi trả lời, từ được lộ trong phần giải thích.
+   */
+  | { kind: "audio"; text: string; hint: string };
 
 export interface GameOption {
   id: string;

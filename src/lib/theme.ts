@@ -77,10 +77,10 @@ export function contrastWarnings(theme: ThemeSettings): ContrastWarning[] {
 
 /* ───────────── Sinh CSS từ theme ───────────── */
 
-/** Màu thương hiệu cố định (không qua admin): vàng champagne (trang trí), mực chàm (thanh bên/hero). */
+/** Màu thương hiệu cố định (không qua admin): vàng nắng hoàng hôn (trang trí), mực chàm tím hoàng hôn (thanh bên/hero). */
 const BRAND = {
-  light: { gold: "#c7a76c", goldStrong: "#7c6226", ink: "#202b50", inkFg: "#f7f5ef" },
-  dark: { gold: "#d9be86", goldStrong: "#d9be86", ink: "#171f40", inkFg: "#f7f5ef" },
+  light: { gold: "#eda93c", goldStrong: "#8f6410", ink: "#2a2148", inkFg: "#fdf6ec" },
+  dark: { gold: "#f2c069", goldStrong: "#f2c069", ink: "#1d1433", inkFg: "#fdf6ec" },
 } as const;
 
 const STATUS_COLORS = {
@@ -91,7 +91,7 @@ const STATUS_COLORS = {
 function modeVars(mode: "light" | "dark", t: ThemeSettings): string {
   const c = t.colors[mode];
   const card = mode === "light" ? "#ffffff" : "color-mix(in oklab, var(--background), white 7%)";
-  const shadowRgb = mode === "light" ? "32 43 80" : "0 0 0";
+  const shadowRgb = mode === "light" ? "74 38 66" : "0 0 0";
   const shadowAlpha = mode === "light" ? [0.05, 0.07] : [0.35, 0.4];
   const styleVars = {
     elevated: {

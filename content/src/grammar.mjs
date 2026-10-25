@@ -206,7 +206,7 @@ export const grammar = [
     title: "〜ざるを得ない",
     structure: "V（ない形）＋ ざるを得ない",
     meaning_vi: "Đành phải / buộc phải (làm gì) — không còn lựa chọn khác.",
-    formation: "Ngăn ない của động từ + ざるを得ない. 行く→行かざるを得ない; 食べる→食べざるを得ない; する→せざるを得ない (ngoại lệ).",
+    formation: "Thể ない của động từ, bỏ ない + ざるを得ない. 行く→行かざるを得ない; 食べる→食べざるを得ない; する→せざるを得ない (ngoại lệ).",
     usage: "Văn viết/trang trọng. Diễn tả sự bất đắc dĩ phải làm điều mình không muốn vì hoàn cảnh.",
     examples: [
       ["{雨|あめ}が{降|ふ}ってきたので、{試合|しあい}を{中止|ちゅうし}せざるを{得|え}なかった。", "Vì trời bắt đầu mưa nên đành phải hủy trận đấu."],

@@ -1,1 +1,42 @@
-{}
+{
+  "hero-fuji": {
+    "file": "/images/japan/hero-fuji.jpg",
+    "width": 1920,
+    "height": 989
+  },
+  "sakura": {
+    "file": "/images/japan/sakura.jpg",
+    "width": 1920,
+    "height": 1280
+  },
+  "torii": {
+    "file": "/images/japan/torii.jpg",
+    "width": 1920,
+    "height": 1280
+  },
+  "kyoto": {
+    "file": "/images/japan/kyoto.jpg",
+    "width": 1920,
+    "height": 1280
+  },
+  "autumn": {
+    "file": "/images/japan/autumn.jpg",
+    "width": 1920,
+    "height": 1280
+  },
+  "station": {
+    "file": "/images/japan/station.jpg",
+    "width": 1920,
+    "height": 1277
+  },
+  "city": {
+    "file": "/images/japan/city.jpg",
+    "width": 1920,
+    "height": 1280
+  },
+  "izakaya": {
+    "file": "/images/japan/izakaya.jpg",
+    "width": 1920,
+    "height": 1280
+  }
+}

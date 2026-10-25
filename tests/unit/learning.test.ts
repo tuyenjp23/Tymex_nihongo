@@ -11,7 +11,7 @@ import {
 import { BADGES, earnedBadgeIds } from "@/lib/progress/badges";
 import { gameReducer, initGame, pointsFor, answeredCount } from "@/lib/games/engine";
 import { dailyFocusKeys } from "@/lib/games/focus";
-import { buildDailyReview, buildImagePairs, buildKanjiToMeaning, buildMemoryPairs, buildPictureToKanji, buildReadingChallenge, buildSpeedPool } from "@/lib/games/builders";
+import { buildDailyReview, buildImagePairs, buildKanjiToMeaning, buildListeningQuest, buildMemoryPairs, buildOddOneOut, buildPictureToKanji, buildReadingChallenge, buildReverseRecall, buildSpeedPool } from "@/lib/games/builders";
 import { confusableText, pickDistractors } from "@/lib/games/distractors";
 import type { GameItem, GameQuestion } from "@/lib/games/types";
 
@@ -359,6 +359,55 @@ describe("trình sinh câu hỏi Kanji Quest (trên dữ liệu mẫu thật)", 
       return c;
     };
     expect(same(3)).toBeGreaterThanOrEqual(same(1));
+  });
+  it("Listening Quest: prompt là audio (không lộ chữ), đáp án đúng là nghĩa thật của từ được phát", () => {
+    const qs = buildListeningQuest(items, o, mulberry32(11));
+    expect(qs.length).toBeGreaterThan(5);
+    checkQuestions(qs, "listen");
+    for (const q of qs) {
+      const item = items.find((i) => i.key === q.itemKey)!;
+      if (q.prompt.kind !== "audio") throw new Error("prompt phải là audio");
+      expect(q.prompt.text).toBe(item.text); // chỉ để phát âm — component không hiển thị trước khi trả lời
+      expect(q.ask).not.toContain(item.text);
+      expect(q.options.find((x) => x.id === q.correctId)!.text).toBe(item.meaning);
+      expect(q.explanation).toContain(item.text); // sau khi trả lời mới lộ từ + cách đọc trong giải thích
+      expect(q.explanation).toContain(item.reading);
+    }
+  });
+  it("Reverse Recall: prompt là nghĩa tiếng Việt, đáp án đúng là từ tiếng Nhật tương ứng", () => {
+    const qs = buildReverseRecall(items, { ...o, tier: 3 as const }, mulberry32(12));
+    expect(qs.length).toBeGreaterThan(5);
+    checkQuestions(qs, "reverse");
+    for (const q of qs) {
+      const item = items.find((i) => i.key === q.itemKey)!;
+      if (q.prompt.kind !== "text") throw new Error("prompt phải là văn bản");
+      expect(q.prompt.text).toBe(item.meaning);
+      expect(q.prompt.ja).toBe(false);
+      expect(q.options.find((x) => x.id === q.correctId)!.text).toBe(item.text);
+      expect(q.options.every((x) => x.ja)).toBe(true);
+    }
+  });
+  it("Odd One Out: đúng 3 từ cùng chủ đề của câu hỏi + 1 từ lạc thuộc chủ đề khác (đáp án đúng)", () => {
+    const qs = buildOddOneOut(items, { count: 10, tier: 2 as const }, mulberry32(13));
+    expect(qs.length).toBeGreaterThan(0);
+    checkQuestions(qs, "odd");
+    for (const q of qs) {
+      const outsider = items.find((i) => i.key === q.itemKey)!;
+      expect(outsider.topic).not.toBe(q.topic);
+      const correct = q.options.find((x) => x.id === q.correctId)!;
+      expect(correct.text).toBe(outsider.text);
+      const others = q.options.filter((x) => x.id !== q.correctId);
+      expect(others).toHaveLength(3);
+      for (const opt of others) {
+        const src = items.find((i) => i.type === "vocabulary" && i.text === opt.text && i.topic === q.topic);
+        expect(src, opt.text).toBeTruthy();
+      }
+      expect(q.explanation).toContain(outsider.meaning);
+    }
+    // pool chỉ có 1 chủ đề → không có từ lạc loài hợp lệ → không bịa câu
+    const oneTopic = items.filter((i) => i.type === "vocabulary" && i.topic === "nature");
+    expect(buildOddOneOut(oneTopic, { count: 5 }, mulberry32(13))).toEqual([]);
+    expect(buildOddOneOut([], { count: 5 }, mulberry32(13))).toEqual([]);
   });
   it("confusableText: bằng nhau/chứa nhau/chung một nghĩa thì không dùng làm nhiễu", () => {
     expect(confusableText("núi", "Núi")).toBe(true);

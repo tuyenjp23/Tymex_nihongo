@@ -103,10 +103,11 @@ function Hero({ data, progress, notice }: { data: DashboardData; progress: Progr
     <section className="nc-hero nc-rise" aria-label="Chào mừng">
       <JapanScene scene="hero" priority sizes="(max-width: 1152px) 100vw, 1152px" decorative position="60% 40%" />
       <div className="nc-hero-scrim" aria-hidden="true" />
+      <div className="nc-hero-sunset" aria-hidden="true" />
       <div className="relative z-10 flex min-h-[19rem] max-w-2xl flex-col justify-end gap-4 px-6 py-8 sm:min-h-[22rem] sm:px-10 sm:py-10">
         <h1>
           <span className="nc-eyebrow !text-gold">Chào mừng đến {data.appName}</span>
-          <span lang="ja" className="nc-display-ja mt-3 block text-[2rem] leading-[1.25] text-white sm:text-[2.75rem]"><span className="inline-block">日本語を、</span><span className="inline-block">もっと楽しく。</span></span>
+          <span lang="ja" className="nc-display-ja mt-3 block text-[2rem] leading-[1.25] text-white sm:text-[2.75rem]"><span className="inline-block">日本語を、</span><span className="nc-sunset-text inline-block">もっと楽しく。</span></span>
         </h1>
         <p className="max-w-lg text-sm leading-relaxed text-white/85 sm:text-base">{data.tagline}</p>
         <div className="flex flex-wrap items-center gap-3">
@@ -123,6 +124,40 @@ function Hero({ data, progress, notice }: { data: DashboardData; progress: Progr
         </div>
       </div>
       {notice ? <div className="relative z-10 bg-black/25 px-6 py-2 text-xs text-white/85 sm:px-10">{notice}</div> : null}
+    </section>
+  );
+}
+
+const JOURNEY: { level: Level; ja: string; scene: "level-N5" | "level-N4" | "level-N3" | "level-N2" | "level-N1" }[] = [
+  { level: "N5", ja: "入門", scene: "level-N5" },
+  { level: "N4", ja: "初級", scene: "level-N4" },
+  { level: "N3", ja: "中級", scene: "level-N3" },
+  { level: "N2", ja: "上級", scene: "level-N2" },
+  { level: "N1", ja: "最上級", scene: "level-N1" },
+];
+
+/** Dải ảnh "hành trình JLPT": mỗi cấp một phong cảnh Nhật (ảnh thật nếu đã tải, không thì tranh SVG) — thuần điều hướng, không logic mới. */
+function JourneyStrip() {
+  return (
+    <section aria-label="Hành trình JLPT qua phong cảnh Nhật Bản" className="nc-rise" style={{ "--i": 1 } as React.CSSProperties}>
+      <div className="mb-3 flex flex-wrap items-baseline gap-x-3 gap-y-1 px-1">
+        <span className="nc-eyebrow">Hành trình của bạn</span>
+        <h2 className="text-lg font-bold">Từ <span className="nc-highlight px-0.5">hoa anh đào</span> đến đỉnh Phú Sĩ</h2>
+      </div>
+      <ul className="grid grid-cols-2 gap-[var(--gap)] sm:grid-cols-3 lg:grid-cols-5">
+        {JOURNEY.map((j) => (
+          <li key={j.level}>
+            <Link href={`/jlpt/${j.level}`} className="group relative block aspect-[4/3] overflow-hidden rounded-[var(--radius)] shadow-[var(--card-shadow)]">
+              <JapanScene scene={j.scene} decorative sizes="(max-width: 1024px) 50vw, 20vw" className="transition-transform duration-500 group-hover:scale-[1.05] motion-reduce:transition-none" />
+              <span className="absolute inset-0 bg-gradient-to-t from-[rgb(34_20_58/0.88)] via-[rgb(52_24_62/0.2)] to-transparent" aria-hidden />
+              <span className="absolute inset-x-3 bottom-2.5 flex items-end justify-between text-white">
+                <span className="nc-display-ja text-2xl font-bold leading-none">{j.level}</span>
+                <Ja text={j.ja} className="text-xs text-white/85" />
+              </span>
+            </Link>
+          </li>
+        ))}
+      </ul>
     </section>
   );
 }
@@ -166,6 +201,7 @@ export function Dashboard({ data, notice }: { data: DashboardData; notice?: Reac
   return (
     <div className="space-y-[var(--gap)]">
       <Hero data={data} progress={progress} notice={notice} />
+      {data.enabledNav.includes("jlpt") ? <JourneyStrip /> : null}
       {isNew ? (
         <Card className="nc-rise border-l-4 !border-l-gold" style={{ "--i": 1 } as React.CSSProperties}>
           <CardTitle as="h2">Bắt đầu từ đâu?</CardTitle>
@@ -421,7 +457,7 @@ function QuickGames({ data }: { data: DashboardData }) {
     <div>
       <Link href="/games" className="group relative mb-3 block aspect-[16/7] overflow-hidden rounded-lg">
         <JapanScene scene="quest" decorative sizes="(max-width: 1024px) 100vw, 33vw" className="transition-transform duration-500 group-hover:scale-[1.03] motion-reduce:transition-none" />
-        <span className="absolute inset-0 bg-gradient-to-t from-[rgb(20_27_54/0.88)] via-[rgb(20_27_54/0.25)] to-transparent" aria-hidden />
+        <span className="absolute inset-0 bg-gradient-to-t from-[rgb(34_20_58/0.9)] via-[rgb(52_24_62/0.28)] to-transparent" aria-hidden />
         <span className="absolute bottom-2 left-3 right-3 flex items-center justify-between text-white">
           <span className="text-sm font-semibold">Kanji Quest</span>
           <Ja text="漢字探検" className="text-xs text-white/85" />

@@ -8,13 +8,42 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { Figure } from "@/components/content/figure";
-import { CheckCircle2, XCircle } from "@/components/icons";
+import { speakJapanese, useSpeechSupport } from "@/components/content/speak-button";
+import { CheckCircle2, Volume2, XCircle } from "@/components/icons";
 import { cn } from "@/lib/utils";
 
 /**
  * Màn chơi trắc nghiệm dùng chung cho Picture to Kanji, Kanji to Meaning, Reading Challenge, Daily Review, Speed Challenge.
  * Trạng thái nằm trong reducer thuần (src/lib/games/engine.ts) — đã kiểm thử: không cộng điểm hai lần, không bỏ qua câu.
  */
+/**
+ * Prompt dạng NGHE (Listening Quest): chỉ hiện nút loa lớn + gợi ý — TUYỆT ĐỐI không hiển thị chữ tiếng Nhật
+ * (sẽ lộ đáp án). Người chơi bấm để nghe, nghe lại không giới hạn; không tự phát để tránh gây khó chịu.
+ * Giọng là giọng tổng hợp của thiết bị (Web Speech API) — không hỗ trợ thì nói rõ, đúng cách SpeakButton vẫn làm.
+ */
+function AudioPrompt({ text, hint }: { text: string; hint: string }) {
+  const supported = useSpeechSupport();
+  return (
+    <div>
+      <button
+        type="button"
+        onClick={() => speakJapanese(text)}
+        disabled={!supported}
+        aria-label={supported ? "Nghe từ này" : "Thiết bị này không hỗ trợ đọc giọng nói"}
+        className="nc-touch mx-auto grid h-24 w-24 place-items-center rounded-full border border-border bg-accent text-accent-foreground shadow-sm transition-transform hover:scale-105 disabled:opacity-40"
+      >
+        <Volume2 size={44} aria-hidden="true" />
+      </button>
+      <p className="mt-3 text-sm text-muted-foreground">{hint} — bấm loa để nghe, bấm lại để nghe lại.</p>
+      {supported ? (
+        <p className="mt-1 text-xs text-muted-foreground">Giọng đọc là giọng tổng hợp của trình duyệt/thiết bị, không phải giọng người thật.</p>
+      ) : (
+        <p className="mt-1 text-xs font-medium text-danger">Thiết bị/trình duyệt này không hỗ trợ phát giọng nói nên câu nghe này không nghe được. Hãy thử thiết bị khác hoặc bỏ qua câu này.</p>
+      )}
+    </div>
+  );
+}
+
 export function QuizGame({
   questions,
   timeLimitSec,
@@ -107,6 +136,8 @@ export function QuizGame({
         <p className="mb-3 text-sm font-medium text-muted-foreground">{q.ask}</p>
         {q.prompt.kind === "image" ? (
           <Figure src={q.prompt.src} alt={q.prompt.alt} className="mx-auto h-44 w-44 sm:h-52 sm:w-52" />
+        ) : q.prompt.kind === "audio" ? (
+          <AudioPrompt text={q.prompt.text} hint={q.prompt.hint} />
         ) : (
           <div>
             <Ja text={q.prompt.text} className={q.prompt.text.length <= 2 ? "jp-kanji" : "jp-xl"} />

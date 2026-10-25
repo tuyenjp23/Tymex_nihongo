@@ -25,7 +25,7 @@ export function SceneBanner({
   return (
     <div className={cn("relative isolate overflow-hidden rounded-xl bg-ink", className)}>
       <JapanScene scene={scene} decorative sizes={sizes} position={position} priority={priority} />
-      <span aria-hidden className="absolute inset-0 bg-gradient-to-t from-[rgb(20_27_54/0.92)] via-[rgb(20_27_54/0.55)] to-[rgb(20_27_54/0.08)]" />
+      <span aria-hidden className="absolute inset-0 bg-gradient-to-t from-[rgb(34_20_58/0.93)] via-[rgb(52_24_62/0.55)] to-[rgb(52_24_62/0.08)]" />
       {children ? <div className="absolute inset-x-0 bottom-0 p-4 text-white">{children}</div> : null}
     </div>
   );

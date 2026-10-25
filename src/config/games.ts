@@ -26,6 +26,9 @@ export const gameModeDefs: GameModeDef[] = [
   { id: "image-matching", title: "Image Matching", titleJa: "絵とことば", description: "Ghép hình minh họa với từ tiếng Nhật.", status: "available", needsImage: true, icon: "puzzle" },
   { id: "memory-match", title: "Memory Match", titleJa: "神経衰弱", description: "Lật thẻ tìm cặp: hình–nghĩa, Kanji–cách đọc, từ–bản dịch.", status: "available", needsImage: false, icon: "grid" },
   { id: "word-builder", title: "Word Builder", titleJa: "ことば作り", description: "Cho nghĩa tiếng Việt, ghép các mảnh kana thành cách đọc của từ. Có mảnh nhiễu và gợi ý.", status: "available", needsImage: false, icon: "blocks" },
+  { id: "listening-quest", title: "Listening Quest", titleJa: "聞き取りクエスト", description: "Nghe phát âm (giọng máy của thiết bị), chọn nghĩa tiếng Việt đúng.", status: "available", needsImage: false, icon: "headphones" },
+  { id: "reverse-recall", title: "Reverse Recall", titleJa: "逆引きリコール", description: "Thấy nghĩa tiếng Việt, nhớ lại và chọn từ tiếng Nhật đúng.", status: "available", needsImage: false, icon: "repeat" },
+  { id: "odd-one-out", title: "Odd One Out", titleJa: "仲間はずれ", description: "Bốn từ có một từ lạc chủ đề — tìm từ lạc loài.", status: "available", needsImage: false, icon: "shuffle" },
 ];
 
 export const defaultGamesSettings: GamesSettings = {
