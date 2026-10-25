@@ -12,6 +12,9 @@ import { LoginForm } from "./login-form";
 
 export const metadata: Metadata = { title: "Đăng nhập quản trị", robots: { index: false, follow: false } };
 
+// Trang đăng nhập phụ thuộc phiên hiện tại (đã đăng nhập thì chuyển vào /admin) — luôn động.
+export const dynamic = "force-dynamic";
+
 export default async function AdminLoginPage({ searchParams }: { searchParams: Promise<{ error?: string; next?: string }> }) {
   const sp = await searchParams;
   const check = await checkAdmin();
