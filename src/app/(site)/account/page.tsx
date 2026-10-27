@@ -10,6 +10,9 @@ import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = { title: "Tài khoản & đồng bộ" };
 
+// Trang tài khoản đọc phiên đăng nhập của từng người (Supabase auth) — luôn động, không cache chung.
+export const dynamic = "force-dynamic";
+
 export default async function AccountPage() {
   if (getDataMode() !== "supabase") {
     return (

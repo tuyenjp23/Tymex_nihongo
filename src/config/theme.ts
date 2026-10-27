@@ -12,9 +12,11 @@ export const defaultTheme: ThemeSettings = {
   logoUrl: null,
   faviconUrl: null,
   colors: {
-    // Premium Japanese Learning: ivory (nền) · indigo 藍 (chủ đạo) · vermilion 朱 (nhấn) — vàng champagne là màu trang trí, thêm ở lib/theme.ts
-    light: { primary: "#202b50", accent: "#c94b4b", background: "#f7f5ef", foreground: "#1c2340" },
-    dark: { primary: "#aebdf5", accent: "#f08a84", background: "#0f1428", foreground: "#eeeadf" },
+    // Sunset Sakura: nền kem hồng · indigo 藍 đậm (chủ đạo, giữ tương phản cao) · đỏ san hô hoàng hôn (nhấn)
+    // · hồng anh đào điểm xuyết qua gradient ở globals.css — vàng nắng là màu trang trí, thêm ở lib/theme.ts.
+    // Mọi cặp màu đã kiểm tra ≥ 4,5:1 bằng contrastWarnings() (tests/unit/security-theme.test.ts).
+    light: { primary: "#202b50", accent: "#cf3527", background: "#fdf3ea", foreground: "#231d38" },
+    dark: { primary: "#b3c0ff", accent: "#ff9d8a", background: "#161126", foreground: "#f6ede6" },
   },
   radius: 14,
   density: "comfortable",

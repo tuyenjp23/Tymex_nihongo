@@ -5,37 +5,45 @@ import generated from "./japan-photos.generated.json";
  * Ảnh phong cảnh/đời sống Nhật Bản dùng trong giao diện.
  *
  * Quy tắc:
- *  - Chỉ dùng ảnh theo Unsplash License (miễn phí cho mục đích thương mại, không bắt buộc ghi công) — đã kiểm tra từng trang ảnh ngày 2026-10-23.
- *    Dù không bắt buộc, dự án vẫn ghi công nhiếp ảnh gia ở docs/ANH-VA-GIAY-PHEP.md và ở chân trang "Nguồn học liệu".
- *  - File ảnh KHÔNG nằm sẵn trong mã nguồn: chạy `npm run photos:fetch` (xem docs/ANH-VA-GIAY-PHEP.md) để tải đúng các ảnh dưới đây về public/images/japan
- *    và ghi kích thước vào japan-photos.generated.json. Chưa có ảnh (hoặc ảnh lỗi) → giao diện dùng tranh SVG tự vẽ, không bao giờ vỡ bố cục.
+ *  - Chỉ dùng ảnh GIẤY PHÉP TỰ DO lấy từ Wikimedia Commons: CC0, Public Domain, CC BY hoặc CC BY-SA — đã đọc metadata giấy phép
+ *    (LicenseShortName/LicenseUrl) của TỪNG ảnh ngày 2026-10-25; ảnh có điều khoản NC/ND hoặc giấy phép không rõ đều bị từ chối.
+ *    Ghi công tác giả + giấy phép đầy đủ ở docs/ANH-VA-GIAY-PHEP.md (CC BY và CC BY-SA bắt buộc ghi công khi dùng lại).
+ *  - File ảnh THẬT đã tải sẵn trong mã nguồn ở public/images/japan, kích thước ghi trong japan-photos.generated.json.
+ *    Chạy `npm run photos:fetch` (xem docs/ANH-VA-GIAY-PHEP.md) khi cần tải lại hoặc đổi ảnh. Ảnh lỗi/thiếu → giao diện dùng tranh SVG tự vẽ, không bao giờ vỡ bố cục.
  *  - Không dùng liên kết ảnh ngoài lúc chạy: mọi ảnh được phục vụ từ chính website.
+ *  - Lịch sử: đợt chọn ảnh đầu tiên định dùng Unsplash, nhưng lần thử tải ngày 2026-10-25 máy chủ Unsplash trả HTTP 401 cho cả 8 ảnh
+ *    trong môi trường làm việc, nên dự án chuyển sang Wikimedia Commons (chủ dự án đã duyệt lấy ảnh web giấy phép tự do).
  */
 export type PhotoSlot = "hero-fuji" | "sakura" | "torii" | "kyoto" | "autumn" | "station" | "city" | "izakaya";
 
 export interface PhotoSource {
   slot: PhotoSlot;
-  /** ID ảnh trên Unsplash (đoạn cuối của địa chỉ trang ảnh) */
-  unsplashId: string;
+  /** Kho ảnh nguồn */
+  source: "Wikimedia Commons";
+  /** Trang File: của ảnh trên Wikimedia Commons */
   pageUrl: string;
+  /** URL tải trực tiếp bản thu nhỏ 1920 px mà script `photos:fetch` dùng */
+  downloadUrl: string;
+  /** Tác giả theo metadata Artist trên trang ảnh (đã bỏ thẻ HTML) */
   photographer: string;
   photographerUrl: string;
-  /** Địa điểm theo thẻ ghi trên trang ảnh (nếu trang không ghi: nói rõ) */
+  /** Tên giấy phép theo metadata của ảnh, vd "CC BY-SA 4.0" */
+  license: string;
+  licenseUrl: string;
+  /** Địa điểm chụp theo trang ảnh/thể loại trên Commons */
   place: string;
   alt: string;
 }
 
-const U = (id: string) => `https://unsplash.com/photos/${id}`;
-
 export const PHOTO_SOURCES: PhotoSource[] = [
-  { slot: "hero-fuji", unsplashId: "n--CMLApjfI", pageUrl: U("n--CMLApjfI"), photographer: "Manuel Cosentino", photographerUrl: "https://unsplash.com/@manucosen", place: "Chùa Chureito, Fujiyoshida (nhìn ra núi Phú Sĩ)", alt: "Tháp chùa Chureito nhìn xuống thành phố Fujiyoshida, núi Phú Sĩ phía xa" },
-  { slot: "sakura", unsplashId: "8sOZJ8JF0S8", pageUrl: U("8sOZJ8JF0S8"), photographer: "Sora Sagano", photographerUrl: "https://unsplash.com/@sorasagano", place: "Sông Meguro, Tokyo", alt: "Kênh nước hai bên là hàng anh đào nở rộ ở sông Meguro, Tokyo" },
-  { slot: "torii", unsplashId: "EJvGBYjrwEA", pageUrl: U("EJvGBYjrwEA"), photographer: "David Emrich", photographerUrl: "https://unsplash.com/@davidemrich", place: "Fushimi Inari, Kyoto", alt: "Lối đi đá xuyên qua đường hầm cổng torii màu cam ở Fushimi Inari, Kyoto" },
-  { slot: "kyoto", unsplashId: "SlIl9eZjWUc", pageUrl: U("SlIl9eZjWUc"), photographer: "Roméo A.", photographerUrl: "https://unsplash.com/@gronemo", place: "Kyoto", alt: "Tháp chùa cổ phía trên một con phố hẹp ở Kyoto" },
-  { slot: "autumn", unsplashId: "PMkQ7WVWqr0", pageUrl: U("PMkQ7WVWqr0"), photographer: "Svetlana Gumerova", photographerUrl: "https://unsplash.com/@bananablackcat", place: "Chùa Chureito, Fujiyoshida (mùa thu)", alt: "Ngôi đền giữa rừng cây lá đỏ mùa thu ở Fujiyoshida" },
-  { slot: "station", unsplashId: "wffp0K8sr7s", pageUrl: U("wffp0K8sr7s"), photographer: "Samantha Hendrata", photographerUrl: "https://unsplash.com/@madebysamh", place: "Kyoto", alt: "Người đi lại trên sân ga ở Kyoto vào ngày nhiều mây" },
-  { slot: "city", unsplashId: "alY6_OpdwRQ", pageUrl: U("alY6_OpdwRQ"), photographer: "Jezael Melgoza", photographerUrl: "https://unsplash.com/@jezar", place: "Shibuya, Tokyo", alt: "Ngã tư Shibuya về đêm với biển hiệu neon" },
-  { slot: "izakaya", unsplashId: "AVGywODVmro", pageUrl: U("AVGywODVmro"), photographer: "natsuki", photographerUrl: "https://unsplash.com/@myr0326", place: "Trang ảnh không ghi địa điểm (thẻ: japanese, izakaya, enoshima)", alt: "Quán ăn kiểu izakaya ánh đèn ấm về đêm" },
+  { slot: "hero-fuji", source: "Wikimedia Commons", pageUrl: "https://commons.wikimedia.org/wiki/File:Chureito_Pagoda,_Fujiyoshida_(34256262385).jpg", downloadUrl: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Chureito_Pagoda%2C_Fujiyoshida_%2834256262385%29.jpg/1920px-Chureito_Pagoda%2C_Fujiyoshida_%2834256262385%29.jpg", photographer: "Olivier Bruchez", photographerUrl: "https://www.flickr.com/people/73293249@N00", license: "CC BY-SA 2.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0", place: "Chùa Chureito (công viên Arakurayama Sengen), Fujiyoshida", alt: "Tháp chùa Chureito giữa những cây anh đào chớm nở, nhìn ra thành phố Fujiyoshida và núi Phú Sĩ phủ tuyết" },
+  { slot: "sakura", source: "Wikimedia Commons", pageUrl: "https://commons.wikimedia.org/wiki/File:Lake_Biwa_Canal_(5767175848).jpg", downloadUrl: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Lake_Biwa_Canal_%285767175848%29.jpg/1920px-Lake_Biwa_Canal_%285767175848%29.jpg", photographer: "KimonBerlin", photographerUrl: "https://www.flickr.com/people/81943113@N00", license: "CC BY-SA 2.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0", place: "Kênh đào hồ Biwa (Biwako Sosui), Kyoto", alt: "Cành hoa anh đào nở trắng rủ xuống mặt nước kênh đào hồ Biwa" },
+  { slot: "torii", source: "Wikimedia Commons", pageUrl: "https://commons.wikimedia.org/wiki/File:Double_torii_path_at_Fushimi_Inari_Taisha_Shrine,_Kyoto,_Japan.jpg", downloadUrl: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Double_torii_path_at_Fushimi_Inari_Taisha_Shrine%2C_Kyoto%2C_Japan.jpg/1920px-Double_torii_path_at_Fushimi_Inari_Taisha_Shrine%2C_Kyoto%2C_Japan.jpg", photographer: "Basile Morin", photographerUrl: "https://commons.wikimedia.org/wiki/User:Basile_Morin", license: "CC BY-SA 4.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0", place: "Đền Fushimi Inari Taisha, Kyoto", alt: "Hai đường hầm cổng torii màu cam song song (Senbon Torii) ở đền Fushimi Inari, Kyoto" },
+  { slot: "kyoto", source: "Wikimedia Commons", pageUrl: "https://commons.wikimedia.org/wiki/File:Yasaka-dori_early_morning_with_street_lanterns_and_the_Tower_of_Yasaka_(Hokan-ji_Temple),_Kyoto,_Japan.jpg", downloadUrl: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Yasaka-dori_early_morning_with_street_lanterns_and_the_Tower_of_Yasaka_%28Hokan-ji_Temple%29%2C_Kyoto%2C_Japan.jpg/1920px-Yasaka-dori_early_morning_with_street_lanterns_and_the_Tower_of_Yasaka_%28Hokan-ji_Temple%29%2C_Kyoto%2C_Japan.jpg", photographer: "Basile Morin", photographerUrl: "https://commons.wikimedia.org/wiki/User:Basile_Morin", license: "CC BY-SA 4.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0", place: "Phố Yasaka (Yasaka-dōri), Higashiyama, Kyoto", alt: "Phố cổ lát đá với đèn lồng buổi sớm và tháp Yasaka (chùa Hōkan-ji) ở Kyoto" },
+  { slot: "autumn", source: "Wikimedia Commons", pageUrl: "https://commons.wikimedia.org/wiki/File:Eikando,_Kyoto_-_Eikando7373.jpg", downloadUrl: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Eikando%2C_Kyoto_-_Eikando7373.jpg/1920px-Eikando%2C_Kyoto_-_Eikando7373.jpg", photographer: "lumoplank", photographerUrl: "https://www.flickr.com/people/199350666@N08", license: "CC0 1.0", licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en", place: "Chùa Eikan-dō (Zenrin-ji), Kyoto", alt: "Đèn lồng đồng giữa rừng phong lá đỏ mùa thu ở chùa Eikan-dō, Kyoto" },
+  { slot: "station", source: "Wikimedia Commons", pageUrl: "https://commons.wikimedia.org/wiki/File:Platform_at_Mishima_Station,_with_arriving_T%C5%8Dkaid%C5%8D_Shinkansen_train,_Mishima,_2016.jpg", downloadUrl: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Platform_at_Mishima_Station%2C_with_arriving_T%C5%8Dkaid%C5%8D_Shinkansen_train%2C_Mishima%2C_2016.jpg/1920px-Platform_at_Mishima_Station%2C_with_arriving_T%C5%8Dkaid%C5%8D_Shinkansen_train%2C_Mishima%2C_2016.jpg", photographer: "DimiTalen", photographerUrl: "https://commons.wikimedia.org/wiki/User:DimiTalen", license: "CC0 1.0", licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en", place: "Ga Mishima, Shizuoka", alt: "Hành khách chờ trên sân ga Mishima, tàu Shinkansen đang vào ga" },
+  { slot: "city", source: "Wikimedia Commons", pageUrl: "https://commons.wikimedia.org/wiki/File:Tokyo_Shibuya_Scramble_Crossing_2018-10-09.jpg", downloadUrl: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Tokyo_Shibuya_Scramble_Crossing_2018-10-09.jpg/1920px-Tokyo_Shibuya_Scramble_Crossing_2018-10-09.jpg", photographer: "Benh LIEU SONG", photographerUrl: "https://commons.wikimedia.org/wiki/User:Benh", license: "CC BY-SA 2.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0", place: "Ngã tư Shibuya, Tokyo", alt: "Dòng người qua đường ở ngã tư Shibuya về đêm, xung quanh là biển hiệu neon" },
+  { slot: "izakaya", source: "Wikimedia Commons", pageUrl: "https://commons.wikimedia.org/wiki/File:2024-10-20_Omoide-Yokoch%C5%8D,_Shinjuku.jpg", downloadUrl: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/2024-10-20_Omoide-Yokoch%C5%8D%2C_Shinjuku.jpg/1920px-2024-10-20_Omoide-Yokoch%C5%8D%2C_Shinjuku.jpg", photographer: "Alexkom000", photographerUrl: "https://commons.wikimedia.org/wiki/User:Alexkom000", license: "CC BY 4.0", licenseUrl: "https://creativecommons.org/licenses/by/4.0", place: "Hẻm Omoide Yokochō, Shinjuku, Tokyo", alt: "Thực khách ăn tối trong hẻm quán ăn Omoide Yokochō với đèn lồng đỏ về đêm, Shinjuku" },
 ];
 
 export interface PhotoFile {

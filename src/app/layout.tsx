@@ -6,8 +6,10 @@ import { displayInitScript } from "@/lib/display";
 import { ToastProvider } from "@/components/ui/toast";
 import { ServiceWorkerRegister } from "@/components/sw-register";
 
-// Theme và menu có thể đổi bất cứ lúc nào trong /admin → không cache tĩnh layout.
-export const dynamic = "force-dynamic";
+// Theme và menu có thể đổi trong /admin, NHƯNG admin actions đã gọi revalidatePath("/", "layout")
+// mỗi khi lưu → dùng ISR (revalidate đặt ở (site)/layout.tsx) thay cho force-dynamic:
+// trang học viên được cache ở CDN, còn thay đổi từ admin vẫn làm mới cache ngay khi lưu.
+// Khu /admin và /account tự khai force-dynamic ở segment của chúng để luôn động.
 
 export async function generateMetadata(): Promise<Metadata> {
   const theme = await getTheme();
@@ -25,8 +27,8 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#f7f5ef" },
-    { media: "(prefers-color-scheme: dark)", color: "#0f1428" },
+    { media: "(prefers-color-scheme: light)", color: "#fdf3ea" },
+    { media: "(prefers-color-scheme: dark)", color: "#161126" },
   ],
 };
 

@@ -1,7 +1,7 @@
 import "server-only";
 import { cache } from "react";
 import { notFound } from "next/navigation";
-import { getStore } from "./store";
+import { getPublicStore } from "./store";
 import { getContentSettings, isModuleEnabled } from "./settings";
 import type { CollectionKey } from "./types";
 import type { CollectionTypes, Source, ImageAsset } from "./schemas";
@@ -13,7 +13,10 @@ export function isVisibleToLearners(r: { hidden?: boolean; status?: string }, sh
   return true;
 }
 
-const listCached = cache(async (c: CollectionKey) => (await getStore()).list(c));
+// Đọc qua store CÔNG KHAI (không cookie phiên) để trang học viên giữ được ISR/CDN cache.
+// RLS đã chặn sẵn bản nháp/bản ẩn với vai anon; bộ lọc isVisibleToLearners bên dưới áp thêm
+// quy tắc hiển thị trong ứng dụng (vd tắt nội dung chưa xác minh) như trước.
+const listCached = cache(async (c: CollectionKey) => (await getPublicStore()).list(c));
 
 /**
  * Nội dung người học được phép thấy:

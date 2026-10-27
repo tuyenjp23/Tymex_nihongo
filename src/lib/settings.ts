@@ -1,6 +1,6 @@
 import "server-only";
 import { cache } from "react";
-import { getStore } from "./store";
+import { getPublicStore } from "./store";
 import { defaultTheme } from "@/config/theme";
 import { defaultGamesSettings } from "@/config/games";
 import {
@@ -25,7 +25,10 @@ export const defaultContentSettings: ContentSettings = { showUnverified: true, d
 
 async function readSetting<T>(key: SettingKey, schema: ZodType<T>, fallback: T): Promise<T> {
   try {
-    const store = await getStore();
+    // Đọc qua store CÔNG KHAI (không cookie phiên): app_settings có policy đọc tự do cho anon,
+    // và việc không đụng cookie giúp layout/trang học viên giữ được ISR/CDN cache.
+    // Ghi cấu hình (admin) vẫn đi qua getStore() theo phiên ở admin/actions.
+    const store = await getPublicStore();
     const s = await store.getSetting(key);
     if (!s) return fallback;
     const parsed = schema.safeParse(s.value);

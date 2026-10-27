@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import { Icon, Menu, Search } from "@/components/icons";
 import { Dialog } from "@/components/ui/dialog";
 import { DisplayControls } from "@/components/display-controls";
+import { AccountCorner } from "@/components/account/account-corner";
 
 export interface ShellNavItem {
   id: string;
@@ -100,19 +101,15 @@ export function AppShell({
         <div className="px-2">
           <Brand {...brand} onInk />
         </div>
+        {/* Góc tài khoản: tự tải /api/me ở client. Lối vào Khu quản trị CHỈ hiện ở đây khi tài khoản là admin. */}
+        <div className="px-2">
+          <AccountCorner onInk />
+        </div>
         <nav aria-label="Điều hướng chính" className="flex-1">
           <NavList nav={nav} pathname={pathname} onInk />
         </nav>
         <div className="space-y-2 px-2 text-xs text-ink-foreground/70">
           <div className="nc-seigaiha h-10 rounded-md opacity-70" aria-hidden="true" />
-          <div className="flex gap-3">
-            <Link href="/account" className="underline-offset-2 hover:text-white hover:underline">
-              Tài khoản &amp; đồng bộ
-            </Link>
-            <Link href="/admin" className="underline-offset-2 hover:text-white hover:underline">
-              Khu quản trị
-            </Link>
-          </div>
           <p className="leading-relaxed">Nội dung do AI soạn cần được giáo viên rà soát. Xem trang “Nguồn học liệu”.</p>
         </div>
       </aside>
@@ -191,6 +188,9 @@ export function AppShell({
       </nav>
 
       <Dialog open={drawer} onClose={() => setDrawer(false)} title="Menu" variant="drawer">
+        <div className="mb-4">
+          <AccountCorner onNavigate={() => setDrawer(false)} />
+        </div>
         <div className="mb-4 rounded-lg border border-border-soft bg-muted p-3">
           <p className="mb-2 text-xs font-medium text-muted-foreground">Hiển thị</p>
           <DisplayControls defaultFurigana={defaultFurigana} variant="panel" />
@@ -198,15 +198,6 @@ export function AppShell({
         <nav aria-label="Tất cả mục">
           <NavList nav={nav} pathname={pathname} onNavigate={() => setDrawer(false)} />
         </nav>
-        <p className="mt-4 text-xs text-muted-foreground">
-          <Link href="/account" onClick={() => setDrawer(false)} className="underline">
-            Tài khoản &amp; đồng bộ
-          </Link>
-          {" · "}
-          <Link href="/admin" onClick={() => setDrawer(false)} className="underline">
-            Khu quản trị
-          </Link>
-        </p>
       </Dialog>
     </div>
   );

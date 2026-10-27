@@ -1,4 +1,5 @@
 import { shuffle, type Rng } from "../rng";
+import { topicLabel } from "@/config/topics";
 import { pickDistractors } from "./distractors";
 import type { BuildOptions, GameItem, GameOption, GameQuestion } from "./types";
 
@@ -92,6 +93,80 @@ export function buildReadingChallenge(items: GameItem[], o: BuildOptions, rng: R
       ...assemble(mode, `${mode}-${out.length}`, x.item, "Chọn cách đọc đúng", { kind: "text", text: x.word, ja: true, sub: x.meaning, context: ctx }, x.reading, d.map((g) => g.reading), true,
         `${x.word} đọc là ${x.reading} (${x.meaning}).`, o.tier ?? 1, rng),
     });
+  }
+  return out;
+}
+
+/**
+ * Listening Quest: NGHE cách đọc/từ (giọng máy phát qua prompt "audio") → chọn NGHĨA tiếng Việt đúng.
+ * Từ tiếng Nhật chỉ nằm trong prompt.audio (không hiển thị trước khi trả lời) và trong giải thích sau khi trả lời.
+ */
+export function buildListeningQuest(items: GameItem[], o: BuildOptions, rng: Rng, mode = "listening-quest"): GameQuestion[] {
+  const pool = filterPool(items, o);
+  const out: GameQuestion[] = [];
+  for (const t of shuffle(pool.filter((i) => isTarget(o, i.key)), rng)) {
+    if (out.length >= o.count) break;
+    if (!t.reading) continue;
+    const d = pickDistractors(t, pool, 3, rng, o.tier ?? 2, (i) => i.meaning);
+    if (d.length < 3) continue;
+    out.push(
+      assemble(mode, `${mode}-${out.length}`, t, "Nghe và chọn nghĩa đúng của từ vừa nghe", { kind: "audio", text: t.text, hint: "Nghe từ này" }, t.meaning, d.map((x) => x.meaning), false,
+        `${t.text}（${t.reading}）nghĩa là ${t.meaning}.`, o.tier ?? 2, rng),
+    );
+  }
+  return out;
+}
+
+/**
+ * Reverse Recall: thấy NGHĨA tiếng Việt (+ nhãn chủ đề làm gợi ý) → nhớ lại và chọn TỪ TIẾNG NHẬT đúng.
+ * Đáp án nhiễu ưu tiên cùng chủ đề/cấp (tier 3 theo mặc định khi gọi từ runner) để buộc người học phân biệt các từ gần nhau.
+ */
+export function buildReverseRecall(items: GameItem[], o: BuildOptions, rng: Rng, mode = "reverse-recall"): GameQuestion[] {
+  const pool = filterPool(items, o);
+  const out: GameQuestion[] = [];
+  for (const t of shuffle(pool.filter((i) => isTarget(o, i.key)), rng)) {
+    if (out.length >= o.count) break;
+    const tier = o.tier ?? 2;
+    const d = pickDistractors(t, pool, 3, rng, tier, (i) => i.text, (a, b) => a === b);
+    if (d.length < 3) continue;
+    out.push(
+      assemble(mode, `${mode}-${out.length}`, t, "Từ tiếng Nhật nào có nghĩa này?", { kind: "text", text: t.meaning, ja: false, sub: t.type === "vocabulary" ? `Gợi ý — chủ đề: ${topicLabel(t.topic)}` : "Gợi ý — Kanji" }, t.text, d.map((x) => x.text), true,
+        `${t.meaning} = ${t.text}（${t.reading}）.`, tier, rng),
+    );
+  }
+  return out;
+}
+
+/**
+ * Odd One Out: 4 từ tiếng Nhật — 3 từ thuộc cùng một chủ đề + 1 từ thuộc chủ đề khác; chọn từ LẠC LOÀI.
+ * Chỉ dùng từ vựng (Kanji không có chủ đề thật). Chỉ sinh câu khi chủ đề có ≥3 từ khác nhau và pool ngoài còn từ phù hợp.
+ */
+export function buildOddOneOut(items: GameItem[], o: BuildOptions, rng: Rng, mode = "odd-one-out"): GameQuestion[] {
+  const pool = filterPool(items, o).filter((i) => i.type === "vocabulary");
+  const byTopic = new Map<string, GameItem[]>();
+  for (const i of pool) byTopic.set(i.topic, [...(byTopic.get(i.topic) ?? []), i]);
+  const out: GameQuestion[] = [];
+  const usedOutsiders = new Set<string>();
+  for (const topic of shuffle([...byTopic.keys()], rng)) {
+    if (out.length >= o.count) break;
+    const group: GameItem[] = [];
+    const seenTexts = new Set<string>();
+    for (const i of shuffle(byTopic.get(topic)!, rng)) {
+      if (group.length >= 3) break;
+      if (seenTexts.has(i.text)) continue;
+      seenTexts.add(i.text);
+      group.push(i);
+    }
+    if (group.length < 3) continue;
+    const outsiders = shuffle(pool.filter((i) => i.topic !== topic && !seenTexts.has(i.text) && !usedOutsiders.has(i.key) && isTarget(o, i.key)), rng);
+    const outsider = outsiders[0];
+    if (!outsider) continue;
+    usedOutsiders.add(outsider.key);
+    const tier = o.tier ?? 2;
+    const q = assemble(mode, `${mode}-${out.length}`, outsider, `Ba từ thuộc chủ đề “${topicLabel(topic)}”, một từ lạc loài. Từ lạc loài là từ nào?`, { kind: "text", text: "仲間はずれ", ja: true, sub: `Chủ đề: ${topicLabel(topic)}` }, outsider.text, group.map((x) => x.text), true,
+      `${outsider.text}（${outsider.reading}）= ${outsider.meaning} — thuộc chủ đề “${topicLabel(outsider.topic)}”, còn ba từ còn lại thuộc chủ đề “${topicLabel(topic)}”.`, tier, rng);
+    // topic của CÂU HỎI là chủ đề chung của 3 từ (itemKey vẫn là từ lạc loài để ghi lịch ôn cho từ đó)
+    out.push({ ...q, topic });
   }
   return out;
 }

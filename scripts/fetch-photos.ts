@@ -1,14 +1,16 @@
 /**
- * Tải các ảnh Nhật Bản ĐÃ CHỌN SẴN (src/config/japan-photos.ts, giấy phép Unsplash) về public/images/japan.
- * Chạy MỘT LẦN trên máy bạn:   npm run photos:fetch
+ * Tải các ảnh Nhật Bản ĐÃ CHỌN SẴN (src/config/japan-photos.ts, ảnh giấy phép tự do trên Wikimedia Commons) về public/images/japan.
+ * Chạy trên máy bạn khi cần tải lại/đổi ảnh:   npm run photos:fetch
  *
- * - Chỉ tải đúng danh sách trong PHOTO_SOURCES (khoảng 8 ảnh), tuần tự, có nghỉ giữa các lần — không tải hàng loạt.
- * - Tự thu nhỏ về chiều rộng 2000 px, JPEG ~q78 (cần thư viện `sharp`, có sẵn cùng Next.js) để trang tải nhanh.
+ * - Chỉ tải đúng danh sách trong PHOTO_SOURCES (8 ảnh), tuần tự, có nghỉ giữa các lần — không tải hàng loạt.
+ * - Mỗi ảnh tải theo `downloadUrl` của chính nó (bản thu nhỏ 1920 px trên thumb.wikimedia.org), rồi thu về tối đa 2000 px, JPEG ~q78
+ *   (cần thư viện `sharp`, có sẵn cùng Next.js) để trang tải nhanh.
  * - Ghi kích thước vào src/config/japan-photos.generated.json (giao diện dùng để đặt width/height, tránh xô lệch bố cục).
  * - Không ghi đè ảnh đã có, trừ khi thêm --force.
+ * - Nguồn, tác giả và giấy phép của từng ảnh: docs/ANH-VA-GIAY-PHEP.md. Khi đổi ảnh phải chọn ảnh giấy phép tự do
+ *   (CC0, Public Domain, CC BY, CC BY-SA) và cập nhật PHOTO_SOURCES + tài liệu đó.
  *
  * Tùy chọn: --only hero-fuji,torii   --force   --dry-run
- * Biến môi trường (dùng cho kiểm thử): PHOTO_BASE_URL (mặc định https://unsplash.com)
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -17,7 +19,6 @@ import { PHOTO_SOURCES, type PhotoFile, type PhotoSlot } from "../src/config/jap
 const root = process.cwd();
 const outDir = path.join(root, "public", "images", "japan");
 const genFile = path.join(root, "src", "config", "japan-photos.generated.json");
-const base = (process.env.PHOTO_BASE_URL ?? "https://unsplash.com").replace(/\/$/, "");
 const MAX_BYTES = 40 * 1024 * 1024;
 
 const args = process.argv.slice(2);
@@ -54,8 +55,8 @@ async function main() {
       console.log(`• ${p.slot}: đã có, bỏ qua (dùng --force để tải lại)`);
       continue;
     }
-    const url = `${base}/photos/${p.unsplashId}/download?force=true`;
-    console.log(`↓ ${p.slot}: ${p.photographer} — ${p.pageUrl}`);
+    const url = p.downloadUrl;
+    console.log(`↓ ${p.slot}: ${p.photographer} (${p.license}) — ${p.pageUrl}`);
     if (dry) continue;
     try {
       const res = await fetch(url, { redirect: "follow", headers: { "User-Agent": "nihongo-compass-photo-fetch/1.0 (one-off, 8 images)" } });

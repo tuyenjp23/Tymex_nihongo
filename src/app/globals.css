@@ -37,22 +37,22 @@
 
 :root {
   /* Giá trị dự phòng nếu <style> theme chưa được chèn (ví dụ trang lỗi cực sớm). */
-  --background: #f7f5ef;
-  --foreground: #1c2340;
+  --background: #fdf3ea;
+  --foreground: #231d38;
   --primary: #202b50;
   --primary-foreground: #ffffff;
-  --accent: #c94b4b;
+  --accent: #cf3527;
   --accent-foreground: #ffffff;
-  --accent-text: #b3403f;
-  --gold: #c7a76c;
-  --gold-strong: #7c6226;
-  --ink: #202b50;
-  --ink-foreground: #f7f5ef;
+  --accent-text: #cf3527;
+  --gold: #eda93c;
+  --gold-strong: #8f6410;
+  --ink: #2a2148;
+  --ink-foreground: #fdf6ec;
   --card: #ffffff;
-  --muted: #f0ede4;
-  --muted-foreground: #565c70;
-  --border: #dad6ca;
-  --border-soft: #e9e5da;
+  --muted: #f6e7d8;
+  --muted-foreground: #5d5468;
+  --border: #e3d0bf;
+  --border-soft: #eee0d0;
   --ring: #202b50;
   --success: #15803d;
   --warning: #b45309;
@@ -64,7 +64,7 @@
   --card-bg: #ffffff;
   --card-border: #e9e5da;
   --card-border-width: 1px;
-  --card-shadow: 0 1px 2px rgb(32 43 80 / 0.05), 0 8px 24px -8px rgb(32 43 80 / 0.07);
+  --card-shadow: 0 1px 2px rgb(74 38 66 / 0.05), 0 8px 24px -8px rgb(74 38 66 / 0.08);
   --font-body: "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, system-ui, sans-serif;
   --font-jp: "Noto Sans JP", sans-serif;
 }
@@ -137,10 +137,33 @@ html[data-romaji="on"] .nc-romaji-inline { display: inline; }
   background-position: 0 0, 28px 14px;
 }
 
-/* Hero có ảnh: lớp phủ chàm đảm bảo chữ trắng/ngà luôn đọc được (≥ 4.5:1) bất kể ảnh sáng hay tối */
+/* Hero có ảnh: lớp phủ chàm tím hoàng hôn đảm bảo chữ trắng/ngà luôn đọc được (≥ 4.5:1) bất kể ảnh sáng hay tối */
 .nc-hero { position: relative; isolation: isolate; overflow: hidden; border-radius: calc(var(--radius) * 1.6); background: var(--ink); color: var(--ink-foreground); }
-.nc-hero-scrim { position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, rgb(20 27 54 / 0.92) 0%, rgb(20 27 54 / 0.78) 42%, rgb(20 27 54 / 0.22) 100%); }
-@media (max-width: 640px) { .nc-hero-scrim { background: linear-gradient(180deg, rgb(20 27 54 / 0.55) 0%, rgb(20 27 54 / 0.9) 70%); } }
+.nc-hero-scrim { position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, rgb(34 20 58 / 0.93) 0%, rgb(52 24 62 / 0.8) 42%, rgb(52 24 62 / 0.25) 100%); }
+@media (max-width: 640px) { .nc-hero-scrim { background: linear-gradient(180deg, rgb(34 20 58 / 0.58) 0%, rgb(34 20 58 / 0.92) 70%); } }
+
+/* ───── Sunset Sakura: quầng hoàng hôn phủ trên hero, chữ gradient nắng, highlight & hoa văn cánh hoa ───── */
+/* Lớp màu hoàng hôn (san hô → hồng sakura → vàng nắng) nằm TRÊN scrim nhưng DƯỚI nội dung (nội dung z-10). Chỉ trang trí, không bắt sự kiện. */
+.nc-hero-sunset { position: absolute; inset: 0; z-index: 2; pointer-events: none; background:
+  radial-gradient(ellipse 55% 60% at 88% 8%, rgb(255 154 118 / 0.5) 0%, transparent 65%),
+  radial-gradient(ellipse 45% 50% at 70% 100%, rgb(255 183 197 / 0.32) 0%, transparent 70%),
+  linear-gradient(0deg, rgb(255 169 60 / 0.18) 0%, transparent 45%); }
+/* Chữ gradient nắng — CHỈ dùng trên nền tối (hero/thanh bên) để giữ tương phản */
+.nc-sunset-text { background: linear-gradient(92deg, #ffc4a3 0%, #ffd166 55%, #ff9d8a 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+/* Highlight vàng nắng kiểu bút dạ quang cho tiêu đề trên nền sáng */
+.nc-highlight { background-image: linear-gradient(transparent 60%, color-mix(in oklab, var(--gold) 50%, transparent) 60%, color-mix(in oklab, var(--gold) 50%, transparent) 94%, transparent 94%); }
+/* Hoa văn cánh hoa sakura chấm nhẹ (trang trí, dùng biến theme — tự thích ứng sáng/tối) */
+.nc-sakura-specks {
+  --_p: color-mix(in oklab, var(--accent) 13%, transparent);
+  --_g: color-mix(in oklab, var(--gold) 16%, transparent);
+  background-image:
+    radial-gradient(circle at 12% 30%, var(--_p) 0 5px, transparent 6px),
+    radial-gradient(circle at 34% 72%, var(--_g) 0 4px, transparent 5px),
+    radial-gradient(circle at 58% 22%, var(--_g) 0 5px, transparent 6px),
+    radial-gradient(circle at 76% 64%, var(--_p) 0 4px, transparent 5px),
+    radial-gradient(circle at 92% 34%, var(--_p) 0 5px, transparent 6px);
+  background-size: 340px 190px;
+}
 
 /* Xuất hiện nhẹ khi vào trang (tôn trọng prefers-reduced-motion ở khối bên dưới) */
 @keyframes nc-rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
@@ -148,7 +171,7 @@ html[data-romaji="on"] .nc-romaji-inline { display: inline; }
 
 /* Thẻ có thể bấm: nâng nhẹ khi rê chuột/focus */
 .nc-lift { transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease; }
-.nc-lift:hover, .nc-lift:focus-visible { transform: translateY(-2px); border-color: color-mix(in oklab, var(--gold) 70%, var(--border)); box-shadow: 0 2px 4px rgb(32 43 80 / 0.06), 0 14px 32px -10px rgb(32 43 80 / 0.18); }
+.nc-lift:hover, .nc-lift:focus-visible { transform: translateY(-2px); border-color: color-mix(in oklab, var(--gold) 70%, var(--border)); box-shadow: 0 2px 4px rgb(74 38 66 / 0.06), 0 14px 32px -10px rgb(74 38 66 / 0.2); }
 
 dialog.nc-dialog {
   border: 1px solid var(--border);

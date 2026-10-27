@@ -57,6 +57,7 @@ import {
   Grid3x3,
   Blocks,
   Calculator,
+  Shuffle,
   type LucideIcon,
 } from "lucide-react";
 
@@ -99,6 +100,7 @@ export const ICONS = {
   grid: Grid3x3,
   blocks: Blocks,
   calc: Calculator,
+  shuffle: Shuffle,
 } satisfies Record<string, LucideIcon>;
 
 export type IconName = keyof typeof ICONS;

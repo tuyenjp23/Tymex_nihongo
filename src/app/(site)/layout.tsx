@@ -1,6 +1,11 @@
 import { getContentSettings, getNavigation, getTheme } from "@/lib/settings";
 import { AppShell } from "@/components/app-shell";
 
+// ISR cho toàn khu học viên: nội dung chỉ đổi khi admin sửa, và admin actions đã
+// revalidatePath("/", "layout") khi lưu nên cache bị purge ngay, không phải chờ hết 1 giờ.
+// Trang nào tự dùng searchParams/cookies (tìm kiếm, danh sách lọc, tài khoản) vẫn tự động động.
+export const revalidate = 3600;
+
 export default async function SiteLayout({ children }: { children: React.ReactNode }) {
   const [nav, theme, content] = await Promise.all([getNavigation(), getTheme(), getContentSettings()]);
   const items = nav.filter((n) => n.enabled).map(({ id, label, href, icon }) => ({ id, label, href, icon }));
