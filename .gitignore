@@ -19,3 +19,7 @@ next-env.d.ts
 # Bộ dữ liệu nguồn lớn (tải riêng, xem docs/CAP-NHAT-DU-LIEU.md) và sản phẩm của lệnh import
 /japanese-language-data-main/
 /data/import/
+
+# Tài liệu tham khảo cá nhân (PDF/Excel của bên thứ ba, nặng, có thể có bản quyền) và thư mục kết quả của Claude
+/reference data/
+/Claude outputs/
